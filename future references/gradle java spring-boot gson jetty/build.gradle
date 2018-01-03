@@ -1,0 +1,23 @@
+// START SNIPPET configuration-injection
+subprojects {
+    apply plugin: 'java'
+
+    repositories {
+       mavenCentral()
+    }
+
+
+    version = '0.0.1'
+/* 
+
+	the first portion stands for a major release version << documented >>
+	the second zero stands for a pre-alpha release subversion <may be documented>
+	the the third field stands for beta developmental edition <undocumented but essential comments are included>
+*/
+
+ 
+    jar {
+        manifest.attributes provider: 'gradle'
+    }
+}
+// END SNIPPET configuration-injection
