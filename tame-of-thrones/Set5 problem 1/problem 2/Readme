@@ -1,0 +1,34 @@
+the main class is stored in the commencer.java file .
+
+in this problem the solution is designed in the builder pattern where the state councils take part in the election
+
+
+Input::
+=========
+" give the state as it takes take part in the election " 
+
+the first letter is in caps for the state name eg. {Land} or {Air}
+Output
+=========
+
+
+
+After 2 rounds of balloting if there exists a tie 
+then the code will again try another round of ballot .
+I can only hope that the tie is resolved after some more rounds 
+or maybe the next round itself 
+
+if it does not face the tie then it will pronounce the king and the allies of the king
+
+Features::
+============
+this code is extensible and also the space kingdom can be replaced by any Kingdom
+
+drawback
+========
+
+this code wil face a stack Overflow error if the input message contains more than 50 characters .
+
+
+
+all the other works that require descriptions are added as comments as and where they appear in the code .

@@ -1,0 +1,25 @@
+the main class is stored in the commencer.java file .
+
+
+Input 
+======
+
+the pattern of Input 	[ STATE- in caps] [message]
+
+the state is all in caps followed by the message eg. {{ AIR oaaawaala}}
+
+Output 
+=========
+present king of Southeros {{the king name}}
+
+Features::
+============
+this code is extensible and also the space kingdom can be replaced by any Kingdom
+
+drawback
+========
+
+this code wil face a stack Overflow error if the input message contains more than 50 characters .
+
+
+all the other works that require descriptions are added as comments as and where they appearin the code .
