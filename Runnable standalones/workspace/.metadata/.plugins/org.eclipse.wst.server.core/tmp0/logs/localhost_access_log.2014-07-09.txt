@@ -1,0 +1,6 @@
+127.0.0.1 - - [09/Jul/2014:00:31:22 +0530] "GET / HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [09/Jul/2014:00:31:23 +0530] "GET /cookiee_demo/ HTTP/1.1" 200 254
+0:0:0:0:0:0:0:1 - - [09/Jul/2014:00:31:30 +0530] "POST /cookiee_demo/servlet1 HTTP/1.1" 200 49
+0:0:0:0:0:0:0:1 - - [09/Jul/2014:00:31:32 +0530] "GET /cookiee_demo/servlet2?uname=aloy HTTP/1.1" 200 75
+0:0:0:0:0:0:0:1 - - [09/Jul/2014:00:42:48 +0530] "POST /cookiee_demo/servlet1 HTTP/1.1" 200 49
+0:0:0:0:0:0:0:1 - - [09/Jul/2014:00:42:51 +0530] "GET /cookiee_demo/servlet2?uname=aloy HTTP/1.1" 200 75

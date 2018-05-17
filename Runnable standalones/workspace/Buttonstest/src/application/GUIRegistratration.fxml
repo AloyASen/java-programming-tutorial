@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Maincontroller">
+   <bottom>
+      <AnchorPane fx:id="APane1" prefHeight="533.0" prefWidth="576.0">
+         <children>
+            <Pane layoutX="54.0" layoutY="50.0">
+               <children>
+                  <Label layoutX="-42.0" text="Name">
+                     <font>
+                        <Font name="Bookman Old Style Italic" size="22.0" />
+                     </font>
+                     <textFill>
+                        <RadialGradient centerX="0.5" centerY="0.5428571428571428" focusAngle="101.31" radius="0.5">
+                           <stops>
+                              <Stop color="BLACK" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </RadialGradient>
+                     </textFill>
+                  </Label>
+               </children>
+            </Pane>
+            <TextArea fx:id="address" layoutX="92.0" layoutY="108.0" prefHeight="200.0" prefWidth="200.0" promptText="Enter your permanent Adderss.&#10;this address once set cannot be changed" />
+            <TextField fx:id="name" layoutX="90.0" layoutY="51.0" prefHeight="25.0" prefWidth="221.0" promptText="enter name" />
+            <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="576.0" AnchorPane.rightAnchor="0.0">
+              <menus>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Close" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Delete" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <PasswordField fx:id="password" layoutX="89.0" layoutY="404.0" prefHeight="25.0" prefWidth="206.0">
+               <effect>
+                  <BoxBlur height="7.96" width="0.0" />
+               </effect>
+            </PasswordField>
+            <Label layoutX="7.0" layoutY="404.0" text="password">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="347.0" text="Email id ">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="email" layoutX="91.0" layoutY="345.0" prefHeight="25.0" prefWidth="220.0">
+               <effect>
+                  <BoxBlur />
+               </effect>
+            </TextField>
+            <Button fx:id="save" layoutX="181.0" layoutY="464.0" mnemonicParsing="false" text="Save " wrapText="true">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="reset" layoutX="284.0" layoutY="464.0" mnemonicParsing="false" text="Reset">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="clear2" layoutX="329.0" layoutY="405.0" mnemonicParsing="false" text="Clear" textFill="#330ac6" />
+            <Button fx:id="clear1" layoutX="329.0" layoutY="345.0" mnemonicParsing="false" text="Clear" textFill="#470bd3" />
+            <Label layoutX="16.0" layoutY="118.0" prefHeight="27.0" prefWidth="76.0" text="address">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </bottom>
+</BorderPane>

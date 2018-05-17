@@ -1,0 +1,7 @@
+package ipc;
+
+public class Synchronizer {
+	public static void main(String ... args) {
+		
+	}
+}

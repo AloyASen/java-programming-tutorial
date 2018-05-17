@@ -1,0 +1,13 @@
+package File_readers;
+
+public class Word_details_enlister {
+	String wordS;
+	int Freq;
+	Word_details_enlister np;
+	public Word_details_enlister(String wrd , int fq) {
+		this.wordS=wrd;
+		this.Freq=fq;
+		
+	}
+	
+}

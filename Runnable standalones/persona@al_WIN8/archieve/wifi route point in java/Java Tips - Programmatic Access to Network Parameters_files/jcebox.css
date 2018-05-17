@@ -1,0 +1,72 @@
+#selectblocker {
+	border: currentColor; left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; z-index: 10000; background-color: rgb(255, 255, 255);
+}
+#lightbox {
+	left: 0px; top: 40px; width: 100%; text-align: center; line-height: 0; position: absolute; z-index: 10001;
+}
+#lightbox a img {
+	border: currentColor;
+}
+#outerImageContainer {
+	margin: 0px auto; border: 1px solid rgb(0, 0, 0); width: 250px; height: 250px; position: relative; background-color: rgb(255, 255, 255);
+}
+#outerIframeContainer {
+	margin: 0px auto; border: 1px solid rgb(0, 0, 0); width: 250px; height: 250px; position: relative; background-color: rgb(255, 255, 255);
+}
+#imageContainer {
+	margin: 0px auto; padding: 10px;
+}
+#iframeContainer {
+	margin: 0px auto; padding: 10px;
+}
+#iframecontent {
+	border: 0px currentColor;
+}
+#iframeTop {
+	height: 10px;
+}
+#loading {
+	left: 0%; top: 40%; width: 100%; height: 25%; text-align: center; line-height: 0; position: absolute;
+}
+#imageDataContainer {
+	border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor rgb(0, 0, 0) rgb(0, 0, 0); margin: 0px auto; line-height: 1.4em; background-color: rgb(255, 255, 255);
+}
+#imageData {
+	height: 40px; padding-left: 10px;
+}
+#iframeData {
+	height: 30px; padding-left: 10px;
+}
+#imageData #imageDetails {
+	width: 100%; text-align: left; float: left;
+}
+#iframeData #iframeDetails {
+	width: 100%; text-align: left; float: left;
+}
+#imageData #imageNav {
+	width: 100%; text-align: left; color: rgb(0, 0, 0); float: left;
+}
+#imageData #caption {
+	color: rgb(0, 0, 0); padding-right: 5px;
+}
+#iframeDetails #caption {
+	padding-right: 5px; font-weight: bold;
+}
+#imageData #navDisplayPrev #numberDisplay #navDisplayNext {
+	padding-right: 5px; padding-bottom: 5px; padding-left: 5px; clear: left; display: block;
+}
+#numberLink {
+	font-weight: bold; text-decoration: underline;
+}
+#closeButton {
+	top: 0px; right: 0px; position: absolute;
+}
+.tooltip {
+	width: 180px; text-align: left; color: rgb(0, 0, 0); z-index: 9999;
+}
+.tooltip h4 {
+	border-width: 1px 1px 0px; border-style: solid solid none; border-color: black black currentColor; margin: 0px; padding: 8px 8px 4px; font-size: 11px; font-weight: bold; background-color: rgb(255, 255, 255);
+}
+.tooltip p {
+	border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor black black; padding: 4px 8px 8px; font-size: 11px; background-color: rgb(255, 255, 255);
+}

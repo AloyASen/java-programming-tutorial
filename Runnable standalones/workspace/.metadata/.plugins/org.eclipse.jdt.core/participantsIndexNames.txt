@@ -1,0 +1,31 @@
+INDEX VERSION 1.126
+E:\Runnable standalones\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3588487494.index
+\apache-nutch-2.2.1\src\java
+E:\Runnable standalones\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3600049964.index
+\trunk\conf
+C:\Users\Aloy\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3935063597.index
+\ArdentFinal.Orig\src
+E:\Runnable standalones\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1313549178.index
+\trunk\conf
+E:\Runnable standalones\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\119823762.index
+\trunk\conf
+E:\Runnable standalones\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1734692472.index
+\apache-nutch-2.2.1\src\java
+C:\Users\Aloy\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1325499990.index
+\templatedemo\src
+C:\Users\Aloy\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\708022375.index
+\beandemo\src
+C:\Users\Aloy\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\614842093.index
+\Expenditure Template\src
+C:\Users\Aloy\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2884291122.index
+\jspdemo\src
+E:\Runnable standalones\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2519412057.index
+\apache-nutch-2.2.1\src\java
+C:\Users\Aloy\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2865363133.index
+\ArdentFinalProject\src
+C:\Users\Aloy\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3534252006.index
+\ArdentFinalProject\src
+E:\Runnable standalones\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1286938694.index
+\trunk\conf
+C:\Users\Aloy\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\410543210.index
+\poojArdent\src

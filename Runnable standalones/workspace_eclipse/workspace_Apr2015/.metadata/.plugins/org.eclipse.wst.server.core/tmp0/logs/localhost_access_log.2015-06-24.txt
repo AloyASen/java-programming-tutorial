@@ -1,0 +1,15 @@
+127.0.0.1 - - [24/Jun/2015:18:43:09 +0530] "GET / HTTP/1.1" 404 1000
+0:0:0:0:0:0:0:1 - - [24/Jun/2015:18:43:10 +0530] "GET /mini_project/ HTTP/1.1" 200 25005
+0:0:0:0:0:0:0:1 - - [24/Jun/2015:18:43:10 +0530] "GET /mini_project/bootstrap-3.3.4-dist/css/bootstrap.min.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [24/Jun/2015:18:43:10 +0530] "GET /mini_project/components/jquery/jquery.min.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [24/Jun/2015:18:43:10 +0530] "GET /mini_project/font-awesome/css/font-awesome.min.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [24/Jun/2015:18:43:10 +0530] "GET /mini_project/components/css/sb-admin-2.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [24/Jun/2015:18:43:10 +0530] "GET /mini_project/bootstrap-3.3.4-dist/js/bootstrap.min.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [24/Jun/2015:18:43:10 +0530] "GET /mini_project/components/css/metisMenu/metisMenu.min.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [24/Jun/2015:18:43:10 +0530] "GET /mini_project/components/css/metisMenu/javascript/metisMenu.min.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [24/Jun/2015:18:43:10 +0530] "GET /mini_project/custom/sb-admin-2.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [24/Jun/2015:18:43:10 +0530] "GET /mini_project/images/slide1.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [24/Jun/2015:18:43:10 +0530] "GET /mini_project/images/slide4.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [24/Jun/2015:18:43:10 +0530] "GET /mini_project/images/slide2.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [24/Jun/2015:18:43:11 +0530] "GET /mini_project/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0 HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [24/Jun/2015:18:43:11 +0530] "GET /favicon.ico HTTP/1.1" 404 1022

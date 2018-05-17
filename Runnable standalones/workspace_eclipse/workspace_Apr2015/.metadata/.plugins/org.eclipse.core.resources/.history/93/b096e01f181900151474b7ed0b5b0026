@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Register yourself</title>
+<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+<form action="RegisterServ" method="get">
+<table>
+									<tr>
+										<td><label for="name"><span>N</span>ame:</label></td>
+										<td><input type="text" id="name"></td>
+									</tr>
+									<tr>
+										<td><label for="email"><span>E</span>mail <span>A</span>ddress:</label></td>
+										<td><input type="text" id="email"></td>
+									</tr>
+									<tr>
+										<td><label for="tel-number"><span>T</span>el. <span>N</span>umber:</label></td>
+										<td><input type="text" id="tel-number"></td>
+									</tr>
+									<tr>
+										<td><label for="address"><span>A</span>ddress:</label></td>
+										<td><textarea name="address" id="address" cols="30" rows="10"></textarea></td>
+									</tr>
+									
+									
+									<tr>
+										<td><label for="age" class="age"><span>A</span>ge:</label></td>
+										<td><input type="text" id="age" maxlength="2"></td>
+									</tr>
+									
+                                    
+								</table>
+<input type="submit" id="submit" value="Register">
+</form>
+</body>
+</html>

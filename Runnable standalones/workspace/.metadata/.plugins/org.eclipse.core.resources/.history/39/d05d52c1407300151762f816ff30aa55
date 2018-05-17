@@ -1,0 +1,21 @@
+package File_readers;
+
+import java.util.Iterator;
+import java.util.List;
+import java.util.concurrent.ForkJoinPool;
+
+public class filepath {
+	
+	public static void main(String[] args) {
+		
+		
+		@SuppressWarnings("unused")
+		The_reader tr1=new The_reader("C:/Users/Aloy Aditya Sen/workspace/Document Distance Problem/src/File_readers/","ntfs_file_test.txt");
+		
+		
+	}
+	
+		
+		
+	
+}

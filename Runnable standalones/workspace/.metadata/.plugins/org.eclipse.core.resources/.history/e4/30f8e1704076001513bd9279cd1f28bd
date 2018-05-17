@@ -1,0 +1,8 @@
+package Image_pixelmap;
+
+
+public class Biff_Red {
+	public static void main(String[] args) {
+	
+	}
+}

@@ -1,0 +1,2946 @@
+.titlebar_l_w {
+	background: url("//www.dx.com/Content/img/bar.png") no-repeat;
+}
+.hot h2 {
+	background: url("//www.dx.com/Content/img/bar.png") no-repeat;
+}
+.recomendations h2 {
+	background: url("//www.dx.com/Content/img/bar.png") no-repeat;
+}
+.filter_menu h3 {
+	background: url("//www.dx.com/Content/img/bar.png") no-repeat;
+}
+.page_wrapper .list_row {
+	background: url("//www.dx.com/Content/img/page_ico.png") no-repeat;
+}
+.page_wrapper .list_column {
+	background: url("//www.dx.com/Content/img/page_ico.png") no-repeat;
+}
+.page_wrapper .list_row:hover {
+	background: url("//www.dx.com/Content/img/page_ico.png") no-repeat;
+}
+.page_wrapper .hovered {
+	background: url("//www.dx.com/Content/img/page_ico.png") no-repeat;
+}
+.page_wrapper .list_column:hover {
+	background: url("//www.dx.com/Content/img/page_ico.png") no-repeat;
+}
+.pageturn a {
+	background: url("//www.dx.com/Content/img/page_ico.png") no-repeat;
+}
+.page_wrapper .rightbox a.sb {
+	background: url("//www.dx.com/Content/img/up_down.png") no-repeat;
+}
+.page_wrapper .rightbox .desc {
+	background: url("//www.dx.com/Content/img/up_down.png") no-repeat;
+}
+.page_wrapper .rightbox .asc {
+	background: url("//www.dx.com/Content/img/up_down.png") no-repeat;
+}
+.s_prolist li span {
+	background: url("//www.dx.com/Content/img/up_down.png") no-repeat;
+}
+.filter_title {
+	background: url("//www.dx.com/Content/img/up_down.png") no-repeat;
+}
+.com_wrapper {
+	background: url("//www.dx.com/Content/img/repeat.png");
+}
+.ul_bar li {
+	background: url("//www.dx.com/Content/img/repeat.png");
+}
+.billboard_topbox h3 {
+	background: url("//www.dx.com/Content/img/repeat.png");
+}
+.sharethought li {
+	background: url("//www.dx.com/Content/img/repeat.png");
+}
+.cate_menu li {
+	background: url("//www.dx.com/Content/img/repeat.png");
+}
+.titlebar_m {
+	background: url("//www.dx.com/Content/img/repeat_titlebar.jpg") repeat-x; height: 33px; color: rgb(255, 255, 255); line-height: 33px;
+}
+.titlebar_m h2 {
+	padding-left: 15px; font-size: 16px; float: left;
+}
+.titlebar_m .more {
+	text-align: right; padding-right: 20px; float: right;
+}
+.titlebar_m .more a {
+	background: url("//www.dx.com/Content/img/ico_more.png") no-repeat 0px 50%; color: rgb(255, 255, 255); padding-left: 13px; font-weight: bold;
+}
+.titlebar_l_w {
+	background-position: 0px -107px; height: 32px; color: rgb(51, 51, 51); line-height: 32px; padding-left: 15px; font-size: 14px; border-bottom-color: rgb(213, 213, 213); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.whole_result {
+	background: url("//www.dx.com/Content/img/bg_side_title.gif") repeat-x left 1px; height: 30px; color: rgb(45, 45, 45); line-height: 30px; padding-left: 15px; font-size: 12px; position: relative;
+}
+h3.whole_result {
+	color: rgb(51, 51, 51); font-size: 14px; border-bottom-color: rgb(213, 213, 213); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.whole_result strong {
+	color: rgb(246, 105, 7); margin-right: 5px;
+}
+.product {
+	border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor rgb(224, 193, 160) rgb(224, 193, 160);
+}
+.pro_recommend_panel {
+	position: relative;
+}
+.pro_recommend_panel .productList {
+	margin: -1px -1px 0px; border: 2px solid rgb(246, 105, 7); padding-top: 10px; position: relative;
+}
+.recom_foot {
+	margin: 0px auto; width: 955px;
+}
+.recom_foot .cate_specialbox {
+	border-width: 1px 0px 0px; border-style: solid none none; border-color: rgb(213, 213, 213) currentColor currentColor;
+}
+.cate_specialbox {
+	background: url("//www.dx.com/Content/img/bg_b_rm.gif") repeat-x left 1px rgb(255, 255, 255); padding: 15px 0px 10px; border: 1px solid rgb(213, 213, 213); width: 100%; margin-top: 10px;
+}
+.cate_specialbox .noContent {
+	padding-top: 40px;
+}
+.recent_view {
+	width: 37%; margin-left: 20px; float: left; position: relative;
+}
+.specialbox_seg {
+	border-right-color: rgb(226, 220, 208); border-right-width: 1px; border-right-style: solid;
+}
+.recent_view h3 {
+	color: rgb(0, 0, 0); line-height: 20px; font-size: 14px;
+}
+.recommend h3 {
+	color: rgb(0, 0, 0); line-height: 20px; font-size: 14px;
+}
+.recent_view h3 {
+	padding: 0px 125px 0px 0px;
+}
+.recent_view ul {
+	padding-top: 5px;
+}
+.recent_view .productList li {
+	margin: 13px 8px 6px 0px; width: 155px; float: left;
+}
+.recent_view .productList .photo img {
+	margin-right: 5px;
+}
+.recent_view .more {
+	text-align: right; padding-right: 10px;
+}
+.recommend {
+	width: 59%; padding-left: 15px; border-left-color: rgb(213, 213, 213); border-left-width: 1px; border-left-style: solid; float: left;
+}
+.recommend .productList li {
+	margin: 15px 3px; width: 130px;
+}
+.recommend .productList .photo img {
+	padding: 1px; border: 1px solid rgb(221, 221, 221); width: 95px; height: 95px;
+}
+.cate.recommend {
+	width: 59%;
+}
+.cate.recommend li {
+	width: 125px;
+}
+.recomendations h2 {
+	background-position: 0px -140px; height: 32px; color: rgb(51, 51, 51); line-height: 32px; padding-left: 15px; font-size: 14px; border-bottom-color: rgb(213, 213, 213); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.recomendations ul {
+	border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor rgb(221, 221, 221) rgb(221, 221, 221); padding: 10px 0px; overflow: hidden;
+}
+.recomendations .productList li {
+	height: auto;
+}
+.recommend li.last {
+	padding-right: 0px;
+}
+.recomendations li.last {
+	padding-right: 0px;
+}
+.recomendations li p {
+	margin: 5px 0px 3px; line-height: 13px; overflow: hidden;
+}
+.recomendations li .price {
+	color: rgb(246, 105, 7); font-size: 12px; font-weight: bold;
+}
+.btn_clear {
+	top: 3px; right: 10px; text-decoration: underline; position: absolute;
+}
+.btn_clear:hover {
+	color: rgb(8, 92, 168);
+}
+.GreyBox {
+	box-shadow: 5px 5px 5px lightgray;
+}
+.GreyBox .hd {
+	display: none;
+}
+.GreyBox .bd {
+	padding: 25px; width: 540px; height: 325px;
+}
+.product_display {
+	margin-top: 25px; border-top-color: rgb(213, 213, 213); border-top-width: 1px; border-top-style: dashed;
+}
+.product_display h3 {
+	line-height: 40px; font-size: 12px;
+}
+.product_display li {
+	padding: 0px 5px; width: 125px; text-align: center; float: left;
+}
+.product_display .title {
+	margin: 5px 0px; height: 50px; line-height: 16px; overflow: hidden;
+}
+.product_display .price {
+	color: rgb(246, 105, 7); font-size: 14px; font-weight: bold;
+}
+.pattaya_tips {
+	padding: 10px 0px; border: 1px solid rgb(187, 187, 187);
+}
+.pattaya_tips_success {
+	background: url("//www.dx.com/Content/img/icon_success_22x22_24.png") no-repeat; padding: 0px 0px 0px 30px; font-size: 14px;
+}
+.pattaya_tips.dialogbox .close {
+	top: 3px; right: 3px; position: absolute;
+}
+.page_wrapper strong {
+	color: rgb(102, 102, 102); font-weight: normal;
+}
+.page_wrapper img {
+	vertical-align: middle;
+}
+.page_wrapper .nor {
+	margin: 3px 5px 0px 0px; float: left;
+}
+.page_wrapper .spe {
+	margin: 3px 5px 0px 0px; float: left;
+}
+.page_wrapper .view {
+	padding: 4px 3px 0px 0px; line-height: 17px; float: left;
+}
+.page_wrapper .list_row {
+	width: 19px; height: 19px; display: block;
+}
+.page_wrapper .list_column {
+	width: 19px; height: 19px; display: block;
+}
+.page_wrapper .list_row {
+	background-position: -10px -56px;
+}
+.page_wrapper .list_row:hover {
+	background-position: -10px -75px;
+}
+.page_wrapper .nor .hovered {
+	background-position: -10px -75px;
+}
+.page_wrapper .list_column {
+	background-position: -38px -75px;
+}
+.page_wrapper .list_column:hover {
+	background-position: -38px -56px;
+}
+.page_wrapper .spe .hovered {
+	background-position: -38px -56px;
+}
+.page_wrapper select {
+	border: 1px solid rgb(177, 177, 177);
+}
+.page_wrapper .leftbox {
+	padding-top: 4px; float: left;
+}
+.page_wrapper .leftbox img {
+	margin-right: 3px;
+}
+.page_wrapper .rightbox {
+	padding: 4px 11px 0px 0px; line-height: 23px; float: right;
+}
+.page_wrapper .rightbox strong {
+	margin-right: 5px; float: left;
+}
+.page_wrapper .rightbox .pc {
+	padding: 0px 20px 0px 10px; border: 1px solid rgb(213, 213, 213); height: 22px; line-height: 22px; overflow: hidden; margin-right: -1px; float: left; display: block;
+}
+.page_wrapper .rightbox a.sb {
+	padding: 0px 20px 0px 10px; border: 1px solid rgb(213, 213, 213); height: 22px; line-height: 22px; overflow: hidden; margin-right: -1px; float: left; display: block;
+}
+.page_wrapper .rightbox a:hover {
+	text-decoration: none;
+}
+.page_wrapper .numlist {
+	float: left;
+}
+.page_wrapper .numlist li {
+	margin-right: 5px; float: left;
+}
+.page_wrapper .numlist a {
+	background: rgb(245, 245, 245); border: 1px solid rgb(213, 213, 213); width: 28px; height: 22px; text-align: center; color: rgb(153, 153, 153); line-height: 22px; text-decoration: none; display: inline-block;
+}
+.page_wrapper .numlist a.cur {
+	color: rgb(246, 105, 7); background-color: rgb(255, 255, 255);
+}
+.page_wrapper .numlist a:hover {
+	color: rgb(246, 105, 7); background-color: rgb(255, 255, 255);
+}
+.sortby {
+	width: 160px; margin-right: 10px; float: left; position: relative;
+}
+.showPdNum {
+	padding-left: 12px; float: left;
+}
+.page_wrapper .rightbox a.sb {
+	background-position: 136px -23px; width: 130px; color: rgb(153, 153, 153); position: relative; background-color: rgb(255, 255, 255);
+}
+.page_wrapper .rightbox a.sb:hover {
+	background-position: 136px 0px;
+}
+.sortby ul {
+	border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor rgb(213, 213, 213) rgb(213, 213, 213); left: 0px; top: 23px; width: 160px; position: absolute; z-index: 999;
+}
+.sortby ul li {
+	background: rgb(255, 255, 255); padding: 4px 10px; line-height: 16px; border-top-color: rgb(213, 213, 213); border-top-width: 1px; border-top-style: solid; cursor: pointer;
+}
+.sortby ul li:hover {
+	background: rgb(238, 238, 238); color: rgb(246, 105, 7);
+}
+.page_wrapper .rightbox a.pl {
+	color: rgb(170, 170, 170); background-color: rgb(255, 255, 255);
+}
+.page_wrapper .rightbox a.pc {
+	color: rgb(170, 170, 170); background-color: rgb(255, 255, 255);
+}
+.page_wrapper .rightbox a.pl:hover {
+	color: rgb(246, 105, 7);
+}
+.page_wrapper .rightbox a.active.pl {
+	color: rgb(246, 105, 7);
+}
+.page_wrapper .rightbox a.pc:hover {
+	color: rgb(246, 105, 7);
+}
+.page_wrapper .rightbox a.active.pc {
+	color: rgb(246, 105, 7);
+}
+.page_wrapper .rightbox .desc {
+	background-position: right -63px;
+}
+.page_wrapper .rightbox .desc:hover {
+	background-position: right -97px;
+}
+.page_wrapper .rightbox .active.desc {
+	background-position: right -97px;
+}
+.page_wrapper .rightbox .asc {
+	background-position: right -47px;
+}
+.page_wrapper .rightbox .asc:hover {
+	background-position: right -80px;
+}
+.page_wrapper .rightbox .active.asc {
+	background-position: right -80px;
+}
+.page_wrapper .rightbox select {
+	border: 1px solid rgb(213, 213, 213); width: 156px; height: 25px; line-height: 25px;
+}
+.about_search {
+	padding: 0px 20px 15px; border-top-color: rgb(229, 229, 229); border-top-width: 1px; border-top-style: solid;
+}
+.pop_search h2 {
+	height: 40px; color: rgb(121, 121, 121); line-height: 40px; font-size: 14px;
+}
+.search_tag h2 {
+	color: rgb(0, 0, 0); line-height: 25px; font-size: 14px;
+}
+.pop_search ul {
+	overflow: hidden; margin-top: 0px;
+}
+.pop_search li {
+	margin: 0px 5px 5px 0px; float: left;
+}
+.pop_search li a {
+	padding: 0px 6px; border-radius: 6px; height: 18px; color: rgb(255, 255, 255); line-height: 17px; display: block; -webkit-border-radius: 6px; -moz-border-radius: 6px;
+}
+.pop_search li a.org {
+	background: rgb(246, 113, 17);
+}
+.pop_search li a.dark_blue {
+	background: rgb(6, 57, 101);
+}
+.pop_search li a.brown {
+	background: rgb(153, 61, 6);
+}
+.pop_search li a.blue {
+	background: rgb(0, 98, 182);
+}
+.pimgbox_r .productList li {
+	margin: 10px 7px 5px;
+}
+.spDiv {
+	margin: 10px 0px 0px; padding: 13px 20px 10px; overflow: hidden; border-top-color: rgb(213, 213, 213); border-top-width: 1px; border-top-style: solid;
+}
+.desDiv {
+	margin: 10px 0px 0px; padding: 13px 20px 10px; overflow: hidden; border-top-color: rgb(213, 213, 213); border-top-width: 1px; border-top-style: solid;
+}
+.seoDiv {
+	margin: 10px 0px 0px; padding: 13px 20px 10px; overflow: hidden; border-top-color: rgb(213, 213, 213); border-top-width: 1px; border-top-style: solid;
+}
+.subpage_wrap .spDiv .seoDiv {
+	margin: 10px -10px 0px;
+}
+.subpage_wrap .desDiv {
+	margin: 10px -10px 0px;
+}
+.spDiv h4 {
+	color: rgb(121, 121, 121); line-height: 20px; font-size: 12px; font-weight: bold;
+}
+.seoDiv h4 {
+	color: rgb(121, 121, 121); line-height: 20px; font-size: 12px; font-weight: bold;
+}
+.spDiv .des {
+	text-align: left; line-height: 18px; padding-top: 8px; clear: both;
+}
+.seoDiv .des {
+	text-align: left; line-height: 18px; padding-top: 8px; clear: both;
+}
+.spHotProduct {
+	width: 48%; text-align: left; float: right;
+}
+.seoHotProduct {
+	width: 48%; text-align: left; float: right;
+}
+.spHotCategories {
+	width: 48%; text-align: left; float: left;
+}
+.seoHotCategories {
+	width: 48%; text-align: left; float: left;
+}
+.spContent ul li {
+	margin: 6px 10px 0px 0px; padding: 0px 5px; border-radius: 2px; border: 1px solid rgb(204, 204, 204); height: 15px; line-height: 15px; overflow: hidden; float: left;
+}
+.seoContent ul li {
+	margin: 6px 10px 0px 0px; padding: 0px 5px; border-radius: 2px; border: 1px solid rgb(204, 204, 204); height: 15px; line-height: 15px; overflow: hidden; float: left;
+}
+.spContent ul a {
+	color: rgb(102, 102, 102); overflow: hidden; display: block; white-space: nowrap;
+}
+.seoContent ul a {
+	color: rgb(102, 102, 102); overflow: hidden; display: block; white-space: nowrap;
+}
+.spContent ul a:hover {
+	text-decoration: none;
+}
+.seoContent ul a:hover {
+	text-decoration: none;
+}
+.desDiv {
+	line-height: 18px; padding-top: 15px;
+}
+.product_photo .t_prev {
+	background: url("//www.dx.com/Content/img/detail_icon_v1.png") no-repeat 0px 0px;
+}
+.product_photo .t_next {
+	background: url("//www.dx.com/Content/img/detail_icon_v1.png") no-repeat 0px 0px;
+}
+.viewMax {
+	background: url("//www.dx.com/Content/img/detail_icon_v1.png") no-repeat 0px 0px;
+}
+.share .sta {
+	background: url("//www.dx.com/Content/img/detail_icon_v1.png") no-repeat 0px 0px;
+}
+.share .match {
+	background: url("//www.dx.com/Content/img/detail_icon_v1.png") no-repeat 0px 0px;
+}
+.share .report {
+	background: url("//www.dx.com/Content/img/detail_icon_v1.png") no-repeat 0px 0px;
+}
+.sharethought .wr {
+	background: url("//www.dx.com/Content/img/detail_icon_v1.png") no-repeat 0px 0px;
+}
+.sharethought .pp {
+	background: url("//www.dx.com/Content/img/detail_icon_v1.png") no-repeat 0px 0px;
+}
+.sharethought .pv {
+	background: url("//www.dx.com/Content/img/detail_icon_v1.png") no-repeat 0px 0px;
+}
+.review_detail li {
+	background: url("//www.dx.com/Content/img/detail_icon_v1.png") no-repeat 0px 0px;
+}
+.add_tag {
+	background: url("//www.dx.com/Content/img/detail_icon_v1.png") no-repeat 0px 0px;
+}
+.off {
+	background: url("//www.dx.com/Content/img/detail_icon_v1.png") no-repeat 0px 0px;
+}
+.product_other .lock {
+	background: url("//www.dx.com/Content/img/detail_icon_v1.png") no-repeat 0px 0px;
+}
+.popup_addtocart .pros_con .prev {
+	background: url("//www.dx.com/Content/img/detail_icon_v1.png") no-repeat 0px 0px;
+}
+.popup_addtocart .pros_con .next {
+	background: url("//www.dx.com/Content/img/detail_icon_v1.png") no-repeat 0px 0px;
+}
+.product_attr .values a.selected::after {
+	background: url("//www.dx.com/Content/img/detail_icon_v1.png") no-repeat 0px 0px;
+}
+.filter_position s {
+	background: url("//www.dx.com/Content/img/crumbsIco.png") no-repeat 0px 0px;
+}
+.scroll_cate li span {
+	background: url("//www.dx.com/Content/img/rankIcon.png") no-repeat 0px 0px;
+}
+.quantity a {
+	background: url("//www.dx.com/Content/img/billboard.png") no-repeat;
+}
+.billboardbox .productList li .icon {
+	background: url("//www.dx.com/Content/img/billboard.png") no-repeat;
+}
+.icon_num_r {
+	background: url("//www.dx.com/Content/img/billboard.png") no-repeat;
+}
+.icon_num_g {
+	background: url("//www.dx.com/Content/img/billboard.png") no-repeat;
+}
+.off {
+	background-position: -3px -125px; padding: 0px 0px 0px 9px; height: 15px; text-align: center; color: rgb(255, 255, 255); line-height: 15px; overflow: hidden; font-size: 11px; margin-top: 7px; margin-left: 5px; float: left;
+}
+.off .t {
+	background: rgb(204, 37, 47); padding-right: 5px; display: block;
+}
+.icon_recommend {
+	background: url("//www.dx.com/Content/img/icon_recommend.png") no-repeat; left: 1px; top: 2px; width: 159px; height: 22px; text-indent: -9999em; position: absolute; z-index: 5;
+}
+.btn_more {
+	background: url("//www.dx.com/Content/img/btn_more_png24.png") no-repeat rgb(255, 255, 255); height: 15px; line-height: 15px; display: inline-block;
+}
+.btn_more .t {
+	background: url("//www.dx.com/Content/img/btn_more_png24.png") no-repeat rgb(255, 255, 255); height: 15px; line-height: 15px; display: inline-block;
+}
+.btn_more {
+	padding-left: 10px; position: relative;
+}
+.btn_more .t {
+	background-position: 100% 0px; color: rgb(255, 255, 255); padding-right: 8px; font-size: 9px; font-weight: bold; vertical-align: top;
+}
+.btn_more:hover {
+	color: rgb(255, 255, 255); text-decoration: none; cursor: pointer;
+}
+.btn_more:active {
+	left: 1px; top: 1px;
+}
+.btn_gradient_hui {
+	background: linear-gradient(rgb(253, 253, 253), rgb(225, 225, 225)) repeat-x rgb(238, 238, 238); padding: 0px 5px; border-radius: 4px; border: 1px solid rgb(221, 221, 221); height: 18px; color: rgb(8, 92, 168); line-height: 18px; vertical-align: middle; display: inline-block;
+}
+.btn_gradient_hui:hover {
+	color: rgb(8, 92, 168); background-image: linear-gradient(rgb(225, 225, 225), rgb(250, 250, 250));
+}
+.btn_gradient_hui:active {
+	background: linear-gradient(rgb(238, 238, 238), rgb(232, 232, 232)) rgb(241, 241, 241); text-decoration: none; cursor: pointer;
+}
+.btn_review_s {
+	background: linear-gradient(rgb(253, 143, 2), rgb(249, 122, 6)) repeat-x rgb(251, 132, 4); padding: 0px 8px; border-radius: 4px; border: 1px solid rgb(248, 120, 6); height: 18px; color: rgb(255, 255, 255); line-height: 18px; vertical-align: middle; display: inline-block;
+}
+.btn_review_s:hover {
+	background: linear-gradient(rgb(253, 143, 2), rgb(252, 136, 3)) rgb(252, 136, 3); color: rgb(255, 255, 255); text-decoration: none; cursor: pointer;
+}
+.btn_review_s:active {
+	background-image: linear-gradient(rgb(249, 122, 6), rgb(253, 143, 2));
+}
+.disabled.btn_review_s {
+	background: rgb(251, 132, 4); cursor: default; opacity: 0.65;
+}
+.disabled.btn_review_s:hover {
+	background: rgb(251, 132, 4); cursor: default; opacity: 0.65;
+}
+.cate_mainbox h1 {
+	height: 30px; color: rgb(70, 35, 8); line-height: 30px; overflow: hidden; font-size: 18px; margin-bottom: 10px; border-bottom-color: rgb(252, 124, 2); border-bottom-width: 2px; border-bottom-style: solid; position: relative;
+}
+.billboardcon h1 {
+	height: 30px; color: rgb(70, 35, 8); line-height: 30px; overflow: hidden; font-size: 18px; margin-bottom: 10px; border-bottom-color: rgb(252, 124, 2); border-bottom-width: 2px; border-bottom-style: solid; position: relative;
+}
+.cate_mainbox h1 .rrs {
+	margin-left: 5px;
+}
+.title_bar {
+	background: url("//www.dx.com/Content/img/bg_title.jpg") no-repeat; height: 33px; color: rgb(255, 255, 255); line-height: 33px;
+}
+.title_bar h2 {
+	padding-left: 25px; font-size: 18px; float: left;
+}
+.title_bar .more {
+	text-align: right; padding-right: 20px; float: right;
+}
+.title_bar .more a {
+	background-position: -12px -718px; color: rgb(255, 255, 255); padding-left: 15px; font-weight: bold;
+}
+.c_prolist {
+	padding: 12px 0px 0px 13px; overflow: hidden;
+}
+.c_prolist li {
+	margin: 0px 12px 0px 0px; width: 164px; float: left;
+}
+.c_prolist .pic {
+	padding: 1px; border: 1px solid rgb(213, 213, 213); width: 160px; height: 100px; vertical-align: middle;
+}
+.c_prolist .title {
+	padding: 0px 0px 0px 5px; height: 40px; line-height: 38px; overflow: hidden; font-size: 12px; font-weight: bold; display: block;
+}
+.filter_menu {
+	font-size: 12px;
+}
+.filter_menu .em {
+	color: rgb(255, 0, 0) !important;
+}
+.filter_menu .em:hover {
+	color: rgb(255, 0, 0) !important;
+}
+.filter_title {
+	background-position: 180px -265px; width: 195px; height: 30px; color: rgb(255, 255, 255); line-height: 30px; padding-left: 15px; font-weight: bold; border-bottom-color: rgb(213, 213, 213); border-bottom-width: 1px; border-bottom-style: solid; display: block; background-color: rgb(250, 135, 11);
+}
+.active.filter_title {
+	background-position: 180px -242px;
+}
+.filter_title:hover {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.filter_wrapper {
+	border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor rgb(213, 213, 213) rgb(213, 213, 213); padding: 10px 0px; line-height: 22px;
+}
+.filter_wrapper dl {
+	color: rgb(51, 51, 51);
+}
+.filter_wrapper dd a {
+	color: rgb(51, 51, 51);
+}
+.filter_wrapper dt a {
+	color: rgb(51, 51, 51);
+}
+.filter_wrapper dd a:hover {
+	color: rgb(246, 105, 7); text-decoration: none;
+}
+.filter_wrapper dt a:hover {
+	color: rgb(246, 105, 7); text-decoration: none;
+}
+.maincate {
+	background: url("//www.dx.com/Content/img/icon_db_g.png") no-repeat 10px; padding-left: 20px;
+}
+.maincate a {
+	color: rgb(6, 91, 168); font-weight: normal;
+}
+.filter_wrapper dt.subcate a {
+	color: rgb(6, 91, 168); font-weight: normal;
+}
+.filter_wrapper dt {
+	padding: 4px 2px 4px 0px; height: auto; line-height: 14px;
+}
+.filter_wrapper dd {
+	padding: 4px 2px 4px 0px; height: auto; line-height: 14px;
+}
+.filter_wrapper dt {
+	padding-left: 30px;
+}
+.filter_wrapper dt.subcate {
+	background: url("//www.dx.com/Content/img/icon_db_g.png") no-repeat 0px; margin: 0px 0px 0px 23px; padding-left: 10px;
+}
+.filter_wrapper .choose {
+	background: rgb(247, 244, 191);
+}
+.filter_wrapper .choose a {
+	color: rgb(246, 106, 8); text-decoration: none; cursor: default;
+}
+.filter_wrapper .choose span {
+	color: rgb(246, 106, 8); text-decoration: none; cursor: default;
+}
+.filter_wrapper dd {
+	padding-left: 25px;
+}
+.filter_wrapper dd span {
+	color: rgb(170, 170, 170);
+}
+.filter_wrapper .tags_cate dd {
+	padding-left: 20px;
+}
+.pers_region {
+	background: rgb(242, 242, 242); height: 40px; text-align: center; color: rgb(102, 102, 102); line-height: 40px; margin-bottom: -10px;
+}
+.pers_region .input_price {
+	border: 1px solid rgb(177, 177, 177); width: 48px; height: 18px; line-height: 18px;
+}
+.pers_region img {
+	vertical-align: middle;
+}
+.filterCategory {
+	border-width: 0px 1px 1px; border-style: solid; border-color: rgb(213, 213, 213);
+}
+div.filterCategory ul {
+	padding: 5px 0px 10px;
+}
+.filterCategory li a {
+	padding: 4px 2px 4px 0px; color: rgb(51, 51, 51); line-height: 14px; display: block;
+}
+.filterCategory li strong {
+	padding: 4px 2px 4px 0px; color: rgb(51, 51, 51); line-height: 14px; display: block;
+}
+.filterCategory li a.backStyle {
+	background: url("//www.dx.com/Content/img/icon_db_g.png") no-repeat 0px; color: rgb(8, 92, 168); padding-left: 10px;
+}
+.filterCategory li strong {
+	color: rgb(246, 105, 7); padding-left: 0px;
+}
+.filterCategory .level1 a {
+	margin-left: 10px;
+}
+.filterCategory .level1 strong {
+	margin-left: 10px;
+}
+.filterCategory .level2 a {
+	margin-left: 20px;
+}
+.filterCategory .level2 strong {
+	margin-left: 20px;
+}
+.filterCategory .level3 a {
+	margin-left: 30px;
+}
+.filterCategory .level3 strong {
+	margin-left: 30px;
+}
+.filterCategory .level4 a {
+	margin-left: 40px;
+}
+.filterCategory .level4 strong {
+	margin-left: 40px;
+}
+.filterCategory li a:hover {
+	color: rgb(246, 106, 8); text-decoration: none;
+}
+.filterCategory li a:hover span {
+	color: rgb(246, 106, 8); text-decoration: none;
+}
+.filterCategory span {
+	color: rgb(153, 153, 153); font-weight: normal; margin-left: 3px;
+}
+.filter_menu .tag_region {
+	border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor rgb(213, 213, 213) rgb(213, 213, 213);
+}
+.border_tn {
+	border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor rgb(213, 213, 213) rgb(213, 213, 213);
+}
+.filter_subcate li {
+	line-height: 22px; padding-left: 15px;
+}
+.filter_subcate li a {
+	color: rgb(51, 51, 51); font-size: 12px;
+}
+.filter_subcate li a:hover {
+	color: rgb(246, 105, 7);
+}
+.filter_subcate li span {
+	color: rgb(170, 170, 170);
+}
+.filter_menu ul {
+	padding: 5px 0px;
+}
+.subpage_wrap {
+	padding: 0px 10px 10px;
+}
+.detail_wrap {
+	padding: 0px 20px 10px;
+}
+.noContent {
+	margin: 20px 10px; color: rgb(102, 102, 102); line-height: 14px; font-size: 12px;
+}
+.cate_sidebar {
+	width: 210px; float: left;
+}
+.cate_menu {
+	background: url("//www.dx.com/Content/img/bg_leftbar.jpg") no-repeat left top rgb(252, 143, 37); padding: 7px 0px 5px; margin-bottom: 8px;
+}
+.cate_menu h1 {
+	padding: 0px 0px 9px 15px; color: rgb(255, 255, 255);
+}
+.cate_menu h3 {
+	padding: 0px 0px 9px 15px; color: rgb(255, 255, 255);
+}
+.cate_menu h1 {
+	line-height: 18px; padding-right: 30px; font-size: 18px; position: relative;
+}
+.cate_menu h1 .rss {
+	top: 2px; right: 10px; position: absolute;
+}
+.cate_menu h3 {
+	font-size: 14px;
+}
+.cate_menu ul {
+	margin: 0px auto; width: 206px;
+}
+.cate_menu li {
+	background-position: 0px -897px;
+}
+.filter_menu h3 {
+	height: 32px; line-height: 32px; padding-left: 15px; font-size: 14px;
+}
+.filter_menu h3 {
+	background-position: -217px -107px; color: rgb(255, 255, 255); border-bottom-color: rgb(217, 92, 0); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.filter_menu h3 a {
+	color: rgb(255, 255, 255);
+}
+.cate_menu .sprite_icon {
+	background-position: 189px 13px; padding: 0px 20px 0px 15px; height: 30px; color: rgb(51, 51, 51); line-height: 30px; overflow: hidden; font-size: 12px; display: block;
+}
+.cate_menu a span {
+	color: rgb(102, 102, 102); font-size: 11px; font-weight: normal;
+}
+.cate_menu .sprite_icon:hover {
+	background-position: 189px -9px; color: rgb(246, 105, 7); text-decoration: none;
+}
+.cate_menu a:hover span {
+	color: rgb(246, 105, 7);
+}
+.filter_menu .virtual {
+	margin: 0px auto; text-align: center; overflow: hidden; padding-top: 10px;
+}
+.filter_menu .virtual img {
+	margin: 0px auto; padding: 1px; border: 1px solid rgb(213, 213, 213); display: block;
+}
+.filter_menu .virtual p {
+	background: url("//www.dx.com/Content/img/up_down.png") no-repeat 5px -336px; text-align: left; line-height: 35px; padding-left: 25px;
+}
+.filter_menu .virtual p a {
+	color: rgb(51, 51, 51); font-size: 12px; font-weight: bold;
+}
+.filter_menu a.sk {
+	padding-left: 15px; font-size: 12px; font-weight: bold; border-bottom-color: rgb(213, 213, 213); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+.filter_menu a.bg {
+	padding-left: 15px; font-size: 12px; font-weight: bold; border-bottom-color: rgb(213, 213, 213); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+.filter_menu a.sk {
+	background-position: 190px -377px; color: rgb(255, 255, 255); line-height: 30px; background-color: rgb(250, 135, 11);
+}
+.filter_menu a.circle.sk {
+	-moz-border-radius-topleft: 5px; -webkit-border-top-left-radius: 5px; border-radius-topright: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px;
+}
+.filter_menu a.bg {
+	background: url("//www.dx.com/Content/img/up_down.png") no-repeat 185px -290px rgb(255, 246, 233); color: rgb(136, 136, 136); line-height: 25px; border-right-color: rgb(213, 213, 213); border-left-color: rgb(213, 213, 213); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid;
+}
+.filter_menu a.sk:hover {
+	text-decoration: none;
+}
+.filter_menu a.bg {
+	text-decoration: none;
+}
+.filter_menu .active.bg {
+	background-position: 185px -313px;
+}
+.filter_menu .price_region a {
+	background-position: -1160px -480px; margin: 3px auto 0px; width: 176px; height: 22px; color: rgb(61, 61, 61); line-height: 22px; overflow: hidden; padding-left: 15px; font-size: 12px; display: block;
+}
+.filter_menu .review_region li a {
+	background-position: -1160px -480px; margin: 3px auto 0px; width: 176px; height: 22px; color: rgb(61, 61, 61); line-height: 22px; overflow: hidden; padding-left: 15px; font-size: 12px; display: block;
+}
+.filter_menu .price_region li a {
+	margin: 0px; padding: 3px 0px 3px 15px; width: auto; height: auto; line-height: 16px; overflow: auto;
+}
+.filter_menu .price_region li a.all {
+	background: url("//www.dx.com/Content/img/icon_db_g.png") no-repeat 10px; color: rgb(8, 92, 168); padding-left: 20px; font-weight: bold;
+}
+.filter_menu .price_region li a.cur {
+	background: rgb(247, 244, 191); color: rgb(246, 106, 55); text-decoration: none; display: block;
+}
+.filter_menu .price_region li a:hover {
+	color: rgb(246, 106, 55);
+}
+.filter_menu .tag_region li {
+	background-position: -1160px -480px; line-height: 22px; padding-left: 30px;
+}
+.filter_menu .tag_region li a {
+	color: rgb(102, 102, 102); font-size: 12px;
+}
+.filter_menu .tag_region li a.cur {
+	color: rgb(178, 114, 3); text-decoration: underline;
+}
+.filter_menu .tag_region li span {
+	color: rgb(170, 170, 170); font-size: 11px;
+}
+.filter_menu .review_region .num {
+	color: rgb(170, 170, 170); font-size: 11px;
+}
+.cate_pop {
+	margin-bottom: 8px;
+}
+.cate_best {
+	margin-bottom: 8px;
+}
+.filter_menu {
+	margin-bottom: 8px;
+}
+.cate_pop ul {
+	background: rgb(255, 255, 255);
+}
+.cate_best ul {
+	background: rgb(255, 255, 255);
+}
+.filter_menu ul {
+	background: rgb(255, 255, 255);
+}
+.cate_best .more {
+	background: rgb(255, 255, 255);
+}
+.cate_pop ul {
+	padding: 8px 10px 5px;
+}
+.cate_best ul {
+	padding: 1px 10px 10px;
+}
+.cate_best ul li {
+	margin: 0px; padding: 11px 0px; width: 189px; text-align: left; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.cate_best ul li h3 {
+	line-height: 16px; font-size: 14px;
+}
+.cate_best ul li h3 a {
+	color: rgb(168, 0, 0);
+}
+.cate_best .more {
+	padding: 0px 10px 10px; text-align: right;
+}
+.cate_side_ad {
+	background: rgb(255, 255, 255); text-align: center;
+}
+.cate_side_ad li {
+	margin-top: 8px;
+}
+.cate_mainbox {
+	width: 720px; float: right;
+}
+.cate_mainbox h1 .sub_posititon {
+	background: url("//www.dx.com/Content/img/next_b_act.gif") no-repeat 5px; color: rgb(246, 105, 7); padding-left: 20px; margin-left: 8px;
+}
+.cate_mainbox h1 a {
+	color: rgb(102, 102, 102);
+}
+.cate_mainbox h1 .link {
+	right: 5px; color: rgb(8, 92, 168); font-size: 12px; font-weight: normal; position: absolute;
+}
+.cate_mainbox h1 .link:hover {
+	color: rgb(246, 105, 7);
+}
+.cate_mainbox h2 a {
+	color: rgb(0, 0, 0); font-size: 12px; font-weight: normal; text-decoration: underline; margin-right: 10px;
+}
+.cate_mainbox h1 small {
+	color: rgb(102, 102, 102); font-size: 12px;
+}
+.cate_tabwrap {
+	background: url("//www.dx.com/Content/img/bg_tab.gif") repeat-x; height: 32px; margin-top: 9px; position: relative;
+}
+.cate_tabwrap_fixed {
+	top: 0px; width: 939px; margin-top: 0px; position: fixed; z-index: 100;
+}
+.cate_tabwrap ul {
+	left: 0px; bottom: 0px; position: absolute;
+}
+.cate_tabwrap li {
+	height: 32px; line-height: 32px; font-size: 12px; font-weight: bold;
+}
+.tab_title {
+	height: 32px; line-height: 32px; font-size: 12px; font-weight: bold;
+}
+.tab_title {
+	background: url("//www.dx.com/Content/img/cate_tab_c.gif") repeat-x; color: rgb(255, 255, 255);
+}
+.cate_tabwrap li {
+	background: url("//www.dx.com/Content/img/cate_tab_cg.gif") repeat-x; padding: 0px 15px; color: rgb(102, 102, 102); margin-right: 5px; float: left; position: relative; cursor: pointer;
+}
+.cate_tabwrap li > a {
+	color: rgb(102, 102, 102); text-decoration: none; display: block;
+}
+.cate_tabwrap li > a:hover {
+	color: rgb(102, 102, 102); text-decoration: none; display: block;
+}
+.cate_tabwrap li > a:visited {
+	color: rgb(102, 102, 102); text-decoration: none; display: block;
+}
+.cate_tabwrap li.active {
+	background: url("//www.dx.com/Content/img/cate_tab_c.gif") repeat-x; color: rgb(255, 255, 255);
+}
+.cate_tabwrap li.active > a {
+	color: rgb(255, 255, 255);
+}
+.tab_title {
+	border-width: 0px 1px; border-style: none solid; border-color: currentColor rgb(203, 100, 25); padding-left: 15px;
+}
+.cate_tabwrap ul .cate_tab_l {
+	width: 5px; height: 32px; position: absolute;
+}
+.cate_tabwrap ul .cate_tab_r {
+	width: 5px; height: 32px; position: absolute;
+}
+.cate_tabwrap ul .cate_tab_lg {
+	width: 5px; height: 32px; position: absolute;
+}
+.cate_tabwrap ul .cate_tab_rg {
+	width: 5px; height: 32px; position: absolute;
+}
+.cate_tabwrap ul .cate_tab_l {
+	background: url("//www.dx.com/Content/img/cate_tab_lg.gif") no-repeat; left: 0px; top: 0px;
+}
+.cate_tabwrap ul .cate_tab_r {
+	background: url("//www.dx.com/Content/img/cate_tab_rg.gif") no-repeat; top: 0px; right: 0px;
+}
+.cate_tabwrap li.active .cate_tab_l {
+	background: url("//www.dx.com/Content/img/cate_tab_l.gif") no-repeat; left: 0px; top: 0px;
+}
+.cate_tabwrap li.active .cate_tab_r {
+	background: url("//www.dx.com/Content/img/cate_tab_r.gif") no-repeat; top: 0px; right: 0px;
+}
+.cate_tabwrap .more {
+	padding: 6px 5px 0px 0px; text-align: right;
+}
+.cate_tabwrap .correct_error {
+	right: 5px; text-transform: capitalize; line-height: 32px; position: absolute;
+}
+.cate_tabwrap .correct_error .icon_help {
+	margin-top: -2px; vertical-align: middle;
+}
+.tab_content {
+	border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor rgb(213, 213, 213) rgb(213, 213, 213); padding: 20px; color: rgb(51, 51, 51); overflow: auto;
+}
+.tab_content > .tab_panel {
+	display: none;
+}
+.tab_content > div {
+	display: none;
+}
+.tab_content > .active {
+	display: block;
+}
+.tab_content h5 {
+	font-size: 12px; font-weight: bold; margin-top: 15px;
+}
+.tab_content .wh_des {
+	background: rgb(255, 254, 245); margin: 0px 0px 10px; padding: 5px 10px; border: 1px solid rgb(212, 193, 114);
+}
+.tab_content .wh_des div {
+	margin: 5px 0px;
+}
+.tab_content .wh_des .wh_flag_b {
+	margin: 0px 5px 0px 0px;
+}
+.tab_content .introduce {
+	font-size: 11px; margin-bottom: 15px;
+}
+.tab_content .info_table {
+	font-size: 11px; margin-bottom: 15px;
+}
+.tab_content .introduce span {
+	color: rgb(0, 128, 0);
+}
+.tab_content .info_table span {
+	color: rgb(0, 128, 0);
+}
+.tab_content .introduce {
+	line-height: 18px;
+}
+.tab_content .info_table th {
+	padding: 0px 10px; border: 1px solid rgb(221, 221, 221); text-align: center; line-height: 30px;
+}
+.tab_content .info_table td {
+	padding: 0px 10px; border: 1px solid rgb(221, 221, 221); text-align: center; line-height: 30px;
+}
+.tab_content .see_more {
+	background: rgb(139, 139, 139); margin: 10px 0px 0px; width: 83px; height: 22px; text-align: center; line-height: 22px;
+}
+.tab_content .see_more a {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.tab_content .switchlang {
+	padding: 1px; border: 1px solid rgb(156, 206, 156); top: 10px; right: 0px; position: absolute; z-index: 1;
+}
+.tab_content .switchlang:hover {
+	text-decoration: none;
+}
+.tab_content .switchlang .t {
+	background: linear-gradient(rgb(220, 255, 220) 0px, rgb(212, 255, 212) 40%, rgb(206, 255, 206) 100%); padding: 0px 10px; height: 21px; color: rgb(51, 51, 51); line-height: 21px; display: block;
+}
+.tab_content .switchlang:hover .t {
+	background: linear-gradient(rgb(206, 255, 206) 0px, rgb(212, 255, 212) 60%, rgb(220, 255, 220) 100%); text-decoration: none;
+}
+.hot_cate_list {
+	background: url("//www.dx.com/Content/img/bg_hotcate.gif") repeat-x left 1px rgb(237, 236, 236); padding: 10px 0px 0px; border-radius: 6px; border: 1px solid rgb(213, 213, 213); overflow: hidden; margin-top: 7px; -webkit-border-radius: 6px; -moz-border-radius: 6px;
+}
+.hot_cate_list li {
+	background: rgb(255, 255, 255); margin: 0px 5px 10px 10px; border-radius: 6px; border: 1px solid rgb(213, 213, 213); width: 220px; text-align: center; padding-top: 5px; float: left; -webkit-border-radius: 6px; -moz-border-radius: 6px;
+}
+.hot_cate_list .info {
+	padding: 5px 0px 8px 12px; text-align: left; line-height: 30px; overflow: hidden; border-top-color: rgb(209, 209, 209); border-top-width: 1px; border-top-style: solid; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.hot_cate_list .name a {
+	width: 208px; color: rgb(51, 51, 51); overflow: hidden; font-size: 14px; font-weight: bold; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.hot_cate_list .attr {
+	margin-top: 5px;
+}
+.hot_cate_list .attr a {
+	color: rgb(51, 51, 51); font-size: 12px;
+}
+.hot_cate_list .attr .n {
+	overflow: hidden; display: inline-block; white-space: nowrap; -ms-text-overflow: ellipsis; max-width: 162px;
+}
+.hot_cate_list .attr a:hover {
+	text-decoration: none;
+}
+.hot_cate_list .attr a:hover .n {
+	text-decoration: underline;
+}
+.hot_cate_list .attr .c {
+	color: rgb(153, 153, 153);
+}
+.hot_cate_list .attr a:hover .c {
+	text-decoration: none;
+}
+.hot_cate_list img {
+	width: 213px; height: 134px;
+}
+.hot_products h4 {
+	background: url("//www.dx.com/Content/img/bg_cate_title.gif") repeat-x; color: rgb(255, 255, 255); line-height: 29px; padding-left: 12px; font-size: 14px;
+}
+.filter_result {
+	border-width: 1px 1px 0px; border-style: solid solid none; border-color: rgb(213, 213, 213) rgb(213, 213, 213) currentColor; margin-top: 10px; -moz-border-radius-topleft: 5px; -webkit-border-top-left-radius: 5px; border-radius-topright: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px; border-radius-topleft: 5px;
+}
+.pagenumber {
+	top: 0px; right: 100px; position: absolute;
+}
+.pagenumber span {
+	color: rgb(246, 105, 7); font-weight: bold;
+}
+.page_wrapper .page_range span {
+	color: rgb(246, 105, 7); font-weight: bold;
+}
+.pageturn {
+	top: 2px; right: 5px; position: absolute;
+}
+.pageturn a {
+	width: 28px; height: 26px; margin-right: 5px; float: left; display: block;
+}
+.pageturn .prev {
+	background-position: -34px 0px;
+}
+.pageturn .next {
+	background-position: -34px -26px;
+}
+.pageturn .default.prev {
+	background-position: -6px 0px; cursor: default;
+}
+.pageturn .default.next {
+	background-position: -6px -26px; cursor: default;
+}
+.catelist {
+	padding: 12px; border: 1px solid rgb(213, 213, 213); overflow: hidden; margin-top: 10px;
+}
+.catelist li {
+	width: 25%; height: 22px; line-height: 20px; overflow: hidden; font-size: 12px; float: left;
+}
+.catelist li a {
+	padding: 0px 5px; color: rgb(61, 61, 61); display: inline-block;
+}
+.catelist li a .num {
+	font-weight: normal;
+}
+.catelist li a.active {
+	background: rgb(247, 244, 191); border-radius: 5px; border: 1px solid rgb(225, 222, 172); height: 20px; color: rgb(217, 92, 0); text-decoration: none; cursor: default; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+}
+.catelist li a:hover {
+	color: rgb(217, 92, 0);
+}
+.crumbs {
+	padding: 0px 0px 0px 17px; height: 30px; line-height: 30px; font-size: 12px; border-top-color: rgb(213, 213, 213); border-top-width: 1px; border-top-style: solid;
+}
+.crumbs .all {
+	color: rgb(217, 92, 0);
+}
+.crumbs .cld {
+	color: rgb(61, 61, 61); font-weight: bold;
+}
+.s_result_box .product {
+	border: 0px currentColor;
+}
+.s_result_box .productList {
+	padding-left: 5px;
+}
+.s_result_box .page_wrapper {
+	border-top-color: rgb(239, 208, 186); border-top-width: 1px; border-top-style: solid;
+}
+.s_result_box .pro_nor {
+	border-top-color: rgb(239, 208, 186); border-bottom-color: currentColor; border-top-width: 1px; border-bottom-width: 0px; border-top-style: solid; border-bottom-style: none;
+}
+.pdetail_wrapper {
+	padding: 10px 10px 0px; border-top-color: rgb(234, 234, 234); border-top-width: 1px; border-top-style: solid;
+}
+.pdetail_wrapper .pimgbox .slides_container {
+	padding: 0px 14px 2px;
+}
+.pdetail_wrapper .pimgbox .productList li {
+	margin: 10px 7px 0px;
+}
+.btn_atcart_b {
+	background: url("//www.dx.com/Content/img/btn_atcart_b.png") no-repeat; height: 33px; text-transform: capitalize; line-height: 33px; display: inline-block; cursor: pointer;
+}
+.btn_atcart_b .t {
+	background: url("//www.dx.com/Content/img/btn_atcart_b.png") no-repeat; height: 33px; text-transform: capitalize; line-height: 33px; display: inline-block; cursor: pointer;
+}
+.btn_atcart_b {
+	margin: 0px 15px 0px 0px; padding: 0px 0px 0px 15px;
+}
+.btn_atcart_b:hover {
+	text-decoration: none;
+}
+.btn_atcart_b .t {
+	background-position: 100% 0px; margin: 0px -5px 0px 0px; padding: 0px 50px 0px 0px; color: rgb(255, 255, 255); text-transform: uppercase; font-size: 16px; font-weight: bold; text-shadow: 0px -1px 0px rgba(0,0,0,0.3);
+}
+.disable.btn_atcart_b {
+	background-position: 0px -33px; cursor: default;
+}
+.disable.btn_atcart_b .t {
+	background-position: 100% -33px; cursor: default;
+}
+.product_photo {
+	float: left; position: relative;
+}
+.product_photo .load_32x32 {
+	background-position: 50% 50%; padding: 0px 0px 0px 38px; border-radius: 6px; left: 186px; top: 186px; height: 38px; display: none; position: absolute; background-color: rgba(255, 255, 255, 0.8);
+}
+.product_photo .t_prev {
+	border: 1px solid rgb(213, 213, 213); width: 14px; right: 0px; position: absolute; z-index: 8; background-color: rgb(255, 255, 255);
+}
+.product_photo .t_next {
+	border: 1px solid rgb(213, 213, 213); width: 14px; right: 0px; position: absolute; z-index: 8; background-color: rgb(255, 255, 255);
+}
+.product_photo .t_prev:hover {
+	border-color: rgb(255, 179, 141); border-left-width: 1px; z-index: 9;
+}
+.product_photo .t_next:hover {
+	border-color: rgb(255, 179, 141); border-left-width: 1px; z-index: 9;
+}
+.product_photo .t_prev {
+	background-position: 3px -261px; height: 29px; bottom: 33px;
+}
+.product_photo .t_prev:hover {
+	background-position: -12px -261px;
+}
+.product_photo .t_next {
+	background-position: 3px -309px; height: 30px; bottom: 2px;
+}
+.product_photo .t_next:hover {
+	background-position: -12px -309px;
+}
+.photo_wrapper {
+	border: 1px solid rgb(213, 213, 213); width: 403px; height: 403px; position: relative;
+}
+.photo_wrapper img {
+	width: 403px; height: 403px; vertical-align: middle;
+}
+.photo_wrapper .tag_direct_eu {
+	left: -2px; top: -2px; width: 72px; height: 72px; right: auto;
+}
+.photo_wrapper .tag_direct_au {
+	left: -2px; top: -2px; width: 72px; height: 72px; right: auto;
+}
+.photo_wrapper .tag_direct_us {
+	left: -2px; top: -2px; width: 72px; height: 72px; right: auto;
+}
+.photo_wrapper .tag_blackfriday {
+	background: url("//www.dx.com/Content/img/black_big.png") no-repeat; top: -2px; width: 104px; height: 105px; right: -2px;
+}
+.photo_wrapper .tag_direct_au {
+	background: url("//www.dx.com/Content/img/tag_direct_au.png") no-repeat; left: -1px; top: -1px;
+}
+.photo_wrapper .tag_direct_eu {
+	background: url("//www.dx.com/Content/img/tag_direct_eu.png") no-repeat;
+}
+.photo_wrapper .tag_direct_us {
+	background: url("//www.dx.com/Content/img/tag_direct_us.png") no-repeat; left: -1px; top: -1px;
+}
+.viewMax {
+	background-position: 10px -16px; left: 0px; width: 100%; height: 25px; bottom: 0px; position: absolute;
+}
+.viewMax span {
+	left: 0px; top: 0px; color: rgb(255, 255, 255); line-height: 25px; padding-left: 30px; position: absolute; z-index: 5;
+}
+.viewMax b {
+	background: rgb(0, 0, 0); height: 100%; display: block; opacity: 0.3;
+}
+.small_photo {
+	margin: 4px 0px 0px; padding: 5px 0px 0px; width: 390px; height: 64px; overflow: hidden;
+}
+.small_photo li {
+	border: 1px solid rgb(211, 211, 211); margin-right: 3px; float: left; position: relative;
+}
+.small_photo li.hovered {
+	border-width: 2px; border-color: rgb(255, 102, 0); box-shadow: 0px 2px 2px rgba(0,0,0,0.3);
+}
+.small_photo li.hovered::after {
+	border-width: 0px 6px 5px; border-style: dashed dashed solid; border-color: transparent transparent rgb(255, 102, 0); left: 25px; top: -6px; height: 0px; line-height: 0; overflow: hidden; font-size: 0px; display: inline-block; position: absolute; content: "";
+}
+.small_photo li img {
+	width: 60px; height: 60px; display: block;
+}
+.small_photo li.hovered img {
+	width: 58px; height: 58px;
+}
+.small_photo li.last {
+	margin-right: 0px;
+}
+.addthisBox {
+	margin: 0px auto; width: 160px; padding-top: 11px;
+}
+.pinfo_wrapper {
+	width: 525px; float: right;
+}
+.pinfo_wrapper h1 {
+	color: rgb(61, 61, 61); line-height: 22px; font-size: 18px;
+}
+.review_sku {
+	padding: 0px 0px 3px; line-height: 30px; border-bottom-color: rgb(234, 234, 234); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.review_sku .product_date_added {
+	color: rgb(153, 153, 153); font-size: 9px;
+}
+.review_sku .review_rate {
+	text-align: right; color: rgb(17, 78, 166); float: left;
+}
+.product_detail {
+	width: 100%; margin-top: 10px;
+}
+.product_detail .f_shipping {
+	margin: 8px 5px 0px 0px; float: left; display: inline;
+}
+.product_detail .label {
+	width: 80px; text-align: right; color: rgb(102, 102, 102); line-height: 12px; padding-right: 7px; font-size: 11px;
+}
+.product_detail tr {
+	height: 30px; line-height: 30px;
+}
+.product_detail .row_line {
+	height: 0px;
+}
+.product_detail .cl {
+	padding: 10px 0px;
+}
+.product_detail .line {
+	height: 0px; overflow: hidden; border-top-color: rgb(234, 234, 234); border-top-width: 1px; border-top-style: dashed;
+}
+.product_detail .pc {
+	color: rgb(255, 102, 0); font-size: 22px; font-weight: bold;
+}
+.product_detail .lp {
+	width: 200px; color: rgb(51, 51, 51); font-size: 11px; font-weight: normal; float: right;
+}
+.product_detail .price {
+	color: rgb(168, 168, 168); text-decoration: line-through; margin-right: 5px; display: inline-block;
+}
+.product_detail .cybox {
+	margin: 4px 0px; height: 24px; line-height: 24px; float: left; position: relative;
+}
+.product_detail .cy {
+	background: rgb(255, 255, 255); padding: 0px 8px 0px 2px; display: inline-block; position: relative; z-index: 2; cursor: default;
+}
+.product_detail .cybox a.hovered {
+	background: rgb(255, 255, 255); border-width: 1px 1px 0px; border-style: solid solid none; border-color: rgb(221, 221, 221) rgb(221, 221, 221) currentColor; border-radius: 3px 3px 0px 0px; left: -3px; top: -1px; height: 27px; padding-right: 4px; font-weight: bold; text-decoration: none; -moz-border-radius: 4px 4px 0 0;
+}
+.product_detail .cy .cur_cy {
+	background: url("//www.dx.com/Content/img/s_arrow_b.png") no-repeat 100% 11px; padding: 0px 10px 0px 0px; color: rgb(255, 102, 0); font-size: 18px; display: inline-block;
+}
+.product_detail .cybox .hovered .cur_cy {
+	margin: 0px; padding-left: 2px;
+}
+.product_detail .cybox .currency {
+	border: 1px solid rgb(221, 221, 221); left: -3px; top: 26px; font-size: 11px; z-index: 1; box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.product_detail .cybox .currency img {
+	margin-right: 5px;
+}
+.product_detail .sc strong {
+	color: rgb(88, 88, 88); text-transform: uppercase;
+}
+.product_detail .payc img {
+	margin-right: 5px;
+}
+.product_detail .cc select {
+	border: 1px solid rgb(206, 206, 206); color: rgb(102, 102, 102); font-size: 11px;
+}
+.product_detail .cc .sl {
+	margin: 0px 7px 0px 20px; font-size: 12px;
+}
+.product_detail .wh {
+	margin: 0px 10px 0px 0px; padding: 2px; border: 1px solid rgb(222, 222, 222); color: rgb(102, 102, 102); float: left;
+}
+.product_detail b.wh {
+	padding: 1px; border: 2px solid rgb(255, 102, 0); color: rgb(51, 51, 51); text-decoration: none;
+}
+.product_detail .wh:hover {
+	padding: 1px; border: 2px solid rgb(255, 102, 0); color: rgb(51, 51, 51); text-decoration: none;
+}
+.product_detail .wh_name {
+	padding: 0px 5px; height: 15px; text-align: center; line-height: 19px; font-weight: bold; float: left;
+}
+.product_detail .dinfo {
+	padding: 7px 0px; height: 16px; line-height: 16px; position: relative;
+}
+.product_detail .dinfo .dv {
+	color: rgb(51, 51, 51); display: block; cursor: default;
+}
+.product_detail .dinfo .dv:hover {
+	color: rgb(51, 51, 51); text-decoration: none;
+}
+.product_detail .dinfo .dlist {
+	background: rgb(255, 255, 255); padding: 10px 15px 0px; border: 1px solid rgb(213, 213, 213); left: 0px; top: 24px; display: none; position: absolute; box-shadow: 1px 2px 4px rgba(0,0,0,0.2);
+}
+.product_detail .dlist li {
+	padding: 0px 0px 10px; line-height: 15px;
+}
+.product_detail .dlist em {
+	color: rgb(0, 166, 31); font-style: normal;
+}
+.product_detail .dlist .d_arrow_r {
+	border-width: 5px 0px 5px 5px; border-style: dashed dashed dashed solid; border-color: transparent transparent transparent rgb(153, 153, 153); margin: 1px 3px 0px 0px; height: 0px; line-height: 0; overflow: hidden; font-size: 0px; display: inline-block;
+}
+.product_detail .g_delivery {
+	margin-left: 8px;
+}
+.product_detail .listing-link {
+	color: rgb(6, 91, 176); font-weight: bold;
+}
+.product_detail .listing-link:hover {
+	color: rgb(246, 105, 7);
+}
+.wh_flag {
+	background: url("//www.dx.com/Content/img/warehouse_flag.png") no-repeat; margin: 0px 1px 0px 0px; width: 26px; height: 19px; vertical-align: middle; display: inline-block;
+}
+.wh_flag_b {
+	background: url("//www.dx.com/Content/img/warehouse_flag.png") no-repeat; margin: 0px 1px 0px 0px; width: 26px; height: 19px; vertical-align: middle; display: inline-block;
+}
+.wh_flag_b {
+	padding: 0px 0px 0px 28px; width: auto; height: 20px; line-height: 20px;
+}
+.eu.wh_flag {
+	background-position: 0px -29px;
+}
+.eu.wh_flag_b {
+	background-position: 0px -29px;
+}
+.hk.wh_flag {
+	
+}
+.hk.wh_flag_b {
+	
+}
+.au.wh_flag {
+	background-position: 0px -58px;
+}
+.au.wh_flag_b {
+	background-position: 0px -58px;
+}
+.us.wh_flag {
+	background-position: 0px -87px;
+}
+.us.wh_flag_b {
+	background-position: 0px -87px;
+}
+.worldwide.wh_flag {
+	background-position: 0px -115px;
+}
+.worldwide.wh_flag_b {
+	background-position: 0px -115px;
+}
+.dxlisting.wh_flag {
+	background-position: 0px -141px; padding: 0px 0px 0px 48px;
+}
+.dxlisting.wh_flag_b {
+	background-position: 0px -141px; padding: 0px 0px 0px 48px;
+}
+.il.wh_flag {
+	background-position: 0px -158px;
+}
+.il.wh_flag_b {
+	background-position: 0px -158px;
+}
+.choose_quantity {
+	background: rgb(255, 254, 245); padding: 10px; border: 1px solid rgb(218, 207, 156); font-size: 11px; margin-top: 12px; position: relative;
+}
+.product_attr {
+	margin-bottom: 10px;
+}
+.product_attr .label {
+	padding: 5px 0px; width: 80px; line-height: 14px; margin-right: 5px; float: left;
+}
+.product_attr .values {
+	width: 418px; float: left;
+}
+.product_attr .values li {
+	margin: 0px 10px 8px 0px; float: left;
+}
+.product_attr .values a {
+	background: rgb(255, 255, 255); padding: 1px 6px; border: 1px solid rgb(204, 204, 204); line-height: 22px; display: block;
+}
+.product_attr .values a {
+	color: rgb(51, 51, 51);
+}
+.product_attr .values a.selected {
+	padding: 0px 5px; border: 2px solid rgb(255, 102, 0); text-decoration: none; position: relative; -ms-zoom: 1;
+}
+.product_attr .values a:hover {
+	padding: 0px 5px; border: 2px solid rgb(255, 102, 0); text-decoration: none; position: relative; -ms-zoom: 1;
+}
+.product_attr .values a.selected::after {
+	background-position: 0px -520px; width: 13px; height: 13px; right: -2px; bottom: -2px; position: absolute; content: "";
+}
+.product_attr .values a.selected:hover::after {
+	background-position: 0px -507px;
+}
+.product_attr .values .disabled {
+	background: rgb(255, 255, 255); padding: 1px 5px; border: 1px dashed rgb(204, 204, 204); color: rgb(153, 153, 153); line-height: 22px; display: block; cursor: default;
+}
+.product_attr .values .disabled:hover {
+	background: rgb(255, 255, 255); padding: 1px 5px; border: 1px dashed rgb(204, 204, 204); color: rgb(153, 153, 153); line-height: 22px; display: block; cursor: default;
+}
+.quantity .label {
+	line-height: 19px;
+}
+.quantity input {
+	margin: 5px 3px 0px; border: 1px solid rgb(218, 207, 156); width: 45px; height: 18px; text-align: center; float: left;
+}
+.quantity .storage_info {
+	margin: 5px 0px 0px 5px; height: 20px; color: rgb(102, 102, 102); line-height: 20px; float: left;
+}
+.quantity .oper {
+	width: 21px; height: 19px; margin-top: 5px; float: left; display: block;
+}
+.quantity a.reduce {
+	background-position: -34px -81px;
+}
+.quantity a.add {
+	background-position: 0px -81px;
+}
+.quantity a.disabled.reduce {
+	cursor: default; opacity: 0.5;
+}
+.quantity a.disabled.add {
+	cursor: default; opacity: 0.5;
+}
+.quantity .storage_info strong {
+	color: rgb(246, 105, 7);
+}
+.choose_quantity .btn_cartBox {
+	margin: 10px 0px 0px; padding: 0px 0px 0px 56px;
+}
+.choose_quantity .btn_cartBox .btn_atcart {
+	margin: 0px 10px 0px 56px; vertical-align: bottom;
+}
+.share {
+	margin: 10px 0px 0px; padding-left: 55px;
+}
+.share .match {
+	margin: 0px 8px 0px 0px; padding: 5px 0px; color: rgb(102, 102, 102); line-height: 14px; vertical-align: middle; display: inline-block;
+}
+.share .sta {
+	margin: 0px 8px 0px 0px; padding: 5px 0px; color: rgb(102, 102, 102); line-height: 14px; vertical-align: middle; display: inline-block;
+}
+.share .report {
+	margin: 0px 8px 0px 0px; padding: 5px 0px; color: rgb(102, 102, 102); line-height: 14px; vertical-align: middle; display: inline-block;
+}
+.share .match {
+	background-position: 0px -193px; padding-left: 20px;
+}
+.share .sta {
+	background-position: 0px -384px; height: 14px; padding-left: 27px;
+}
+.share .sta .txt {
+	width: 175px; height: 14px; overflow: hidden; display: inline-block;
+}
+.share .sta:hover .txt {
+	text-decoration: underline;
+}
+.share .report {
+	background-position: 2px -477px; padding-left: 20px;
+}
+.product_info .payment img {
+	margin-right: 5px;
+}
+.product_other {
+	margin: 12px 0px 0px;
+}
+.product_other .authen {
+	border-width: 2px 2px 2px 30px; border-style: solid; border-color: rgb(245, 243, 241); padding: 0px 0px 0px 20px; height: 56px; line-height: 56px; float: left; position: relative;
+}
+.product_other .lock {
+	background-position: 0px -422px; left: -21px; top: 20px; width: 14px; height: 14px; position: absolute;
+}
+.product_other .norton {
+	margin: 0px 20px 0px 0px; float: left;
+}
+.product_other .mcafee {
+	margin: 0px 20px 0px 0px; float: left;
+}
+.product_other .authen img {
+	vertical-align: middle;
+}
+.pro_linksbox {
+	margin: 0px 0px 0px 30px; float: left;
+}
+.pro_linksbox ul a {
+	padding: 2px 0px 5px; color: rgb(102, 102, 102); display: block;
+}
+.pro_share {
+	margin: 0px 0px 12px; float: right;
+}
+.pro_share .fb {
+	width: 50px; height: 60px; margin-right: 13px; float: left;
+}
+.pro_share .gl {
+	width: 50px; height: 60px; margin-right: 13px; float: left;
+}
+.pro_share .dg {
+	width: 50px; height: 60px; margin-right: 13px; float: left;
+}
+.pro_share .dg {
+	margin-right: 1px;
+}
+.pro_share .dg .db-body {
+	background: url("//www.dx.com/Content/img/digg.png") no-repeat 0px 0px; width: 50px; height: 60px;
+}
+.pro_share .dg .db-dugg .db-medium {
+	background-position: 0px -60px;
+}
+.pro_share .dg .db-medium .db-count {
+	width: 40px; height: 40px; text-align: center; padding-top: 7px;
+}
+.pro_share .dg .db-medium .db-anchor {
+	height: 20px;
+}
+.addthis_default_style {
+	height: 36px; padding-top: 4px; clear: both; margin-top: 6px; background-color: rgb(245, 243, 241);
+}
+.product_other .links {
+	border-width: 1px 0px; border-style: dashed; border-color: rgb(234, 234, 234); color: rgb(187, 187, 187); line-height: 27px; clear: both;
+}
+.product_other .links a {
+	color: rgb(102, 102, 102);
+}
+.product_other .links a:hover {
+	color: rgb(102, 102, 102);
+}
+.icon_vmi_help {
+	background: url("//www.dx.com/Content/img/icon_vmi_help.png") no-repeat -12px 0px; width: 12px; height: 12px; vertical-align: text-bottom; display: inline-block;
+}
+.icon_vmi_help:hover {
+	background-position: -24px 0px;
+}
+.icon_vmi_help:active {
+	
+}
+.popup_addtocart {
+	padding: 0px;
+}
+.detail.popup_addtocart .hd {
+	display: none;
+}
+.popup_addtocart_container {
+	padding: 10px 0px;
+}
+.popup_addtocart_container .showloader {
+	height: 86px;
+}
+.popup_addtocart_container .error_box {
+	background: rgb(246, 246, 246); margin: 21px 5px; border-radius: 8px; border: 1px solid rgb(221, 221, 221); text-align: center;
+}
+.popup_addtocart_container .error_panel {
+	padding: 15px 25px; text-align: center; font-size: 12px;
+}
+.detail.popup_addtocart {
+	padding: 0px;
+}
+.popup_addtocart .con {
+	padding: 0px 30px 0px 70px; position: relative;
+}
+.popup_addtocart .warning {
+	margin: -8px 0px 15px -40px; padding: 5px 0px 5px 10px; border-radius: 3px; border: 1px solid rgb(231, 208, 118); color: rgb(255, 102, 0); background-color: rgb(255, 250, 233);
+}
+.popup_addtocart .con .title {
+	color: rgb(7, 155, 0); line-height: 27px; font-size: 18px; font-weight: bold;
+}
+.popup_addtocart .icon_success_27x27 {
+	left: 30px; position: absolute;
+}
+.popup_addtocart .subtitle {
+	margin: 5px 0px; font-size: 12px;
+}
+.popup_addtocart .subtitle .em {
+	color: rgb(255, 102, 0);
+}
+.popup_addtocart .opers {
+	margin: 20px 0px 0px;
+}
+.popup_addtocart .pros_con {
+	margin: 25px 0px 0px; position: relative;
+}
+.popup_addtocart .pros_con .prev {
+	border: 1px solid rgb(213, 213, 213); top: 11px; width: 14px; height: 12px; text-indent: -999px; overflow: hidden; position: absolute;
+}
+.popup_addtocart .pros_con .next {
+	border: 1px solid rgb(213, 213, 213); top: 11px; width: 14px; height: 12px; text-indent: -999px; overflow: hidden; position: absolute;
+}
+.popup_addtocart .pros_con .prev {
+	background-position: 4px -439px; right: 20px;
+}
+.popup_addtocart .pros_con .prev:hover {
+	background-position: 4px -456px;
+}
+.popup_addtocart .pros_con .next {
+	background-position: -14px -456px; right: 0px;
+}
+.popup_addtocart .pros_con .next:hover {
+	background-position: -14px -439px;
+}
+.popup_addtocart .pros_con .slides_container {
+	margin: 0px -6px -10px -4px;
+}
+.popup_addtocart .pros_con_title {
+	color: rgb(102, 102, 102); line-height: 35px; border-top-color: rgb(231, 231, 231); border-top-width: 1px; border-top-style: dashed;
+}
+.popup_addtocart .pros_con_list {
+	overflow: hidden;
+}
+.popup_addtocart .pros_con_list li {
+	margin: 0px 9px; width: 110px; text-align: center; float: left;
+}
+.popup_addtocart .pros_con_list .pic {
+	padding: 1px; border: 1px solid rgb(221, 221, 221);
+}
+.popup_addtocart .pros_con_list .pic img {
+	width: 106px; height: 106px; vertical-align: middle;
+}
+.popup_addtocart .pros_con_list .title {
+	margin: 5px 0px; height: 40px; line-height: 13px; overflow: hidden;
+}
+.popup_addtocart .pros_con_list .price {
+	color: rgb(255, 102, 0); font-size: 12px; font-weight: bold;
+}
+.ov_descripe {
+	margin: 10px 0px; font-size: 12px;
+}
+.ov_detail {
+	margin: 10px 0px; font-size: 12px;
+}
+.ov_rank {
+	margin: 10px 0px; font-size: 12px;
+}
+.ov_descripe li {
+	background-position: -5px -419px; line-height: 20px; padding-left: 15px; font-size: 12px;
+}
+.ov_detail li {
+	line-height: 22px;
+}
+.ov_rank p {
+	margin-top: 25px;
+}
+.ov_rank p.first {
+	margin-top: 0px;
+}
+.review_topinfo {
+	color: rgb(102, 102, 102); font-size: 12px;
+}
+.review_detail {
+	margin-top: 20px;
+}
+.review_detail li {
+	background-position: -5px -354px; color: rgb(102, 102, 102); padding-left: 20px; margin-bottom: 10px;
+}
+.review_detail li a {
+	color: rgb(51, 51, 51); font-weight: bold;
+}
+.perfect_match {
+	margin: 20px 0px 15px; color: rgb(51, 51, 51); overflow: auto;
+}
+.perfect_match .hd h2 {
+	color: rgb(246, 111, 8); text-indent: 15px; font-family: Tahoma; font-size: 12px; font-weight: bold;
+}
+.perfect_match .bd {
+	padding: 30px 19px 20px;
+}
+.perfect_match .master {
+	width: 220px; text-align: center; vertical-align: top; display: inline-block; position: relative;
+}
+.perfect_match .master .add {
+	width: 20px; height: 20px; margin-top: 70px; margin-right: 5px; display: inline; background-image: url("//www.dx.com/Content/img/perfect_match.png"); background-repeat: no-repeat;
+}
+.perfect_match .infos .equal {
+	width: 20px; height: 20px; margin-top: 70px; margin-right: 5px; display: inline; background-image: url("//www.dx.com/Content/img/perfect_match.png"); background-repeat: no-repeat;
+}
+.perfect_match .master .add {
+	float: right;
+}
+.perfect_match .master .photo {
+	overflow: hidden;
+}
+.perfect_match .suits .photo {
+	overflow: hidden;
+}
+.perfect_match .master .title {
+	margin: 5px 0px; padding: 0px 15px; width: 160px; height: 40px; text-align: left; line-height: 13px; overflow: hidden;
+}
+.perfect_match .master .title a {
+	font-size: 11px;
+}
+.perfect_match .suits .title a {
+	font-size: 11px;
+}
+.perfect_match .suits {
+	width: 450px; display: inline-block; position: relative; -ms-overflow-x: auto;
+}
+.perfect_match .suits ul {
+	width: 100%; overflow: hidden;
+}
+.pdetail_wrapper .perfect_match .productList li {
+	margin: 0px 0px 0px 10px; width: 140px; float: left;
+}
+.perfect_match .suits .photo {
+	height: 155px;
+}
+.perfect_match .suits .photo a {
+	margin-top: 7px; display: block;
+}
+.perfect_match .suits .photo .tag {
+	top: 0px;
+}
+.perfect_match .suits .pi {
+	text-align: left;
+}
+.perfect_match .suits .price {
+	text-align: left; margin-top: 10px;
+}
+.perfect_match .suits .price input {
+	vertical-align: text-bottom;
+}
+.perfect_match .suits .price label {
+	color: rgb(255, 102, 0); font-family: Tahoma; font-size: 12px; font-weight: bold;
+}
+.perfect_match .infos {
+	width: 220px; vertical-align: top; display: inline-block; position: relative;
+}
+.perfect_match .infos .equal {
+	background-position: -30px 0px; margin-left: 20px; float: left;
+}
+.perfect_match .infos p {
+	width: 170px; overflow: hidden;
+}
+.perfect_match .infos .items {
+	margin-top: 60px;
+}
+.perfect_match .infos .items span {
+	font: 12px/20px Tahoma bold; width: 85px; height: 20px; text-align: right; color: rgb(0, 0, 0); display: inline-block; font-size-adjust: none; font-stretch: normal;
+}
+.perfect_match .infos .total_price span {
+	font: 12px/20px Tahoma bold; width: 85px; height: 20px; text-align: right; color: rgb(0, 0, 0); display: inline-block; font-size-adjust: none; font-stretch: normal;
+}
+.perfect_match .infos .items strong {
+	color: rgb(255, 102, 0); margin-left: 5px;
+}
+.perfect_match .infos .total_price strong {
+	color: rgb(255, 102, 0); margin-left: 5px;
+}
+.perfect_match .infos .add_to_cart {
+	margin-left: 60px;
+}
+.perfect_match .infos .add_to_cart a {
+	background: url("//www.dx.com/Content/img/perfect_match.png") no-repeat 0px -21px; font: 12px/29px Tahoma bold; margin: 30px 0px 0px; width: 114px; height: 29px; text-align: center; color: rgb(112, 48, 23); text-transform: uppercase; display: block; font-size-adjust: none; font-stretch: normal;
+}
+.perfect_match .infos .add_to_cart a:hover {
+	text-decoration: none;
+}
+.perfect_match .infos .add_to_cart a.disable {
+	background: url("//www.dx.com/Content/img/perfect_match.png") no-repeat 0px -51px; color: rgb(255, 255, 255);
+}
+.popup_match {
+	min-height: 150px;
+}
+.popup_match .opers .btn_n_orange {
+	margin-bottom: 10px;
+}
+.customer_review {
+	padding: 20px; position: relative;
+}
+.discussions {
+	padding: 20px; position: relative;
+}
+.customer_review {
+	margin: 0px 0px 10px;
+}
+.customer_review h5 {
+	margin: 0px 0px 15px; font-size: 12px;
+}
+.customer_review h5 a {
+	font-size: 11px; font-weight: normal; text-decoration: underline;
+}
+.customer_review .cr_info {
+	margin: -10px 0px 5px;
+}
+.star_wrapper li {
+	margin-bottom: 2px;
+}
+.star_wrapper strong {
+	font-size: 12px;
+}
+.star_wrapper .num {
+	color: rgb(153, 153, 153); font-size: 12px;
+}
+.sharethought {
+	top: 22px; width: 320px; right: 22px; position: absolute;
+}
+.sharethought p {
+	text-align: right; color: rgb(102, 102, 102); line-height: 20px; font-size: 12px;
+}
+.sharethought ul {
+	margin-top: 15px; float: right;
+}
+.sharethought li {
+	background-position: 0px -363px; border-radius: 5px; border: 1px solid rgb(213, 213, 213); width: 145px; font-weight: bold; margin-bottom: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+}
+.sharethought li.wr {
+	background: rgb(246, 105, 7); border-color: rgb(248, 120, 6);
+}
+.sharethought li.wr a {
+	color: rgb(255, 255, 255);
+}
+.sharethought a {
+	height: 27px; color: rgb(51, 51, 51); line-height: 27px; padding-left: 30px; display: block;
+}
+.sharethought .wr {
+	background-position: 10px -42px;
+}
+.sharethought .pp {
+	background-position: 10px -67px;
+}
+.sharethought .pv {
+	background-position: 10px -93px;
+}
+.tab_box_wrap {
+	padding: 20px; border-top-color: rgb(213, 213, 213); border-top-width: 1px; border-top-style: solid;
+}
+.ul_reviews {
+	padding: 0px 25px; overflow: hidden;
+}
+.ul_reviews li {
+	padding: 20px 0px 30px 200px; border-top-color: rgb(213, 213, 213); border-top-width: 1px; border-top-style: dashed; position: relative;
+}
+.ul_reviews li .view_more {
+	right: 0px; bottom: 8px; color: rgb(6, 91, 168); position: absolute;
+}
+.ul_reviews li .review_photo {
+	padding: 1px; border: 1px solid rgb(213, 213, 213); left: 0px; top: 30px; width: 140px; height: 140px; position: absolute;
+}
+.reviewDetail {
+	padding-top: 5px;
+}
+.reviewDetail .title {
+	color: rgb(6, 91, 168); font-size: 12px; font-weight: bold;
+}
+.reviewDetail .author {
+	color: rgb(51, 51, 51); padding-top: 3px;
+}
+.reviewDetail .author a {
+	color: rgb(6, 91, 168);
+}
+.reviewDetail p {
+	color: rgb(102, 102, 102); line-height: 15px;
+}
+.reviewDetail p strong {
+	color: rgb(51, 51, 51); font-weight: normal;
+}
+.reviewDetail p img {
+	vertical-align: middle;
+}
+.reviewDetail .reviewTxt strong {
+	width: 40px; text-align: right; color: rgb(102, 102, 102); font-weight: bold; margin-left: -45px; display: inline-block;
+}
+.reviewDetail .reviewTxt p {
+	color: rgb(102, 102, 102); overflow: hidden; padding-left: 45px; margin-top: 8px;
+}
+.reviewDetail .reviewTxt .bottomline {
+	padding-left: 80px;
+}
+.reviewDetail .bottomline strong {
+	width: 80px; margin-left: -80px;
+}
+.reviewDetail .opers {
+	margin-top: 18px;
+}
+.reviewDetail .fb {
+	background: url("//www.dx.com/Content/img/fb.jpg") no-repeat; margin: 2px 0px 0px; padding: 0px 0px 0px 18px; height: 16px; color: rgb(153, 153, 153); line-height: 20px; float: right;
+}
+.reviewDetail .fb:hover {
+	color: rgb(153, 153, 153);
+}
+.review_btn_comments {
+	padding: 0px; overflow: hidden; vertical-align: bottom;
+}
+.review_btn_comments .icon_c {
+	height: 100%; float: left;
+}
+.review_btn_comments .txt {
+	height: 100%; float: left;
+}
+.review_btn_comments .icon_c {
+	background: url("//www.dx.com/Content/img/icon_comments_new.png") no-repeat 50% 50%; width: 24px; border-right-color: rgb(225, 225, 225); border-right-width: 1px; border-right-style: solid;
+}
+.review_btn_comments .txt {
+	padding: 0px 5px; text-align: center; border-left-color: rgb(255, 255, 255); border-left-width: 1px; border-left-style: solid;
+}
+.customer_reviews_ishelp {
+	margin: 0px 0px 0px 8px;
+}
+.customer_reviews_ishelp .ques {
+	margin: 0px 5px 0px 0px; color: rgb(51, 51, 51);
+}
+.customer_reviews_ishelp .com {
+	margin: 0px 3px 0px 0px; vertical-align: bottom; display: inline-block;
+}
+.customer_reviews_ishelp .yes {
+	text-align: center; float: left; position: relative;
+}
+.customer_reviews_ishelp .no {
+	text-align: center; float: left; position: relative;
+}
+.customer_reviews_ishelp .yes:hover {
+	text-decoration: none;
+}
+.customer_reviews_ishelp .no:hover {
+	text-decoration: none;
+}
+.customer_reviews_ishelp .disable.yes {
+	background: rgb(255, 255, 255); cursor: default;
+}
+.customer_reviews_ishelp .disable.no {
+	background: rgb(255, 255, 255); cursor: default;
+}
+.customer_reviews_ishelp .yes {
+	border-radius: 4px 0px 0px 4px; border-right-color: rgb(227, 227, 227);
+}
+.customer_reviews_ishelp .no {
+	border-radius: 0px 4px 4px 0px; border-left-color: rgb(255, 255, 255);
+}
+.customer_reviews_ishelp .curstatus {
+	background: 0px 0px rgb(255, 0, 47); left: 5px; top: -13px; width: 20px; height: 11px; text-align: center; color: rgb(255, 255, 255); line-height: 11px; font-size: 10px; font-style: normal; position: absolute;
+}
+.parameter {
+	left: 0px; top: 20px; position: absolute;
+}
+.reviewsStar .parameter li {
+	margin: 0px; padding: 0px; border: 0px currentColor; line-height: 20px; overflow: hidden;
+}
+.parameter li.overall {
+	padding-bottom: 3px; font-weight: bold; margin-bottom: 3px; border-bottom-color: rgb(213, 213, 213); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.parameter li .left {
+	padding: 4px 0px; width: 80px; text-align: right; line-height: 12px; margin-right: 5px; float: left;
+}
+.parameter li .right {
+	float: left;
+}
+.review_info {
+	width: 68%; float: right;
+}
+.review_info li {
+	height: 28px; color: rgb(102, 102, 102); line-height: 14px; overflow: hidden; padding-left: 50px; margin-top: 10px;
+}
+.review_info .auto li {
+	height: auto; overflow: visible;
+}
+.review_info li strong {
+	width: 50px; margin-left: -50px; display: inline-block;
+}
+.rv_title {
+	color: rgb(0, 0, 153); font-size: 14px; font-weight: bold;
+}
+.rv_author {
+	margin: 5px 0px; position: relative;
+}
+.rv_author span {
+	top: 0px; right: 0px; position: absolute;
+}
+.rv_bot_info {
+	background: rgb(255, 251, 232); text-align: right; line-height: 32px; padding-right: 22px; border-top-color: rgb(213, 213, 213); border-top-width: 1px; border-top-style: solid;
+}
+.reviews_comment_repeat .load_panel {
+	background: 0px 0px rgb(248, 248, 248); margin: 10px 0px 0px; border-radius: 5px; border: 1px solid rgb(221, 221, 221);
+}
+.reviews_comment_repeat .repeat_p {
+	background: 0px 0px rgb(248, 248, 248); margin: 10px 0px 0px; border-radius: 5px; border: 1px solid rgb(221, 221, 221);
+}
+.reviews_comment_repeat .load_panel {
+	padding: 15px; text-align: center;
+}
+.reviews_comment_repeat .repeat_p {
+	position: relative;
+}
+.reviews_comment_repeat .repeat_arrow {
+	margin: -9px 0px 0px 16px; height: 9px; overflow: hidden; position: relative;
+}
+.reviews_comment_repeat .arrline {
+	border-width: 0px 8px 8px; border-style: dashed dashed solid; border-color: transparent; height: 0px; line-height: 0; overflow: hidden; font-size: 0px; display: inline-block; position: absolute;
+}
+.reviews_comment_repeat .arrow {
+	border-width: 0px 8px 8px; border-style: dashed dashed solid; border-color: transparent; height: 0px; line-height: 0; overflow: hidden; font-size: 0px; display: inline-block; position: absolute;
+}
+.reviews_comment_repeat .arrline {
+	border-bottom-color: rgb(204, 204, 204);
+}
+.reviews_comment_repeat .arrow {
+	top: 1px; border-bottom-color: rgb(248, 248, 248);
+}
+.reviews_comment_repeat .repeat_list {
+	padding: 0px 15px; overflow: hidden;
+}
+.reviews_comment_repeat .repeat_list li {
+	margin: -1px 0px 0px; padding: 15px 0px 0px; border-top-color: rgb(213, 213, 213); border-top-width: 1px; border-top-style: dashed;
+}
+.reviews_comment_repeat .repeat_list .con {
+	position: relative;
+}
+.reviews_comment_repeat .repeat_list .qcon {
+	margin: 0px 18px 0px 0px; text-indent: 18px; overflow: hidden;
+}
+.reviews_comment_repeat .repeat_list .con::before {
+	color: rgb(213, 213, 213); font-family: georgia; font-size: 30px; font-weight: bold; position: absolute;
+}
+.reviews_comment_repeat .repeat_list .qcon::after {
+	color: rgb(213, 213, 213); font-family: georgia; font-size: 30px; font-weight: bold; position: absolute;
+}
+.reviews_comment_repeat .repeat_list .con::before {
+	left: 0px; top: -5px; content: open-quote;
+}
+.reviews_comment_repeat .repeat_list .qcon::after {
+	margin: 5px 0px 0px; right: 0px; content: close-quote;
+}
+.reviews_comment_repeat .repeat_more {
+	margin: 0px 15px; padding: 10px 0px; text-align: right; border-top-color: rgb(213, 213, 213); border-top-width: 1px; border-top-style: dashed;
+}
+.reviews_comment_repeat .oinfo {
+	padding: 15px 0px;
+}
+.reviews_comment_repeat .repeat_s {
+	margin: 15px 0px 0px;
+}
+.reviews_comment_repeat .repeat_s .error {
+	margin: 0px 0px 0px 10px; vertical-align: bottom;
+}
+.reviews_comment_repeat .text {
+	padding: 6px; border-radius: 5px; border: 1px solid rgb(204, 204, 204); width: 506px; height: 50px; line-height: 15px; overflow: hidden; box-shadow: inset 0px 1px 1px #ddd; resize: none;
+}
+.product_feature {
+	margin-top: 15px;
+}
+.product_feature li {
+	line-height: 18px;
+}
+.product_feature .f_title {
+	width: 65px; text-align: right; margin-right: 5px; float: left;
+}
+.recomend_product {
+	text-align: center; overflow: hidden; padding-left: 15px;
+}
+.recomend_product li {
+	width: 120px; margin-right: 22px; float: left;
+}
+.recomend_product li.last {
+	margin-right: 0px;
+}
+.recomend_product li img {
+	border: 1px solid rgb(217, 217, 217);
+}
+.recomend_product .info {
+	height: 32px; line-height: 16px; overflow: hidden;
+}
+.recomend_product .info a {
+	color: rgb(6, 91, 168); text-decoration: none;
+}
+.recomend_product .info a:hover {
+	text-decoration: underline;
+}
+.recomend_product .price {
+	color: rgb(247, 119, 18); font-size: 12px; font-weight: bold; margin-top: 5px;
+}
+.recomend_product .btn_addcart img {
+	border: 0px currentColor; margin-top: 5px;
+}
+.pdetail_wrapper .history {
+	width: 565px; float: left;
+}
+.circle_box {
+	padding: 10px 20px 15px;
+}
+.add_tag {
+	background-position: 0px -217px; padding: 0px 0px 5px 20px; font-size: 12px;
+}
+.add_tag .text {
+	border: 1px solid rgb(192, 192, 192); width: 180px; height: 20px; color: rgb(102, 102, 102); line-height: 20px; padding-left: 3px; font-family: Georgia; font-style: italic; vertical-align: middle;
+}
+.add_tag .btn {
+	background: url("//www.dx.com/Content/img/bg_add_tag.png") repeat-x; padding: 0px 5px; border: 0px currentColor; height: 23px; color: rgb(255, 255, 255); line-height: 23px; font-weight: bold; margin-left: 3px; vertical-align: middle; cursor: pointer;
+}
+.all_photo {
+	margin: 50px 0px 30px; text-align: center;
+}
+.pinfobox h2 {
+	padding-left: 10px; font-size: 12px;
+}
+.pinfobox {
+	font-size: 11px;
+}
+.pinfobox h2 {
+	background: url("//www.dx.com/Content/img/bg_pinfobox.gif") repeat-x; border: 1px solid rgb(213, 213, 213); height: 32px; line-height: 32px;
+}
+.pinfo_content {
+	padding: 10px 0px 0px;
+}
+.pinfo_content .t_info {
+	width: 100%;
+}
+.pinfo_content .t_info td {
+	padding: 0px 15px; border: 1px solid rgb(213, 213, 213); height: 30px; text-align: left;
+}
+.pinfo_content .t_info th {
+	padding: 0px 15px; border: 1px solid rgb(213, 213, 213); height: 30px; text-align: left;
+}
+.pinfo_content .t_info th {
+	background: rgb(241, 241, 241);
+}
+.pinfo_content .t_info td.info {
+	padding-top: 10px; padding-bottom: 10px;
+}
+.pinfo_content .t_info .attr {
+	width: 100px; text-align: right;
+}
+.pinfo_content .t_info td.info p {
+	margin-top: 5px;
+}
+.pinfo_content img {
+	max-width: 600px;
+}
+.pinfo_content table {
+	width: 100% !important;
+}
+.pinfo_ov_bottom {
+	background: rgb(248, 248, 248); margin: 20px -20px; padding: 8px 20px; text-align: right; color: rgb(102, 102, 102); overflow: hidden; border-bottom-color: rgb(213, 213, 213); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.pinfo_ov_bottom .info {
+	float: right;
+}
+.overview-list {
+	overflow: hidden; -ms-zoom: 1;
+}
+.overview-list li {
+	padding: 3px 15px 3px 0px; width: 284px; overflow: hidden; font-size: 12px; float: left; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.overview-list .attrname {
+	color: rgb(153, 153, 153); margin-right: 5px;
+}
+.product_plist {
+	overflow: hidden;
+}
+.product_plist li {
+	border: 1px solid rgb(213, 213, 213); margin-right: 40px; float: left;
+}
+.product_plist li.last {
+	margin-right: 0px;
+}
+.see_all {
+	top: 0px; right: 25px; color: rgb(102, 102, 102); position: absolute;
+}
+.see_all a {
+	text-decoration: underline;
+}
+.none_info {
+	padding: 20px 0px; text-align: center; color: rgb(170, 170, 170);
+}
+.none_info a {
+	text-decoration: underline;
+}
+.customer_photo {
+	padding: 20px 0px; overflow: hidden;
+}
+.customer_photo li {
+	margin: 0px 25px; font-size: 0px; float: left;
+}
+.customer_photo li img {
+	padding: 1px; border: 1px solid rgb(228, 228, 228); width: 130px; height: 96px;
+}
+.customer_photo li.last {
+	margin-right: 0px;
+}
+.tag_cloud li {
+	line-height: 18px; margin-right: 5px; display: inline;
+}
+.tag_cloud .size5 {
+	font-size: 16px;
+}
+.tag_cloud .size4 {
+	font-size: 14px;
+}
+.tag_cloud .size3 {
+	font-size: 12px;
+}
+.tag_cloud .size2 {
+	font-size: 11px;
+}
+.tag_cloud .size1 {
+	font-size: 10px;
+}
+.tag_cloud .color1 {
+	color: rgb(44, 167, 251);
+}
+.tag_cloud .color2 {
+	color: rgb(50, 60, 22);
+}
+.tag_cloud .color3 {
+	color: rgb(80, 127, 34);
+}
+.tag_cloud .color4 {
+	color: rgb(196, 73, 22);
+}
+.tag_cloud .color5 {
+	color: rgb(47, 181, 167);
+}
+.tag_cloud .color6 {
+	color: rgb(131, 92, 216);
+}
+.history_product {
+	padding: 25px 0px 0px 5px; float: left;
+}
+.history_product li {
+	width: 255px; margin-bottom: 17px; float: left;
+}
+.history_product li img {
+	border: 1px solid rgb(252, 205, 205); margin-right: 15px; float: left;
+}
+.history_product li p.info {
+	width: 185px; height: 30px; line-height: 14px; overflow: hidden;
+}
+.history_product li p.price {
+	color: rgb(246, 105, 7); font-weight: bold;
+}
+.history_product li a {
+	color: rgb(102, 102, 102);
+}
+.or {
+	color: rgb(51, 51, 51); line-height: 18px; font-weight: bold;
+}
+.shop_btn {
+	background: rgb(224, 225, 224); border-radius: 3px; border: 1px solid rgb(177, 177, 177); width: 30px; height: 20px; color: rgb(0, 0, 0); text-transform: uppercase; font-family: verdana; font-size: 11px; cursor: pointer; -webkit-border-radius: 3px; -moz-border-radius: 3px;
+}
+.pro_spe .productList {
+	padding: 10px 10px 0px;
+}
+.pro_spe .productList li {
+	margin: 0px; padding: 15px 0px; width: 100%; height: 140px; text-align: left; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.pro_spe .productList li.last {
+	border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.pro_spe .productList .photo {
+	margin: 0px 15px; width: 140px; text-align: center; float: left;
+}
+.pro_spe .productList .pi {
+	width: 341px; line-height: 20px; margin-right: 27px; float: left;
+}
+.pro_spe p {
+	margin-bottom: 5px;
+}
+.pro_spe .productList .title {
+	padding: 0px; height: 34px; line-height: 15px; overflow: hidden;
+}
+.pro_spe .productList .price {
+	display: none;
+}
+.pro_spe .productList .title a {
+	font-size: 14px; font-weight: bold;
+}
+.pro_spe .productList .f_shipping {
+	margin: 0px 0px 5px;
+}
+.pro_spe .productList .icon_clearance {
+	margin: 0px 0px 5px;
+}
+.pro_spe .productList .amount {
+	margin: 0px;
+}
+.pro_spe .productList .cate {
+	margin: 0px;
+}
+.pro_spe .productList .review {
+	margin: 0px;
+}
+.pro_spe .productList .po {
+	width: 160px; color: rgb(102, 102, 102); font-size: 12px; float: left;
+}
+.pro_spe .productList .np {
+	margin-bottom: 10px;
+}
+.pro_spe .productList .des {
+	margin: 0px 0px 8px; height: 42px; color: rgb(51, 51, 51); line-height: 14px; overflow: hidden;
+}
+.pro_spe .productList .np span {
+	color: rgb(246, 105, 7); font-size: 14px; font-weight: bold;
+}
+.pro_spe .productList .op del {
+	color: rgb(170, 170, 170); font-size: 11px;
+}
+.pro_nor .productList .des {
+	display: none;
+}
+.pro_nor .productList .po {
+	display: none;
+}
+.pro_spe li.special_rd_title {
+	display: none;
+}
+.pro_nor li.special_rd_title {
+	left: -8px; top: 10px; width: 157px; height: 10px; padding-bottom: 6px; position: absolute;
+}
+.sitemapbox {
+	padding: 0px 0px 20px 20px;
+}
+.sitemaplist {
+	overflow: hidden;
+}
+.sitemaplist li {
+	padding: 10px 8px; width: 290px; float: left;
+}
+.sitemaplist li .category {
+	padding-top: 20px;
+}
+.sitemaplist li h2 {
+	line-height: 30px; padding-bottom: 5px;
+}
+.sitemaplist li h2 a {
+	color: rgb(246, 105, 7); font-size: 16px;
+}
+.sitemaplist dt {
+	line-height: 22px; padding-left: 10px;
+}
+.sitemaplist dt a {
+	color: rgb(74, 74, 74); font-size: 14px;
+}
+.sitemaplist dd {
+	background-position: 1px 7px; padding: 0px 0px 0px 12px; line-height: 20px; margin-left: 25px;
+}
+.sitemaplist dd a {
+	color: rgb(102, 102, 102); font-size: 12px;
+}
+.sitemaplist dd a:hover {
+	color: rgb(246, 105, 7);
+}
+.pd_wrapper {
+	background: rgb(252, 103, 0); margin: 10px auto; border-radius: 5px; width: 890px; height: 760px; position: relative; box-shadow: 3px 3px 3px #999; -webkit-border-radius: 5px; -moz-border-radius: 5px; -webkit-box-shadow: 3px 3px 3px #999; -moz-box-shadow: 3px 3px 3px #999;
+}
+.photo_detail {
+	width: 640px; float: left;
+}
+.bp_wrapper {
+	background: rgb(255, 255, 255); margin: 20px auto; border: 1px solid rgb(218, 89, 0); width: 600px; height: 600px;
+}
+.photo_detail .title {
+	color: rgb(255, 255, 255); line-height: 30px; font-size: 18px; font-weight: bold; margin-left: 20px;
+}
+.photo_detail .link {
+	background-position: -50px -440px; width: 230px; line-height: 25px; padding-left: 45px; margin-top: 15px;
+}
+.photo_detail .link a {
+	color: rgb(252, 190, 146); font-size: 12px; font-weight: bold; text-decoration: underline;
+}
+.photo_list {
+	background: rgb(255, 255, 255); width: 250px; height: 760px; float: right;
+}
+.type_select {
+	background: rgb(248, 248, 248); padding: 20px 0px 0px 12px; height: 35px;
+}
+.type_select select {
+	border: 1px solid rgb(171, 173, 179); width: 142px; height: 20px; color: rgb(252, 103, 0); line-height: 20px;
+}
+.photo_list ul {
+	padding: 15px 0px 0px 12px; margin-top: 1px; border-top-color: rgb(221, 221, 221); border-top-width: 1px; border-top-style: solid;
+}
+.photo_list ul li a {
+	margin: 0px 8px 8px 0px; border: 1px solid rgb(221, 221, 221); width: 68px; height: 68px; float: left; display: block;
+}
+.photo_list ul li a:hover {
+	border: 1px solid rgb(252, 103, 0);
+}
+.closebox a {
+	background-position: -730px -210px; top: -23px; width: 47px; height: 47px; right: -23px; display: block; position: absolute;
+}
+.tagscontainer {
+	padding: 15px 12px 0px; border-top-color: rgb(234, 234, 234); border-top-width: 1px; border-top-style: solid;
+}
+.tags_head {
+	color: rgb(51, 51, 51); font-size: 14px;
+}
+.tags_head span {
+	font-size: 11px; font-weight: normal;
+}
+.tags_head a {
+	font-size: 11px; font-weight: normal;
+}
+.tags_head span {
+	padding: 0px 0px 0px 5px; color: rgb(170, 170, 170);
+}
+.tags_head a {
+	color: rgb(6, 91, 168); float: right;
+}
+.tags_con {
+	margin: 20px 0px 0px; padding-bottom: 10px;
+}
+.tags_nav li {
+	width: 32px; float: left; position: relative; z-index: 1;
+}
+.tags_nav li.all {
+	width: 41px; margin-left: 6px;
+}
+.tags_nav a {
+	background: rgb(255, 255, 255); border-width: 1px 1px 1px 0px; border-style: solid solid solid none; border-color: rgb(213, 213, 213) rgb(213, 213, 213) rgb(213, 213, 213) currentColor; padding: 1px 0px 0px 1px; color: rgb(170, 170, 170); text-decoration: none; display: block;
+}
+.tags_nav a span {
+	background: url("//www.dx.com/Content/img/bg_tags_nav.gif") repeat-x; height: 26px; text-align: center; line-height: 24px; display: block; cursor: pointer;
+}
+.tags_nav li.all a {
+	border-left-color: rgb(213, 213, 213); border-left-width: 1px; border-left-style: solid;
+}
+.tags_nav a:hover {
+	background: url("//www.dx.com/Content/img/bg_tags_nav_light.png");
+}
+.tags_nav a:hover span {
+	background: url("//www.dx.com/Content/img/bg_tags_nav_light.png");
+}
+.tags_nav a.active {
+	background: url("//www.dx.com/Content/img/bg_tags_nav_light.png");
+}
+.tags_nav a.active span {
+	background: url("//www.dx.com/Content/img/bg_tags_nav_light.png");
+}
+.tags_nav a.active {
+	border-width: 0px 0px 1px 1px; padding: 0px 0px 0px 5px; outline: 0px; height: 28px; color: rgb(255, 255, 255);
+}
+.tags_nav a:hover {
+	border-width: 0px 0px 1px 1px; padding: 0px 0px 0px 5px; outline: 0px; height: 28px; color: rgb(255, 255, 255);
+}
+.tags_nav a.active span {
+	background-position: right 0px; padding: 0px 5px 0px 0px; height: 28px; line-height: 28px;
+}
+.tags_nav a:hover span {
+	background-position: right 0px; padding: 0px 5px 0px 0px; height: 28px; line-height: 28px;
+}
+.tags_nav li.all a:hover {
+	border-left-color: currentColor; border-left-width: 0px; border-left-style: none;
+}
+.tags_nav li.all a.active {
+	border-left-color: currentColor; border-left-width: 0px; border-left-style: none;
+}
+.tags_nav a.active::after {
+	background: url("//www.dx.com/Content/img/bg_tags_nav_light.png") no-repeat center -28px; left: 0px; width: 100%; height: 5px; text-align: center; position: absolute; content: " ";
+}
+.tags_list li {
+	padding: 30px 0px 25px 90px; border-bottom-color: rgb(213, 213, 213); border-bottom-width: 1px; border-bottom-style: solid; position: relative;
+}
+.tags_list .tags_letter {
+	background: url("//www.dx.com/Content/img/bg_tags_tip.png") no-repeat; padding: 0px 3px 0px 0px; left: 0px; width: 49px; height: 42px; text-align: center; color: rgb(246, 105, 7); line-height: 42px; font-size: 24px; font-weight: bold; position: absolute;
+}
+.tags_box a {
+	margin: 0px 10px 8px 0px; width: 261px; height: 14px; color: rgb(102, 102, 102); line-height: 14px; overflow: hidden; font-size: 12px; display: inline-block;
+}
+.tags_box a:hover {
+	color: rgb(246, 105, 7);
+}
+.tags_btn {
+	margin-right: 10px; float: right;
+}
+.s_prolist {
+	border-width: 1px 0px; border-style: solid; border-color: rgb(213, 213, 213); overflow: hidden; padding-top: 10px;
+}
+.s_prolist li {
+	margin-left: 14px; float: left; moverflow: hidden;
+}
+.s_prolist li a {
+	display: block;
+}
+.s_prolist li img {
+	padding: 1px; border: 1px solid rgb(226, 226, 226); width: 216px; height: 95px; vertical-align: middle;
+}
+.s_prolist li span {
+	background-position: -8px -333px; padding: 0px 0px 0px 10px; height: 40px; color: rgb(102, 102, 102); line-height: 40px; font-size: 14px; font-weight: bold; display: block;
+}
+.s_prolist li a:hover span {
+	text-decoration: underline;
+}
+.s_probox {
+	border: 1px solid rgb(213, 213, 213); margin-top: 10px;
+}
+.s_probox_region {
+	background: url("//www.dx.com/Content/img/next_b_act.gif") no-repeat 5px rgb(255, 246, 233); color: rgb(246, 105, 7); line-height: 25px; padding-left: 20px;
+}
+.billboardbox {
+	margin-bottom: 10px;
+}
+.billboardbox .head {
+	background: url("//www.dx.com/Content/img/bg_topbar.jpg") no-repeat; height: 33px; color: rgb(255, 255, 255); line-height: 33px; padding-left: 28px; font-size: 14px;
+}
+.billboardmain {
+	border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor rgb(213, 213, 213) rgb(213, 213, 213); padding: 12px 12px 6px;
+}
+.billboardbox .productList {
+	overflow: hidden;
+}
+.billboardbox .productList li {
+	margin: 0px 21px; padding: 0px 0px 13px; width: 140px; height: auto; float: left; position: relative;
+}
+.billboardbox .productList li img {
+	border: 1px solid rgb(233, 227, 171);
+}
+.billboardbox .productList li .icon {
+	left: 0px; top: 0px; width: 45px; height: 47px; text-align: left; color: rgb(255, 255, 255); padding-left: 10px; font-family: impact; font-size: 24px; font-style: italic; position: absolute;
+}
+.billboard_topbox .leftbox {
+	width: 690px; float: left;
+}
+.billboard_topbox h3 {
+	background-position: 0px -363px; border: 1px solid rgb(213, 213, 213); height: 30px; color: rgb(73, 38, 0); line-height: 30px; padding-left: 50px; font-size: 14px; position: relative;
+}
+.billboard_topbox h3 .icon {
+	left: 0px; top: 0px; width: 37px; height: 30px; border-right-color: rgb(213, 213, 213); border-right-width: 1px; border-right-style: solid; position: absolute;
+}
+.icon_cart {
+	background: url("//www.dx.com/Content/img/gadgets_icon.png") no-repeat;
+}
+.icon_star {
+	background: url("//www.dx.com/Content/img/gadgets_icon.png") no-repeat;
+}
+.icon_search {
+	background: url("//www.dx.com/Content/img/gadgets_icon.png") no-repeat;
+}
+.icon_cart {
+	background-position: 5px 6px;
+}
+.icon_star {
+	background-position: 5px -20px;
+}
+.icon_search {
+	background-position: 5px -47px;
+}
+.icon_num_r {
+	background-position: 0px -48px;
+}
+.icon_num_g {
+	background-position: -33px -48px;
+}
+.billboard_topbox .topseller {
+	margin-bottom: 6px;
+}
+.billboard_topbox .topseller ul {
+	border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor rgb(213, 213, 213) rgb(213, 213, 213); overflow: hidden;
+}
+.billboard_topbox .topsearch ul {
+	border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor rgb(213, 213, 213) rgb(213, 213, 213); overflow: hidden;
+}
+.billboard_topbox .topseller li {
+	padding: 6px 15px 15px 16px; text-align: center; margin-left: -1px; border-left-color: rgb(213, 213, 213); border-left-width: 1px; border-left-style: dashed; float: left;
+}
+.billboard_topbox .topseller .info {
+	background: rgb(246, 246, 246); margin: 0px -15px 0px -16px; padding: 10px 0px; line-height: 18px; border-top-color: rgb(213, 213, 213); border-top-width: 1px; border-top-style: solid;
+}
+.billboard_topbox .info a {
+	cursor: pointer;
+}
+.billboard_topbox .review a:hover {
+	text-decoration: none;
+}
+.billboard_topbox .price {
+	margin: 10px 0px 3px; font-size: 11px;
+}
+.billboard_topbox .price span {
+	color: rgb(170, 170, 170); text-decoration: line-through;
+}
+.billboard_topbox .price strong {
+	color: rgb(246, 105, 7); font-size: 12px;
+}
+.billboard_topbox .sales strong {
+	color: rgb(246, 105, 7); font-size: 12px;
+}
+.billboard_topbox .rightbox {
+	width: 210px; float: right;
+}
+.billboard_topbox .topsearch li {
+	height: 45px; line-height: 45px; padding-left: 45px; font-size: 14px; margin-bottom: -1px; border-bottom-color: rgb(233, 227, 171); border-bottom-width: 1px; border-bottom-style: dashed; position: relative;
+}
+.billboard_topbox .topsearch .num {
+	left: 10px; top: 10px; width: 22px; height: 27px; text-align: center; color: rgb(255, 255, 255); line-height: 32px; font-family: impact; font-size: 14px; vertical-align: middle; position: absolute;
+}
+.billboard_topbox .topsearch a {
+	color: rgb(89, 89, 89);
+}
+.billboard_topbox .topsearch a:hover {
+	color: rgb(246, 105, 7);
+}
+.scroll_cate {
+	top: 212px; margin-left: 960px; position: fixed;
+}
+.scroll_cate li {
+	height: 33px; overflow: hidden; margin-left: -8px; position: relative;
+}
+.scroll_cate li img {
+	margin-top: -33px;
+}
+.scroll_cate li span {
+	top: 0px; width: 7px; height: 7px; right: 0px; display: block; position: absolute;
+}
+.scroll_cate .last span {
+	top: auto; bottom: 0px;
+}
+.scroll_cate .first span {
+	background-position: -7px 0px;
+}
+.scroll_cate .cur.first span {
+	
+}
+.scroll_cate .last span {
+	background-position: -7px -7px;
+}
+.scroll_cate .cur.last span {
+	background-position: 0px -7px;
+}
+.scroll_cate .cur img {
+	margin-top: 0px;
+}
+.pro_spe .subList.productList li {
+	height: auto;
+}
+.subList.productList li {
+	height: 275px;
+}
+.filter_position {
+	background: rgb(238, 238, 238); height: 27px; color: rgb(102, 102, 102); line-height: 27px; overflow: hidden; font-size: 12px; position: relative;
+}
+.filter_position ul {
+	margin-left: -15px;
+}
+.filter_position li {
+	float: left;
+}
+.filter_position a {
+	padding: 0px 0px 0px 25px; height: 27px; color: rgb(51, 51, 51); display: block; position: relative; z-index: 4;
+}
+.filter_position li.on span {
+	padding: 0px 0px 0px 25px; height: 27px; color: rgb(51, 51, 51); display: block; position: relative; z-index: 4;
+}
+.filter_position s {
+	top: 0px; width: 18px; height: 27px; right: -18px; position: absolute; z-index: 5;
+}
+.filter_position a:hover {
+	background: rgb(221, 221, 221); color: rgb(0, 0, 0); text-decoration: none; z-index: 3;
+}
+.filter_position a:hover s {
+	background-position: 0px -27px;
+}
+.filter_position li.on a {
+	background: rgb(204, 204, 204); z-index: 2;
+}
+.filter_position li.on span {
+	background: rgb(204, 204, 204); z-index: 2;
+}
+.filter_position li.on s {
+	background-position: 0px -54px;
+}
+.sub_cate_pos {
+	line-height: 22px; padding-left: 25px; font-size: 12px; font-weight: bold;
+}
+.dialog_addtocart .bd {
+	border: 1px solid rgb(196, 196, 196);
+}
+.clearance_note {
+	background: rgb(246, 247, 247); margin: 10px 0px 0px; padding: 8px; border: 1px solid rgb(213, 213, 213); color: rgb(246, 105, 7); line-height: 18px; font-size: 12px;
+}
+.clearance_note b {
+	color: rgb(51, 51, 51);
+}
+.clearance .subList.productList li {
+	height: auto;
+}
+.clearance .pro_spe .productList li {
+	height: auto;
+}
+.advicebox {
+	background: url("//www.dx.com/Content/img/bg_advicebox_h.png") repeat-x rgb(245, 245, 245); margin: 0px 0px 8px; padding: 20px 12px 10px; border: 1px solid rgb(213, 213, 213); font-size: 13px;
+}
+.advicebox .qa {
+	margin: 0px 0px 10px; line-height: 20px; font-family: "Comic Sans MS"; font-style: italic;
+}
+.advicebox .qa b {
+	color: rgb(246, 105, 7);
+}
+.advicebox .vc {
+	margin: 10px 0px 0px;
+}
+.advicebox .text {
+	padding: 5px; border: 1px solid rgb(213, 213, 213); color: rgb(153, 153, 153); font-family: tahoma; box-shadow: inset 0px 2px 2px #ddd;
+}
+.advicebox .vc_input {
+	padding: 5px; border: 1px solid rgb(213, 213, 213); color: rgb(153, 153, 153); font-family: tahoma; box-shadow: inset 0px 2px 2px #ddd;
+}
+.advicebox .vc_input {
+	margin: 0px 5px 0px 0px; padding: 4px 5px; width: 78px; height: 16px;
+}
+.advicebox .text {
+	width: 173px; height: 80px; resize: none;
+}
+.advicebox .s {
+	background: rgb(255, 252, 225); padding: 9px; border: 1px solid rgb(218, 207, 156); width: 165px; text-align: center; color: rgb(255, 100, 0); line-height: 18px;
+}
+.advicebox .s .link {
+	color: rgb(0, 0, 255); text-decoration: underline;
+}
+.advicebox .vc_code {
+	vertical-align: top;
+}
+.advicebox .oper {
+	margin: 10px 20px 0px 0px; text-align: center;
+}
+.advicebox .btn {
+	background: url("//www.dx.com/Content/img/btn_s.png") no-repeat; height: 35px; color: rgb(255, 255, 255); line-height: 35px; font-family: "Comic Sans MS",cursive; font-style: normal; display: inline-block;
+}
+.advicebox .btn i {
+	background: url("//www.dx.com/Content/img/btn_s.png") no-repeat; height: 35px; color: rgb(255, 255, 255); line-height: 35px; font-family: "Comic Sans MS",cursive; font-style: normal; display: inline-block;
+}
+.advicebox .btn {
+	padding: 0px 0px 0px 20px;
+}
+.advicebox .btn i {
+	background-position: 100% 0px; margin: 0px -20px 0px 0px; padding: 0px 20px 0px 0px;
+}
+.advicebox .disable.btn {
+	background-position: 0px -35px; color: rgb(235, 235, 235); cursor: default;
+}
+.advicebox .disable.btn i {
+	background-position: 100% -35px;
+}
+.wh_subtitle_au {
+	margin: -1px -1px 0px; height: 30px; line-height: 30px; padding-left: 15px; font-size: 12px; position: relative;
+}
+.wh_subtitle_eu {
+	margin: -1px -1px 0px; height: 30px; line-height: 30px; padding-left: 15px; font-size: 12px; position: relative;
+}
+.wh_subtitle_au {
+	background: url("//www.dx.com/Content/img/bg_side_title.gif") repeat-x; border: 1px solid rgb(213, 213, 213);
+}
+.wh_subtitle_eu {
+	background: url("//www.dx.com/Content/img/bg_side_title.gif") repeat-x; border: 1px solid rgb(213, 213, 213);
+}
+.ProductRequest {
+	margin: 0px auto; border: 1px solid rgb(213, 213, 213); left: 0px; top: 0px; width: 650px; text-align: left; position: static;
+}
+.ProductRequest hd {
+	border: 0px currentColor;
+}
+.popTxtInfo {
+	width: 560px;
+}
+.successtip {
+	padding: 10px; line-height: 20px;
+}
+.boxHeight20 {
+	height: 40px;
+}
+.brand_wrap .cate_sidebar .sprite_icon {
+	background-image: none;
+}
+.brand_wrap .cate_sidebar .brand {
+	border: 1px solid rgb(204, 204, 204); height: 90px;
+}
+.brand_wrap .cate_sidebar .brand img {
+	margin: 0px auto; display: block;
+}
+.brand_wrap .cate_sidebar .brand {
+	margin-bottom: 10px;
+}
+.brand_wrap .cate_sidebar .cBox {
+	margin-bottom: 10px;
+}
+.brand_wrap .cate_sidebar .brand_story {
+	padding: 10px;
+}
+.brand_wrap .cate_sidebar .view_more {
+	text-align: right; display: block;
+}
+.related_brands ul {
+	overflow: hidden;
+}
+.related_brands ul li {
+	border: 1px solid rgb(204, 204, 204); height: 63px; margin-top: 10px; margin-left: 14px; float: left;
+}
+.related_brands ul li:last-child {
+	margin-bottom: 10px;
+}
+.brand_wrap .cate_mainbox h4 {
+	height: 30px; color: rgb(70, 35, 8); line-height: 30px; overflow: hidden; font-size: 18px; margin-bottom: 10px; border-bottom-color: rgb(252, 124, 2); border-bottom-width: 2px; border-bottom-style: solid; position: relative;
+}
+.brand_wrap .cate_mainbox h4 .more {
+	background: url("//www.dx.com/Content/img/pro_icon_more.png") no-repeat 60px 13px; font: 500 12px/30px Verdana; padding-right: 10px; float: right; font-size-adjust: none; font-stretch: normal;
+}
+.brand_wrap .cate_mainbox h4 .more:hover {
+	background-position: 60px -10px; color: rgb(246, 105, 7);
+}
+.brand_wrap .cate_mainbox .brands_list {
+	margin: 0px auto 10px; width: 710px; overflow: hidden;
+}
+.brand_wrap .cate_mainbox .brands_list li {
+	border: 1px solid rgb(204, 204, 204); height: 63px; margin-bottom: 10px; margin-left: 5px; float: left;
+}
+.brand_wrap .cate_mainbox .scroll_box {
+	width: 100%;
+}
+.brand_wrap .cate_mainbox .scroll_box {
+	margin: 0px auto 20px; height: 335px; overflow: hidden; position: relative;
+}
+.brand_wrap .cate_mainbox .scroll_box .scroll_img {
+	left: 0px; top: 0px; position: absolute;
+}
+.brand_wrap .cate_mainbox .scroll_box .scroll_img li {
+	width: 720px; height: 335px;
+}
+.brand_wrap .cate_mainbox .filter_result {
+	margin-top: 0px;
+}
+.brand_wrap .cate_mainbox #new_arrivals .prev {
+	width: 23px; height: 34px; text-indent: -9999px; display: block; position: absolute; z-index: 6; cursor: pointer; background-image: url("//www.dx.com/Content/img/page_controls.png"); background-repeat: no-repeat;
+}
+.brand_wrap .cate_mainbox #new_arrivals .next {
+	width: 23px; height: 34px; text-indent: -9999px; display: block; position: absolute; z-index: 6; cursor: pointer; background-image: url("//www.dx.com/Content/img/page_controls.png"); background-repeat: no-repeat;
+}
+.brand_wrap .cate_mainbox #new_arrivals .prev {
+	top: 100px;
+}
+.brand_wrap .cate_mainbox #new_arrivals .next {
+	top: 100px;
+}
+.brand_wrap .cate_mainbox #new_arrivals .prev {
+	left: 0px;
+}
+.brand_wrap .cate_mainbox #new_arrivals .prev:hover {
+	background-position: 0px -35px;
+}
+.brand_wrap .cate_mainbox #new_arrivals .next {
+	background-position: -30px 0px; right: 0px;
+}
+.brand_wrap .cate_mainbox #new_arrivals .next:hover {
+	background-position: -30px -35px;
+}

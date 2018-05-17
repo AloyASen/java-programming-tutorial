@@ -1,0 +1,7 @@
+package File_readers;
+
+public class Word_details_enlister<T,V> {
+	String wordS;
+	int Freq=
+	
+}

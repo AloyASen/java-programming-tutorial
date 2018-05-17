@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;marque/src&apos;&#x0D;&#x0A;- Original project: &apos;jdbcdemo&apos;&#x0D;&#x0A;- Destination element: &apos;marque/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     jdbcdemo.Dbconfig.java&#x0D;&#x0A;     jdbcdemo.Operation.java&#x0D;&#x0A;     jdbcdemo.Main.java" description="Copy compilation units" destination="=marque/src" element1="/src&lt;jdbcdemo{Dbconfig.java" element2="/src&lt;jdbcdemo{Operation.java" element3="/src&lt;jdbcdemo{Main.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1420821901563" units="3" version="1.0"/>
+</session>

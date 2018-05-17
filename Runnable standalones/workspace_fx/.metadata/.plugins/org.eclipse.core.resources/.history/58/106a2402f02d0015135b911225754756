@@ -1,0 +1,31 @@
+/**
+ * 
+ */
+
+/**
+ * @author Aloy Aditya Sen
+ * this is a simple prototype		
+ *
+ */
+public class Java_test {
+	static{
+		System.loadLibrary("hello");
+		java.lib.
+	}
+	
+	/*
+	 * 
+	 */
+	private native void say_hello();
+	/**
+	 * this is the constructor
+	 */
+	public Java_test() {
+		// TODO Auto-generated constructor stub
+	}
+	public static void main(String[] args) {
+		new Java_test().say_hello();
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Pipeline source="" target="" useEmbedded="false">
+<Attributes/>
+<Transforms>
+<Transform uriResolver="" url="file:/C:/cygwin/home/Aloysen/apache-nutch-2.2.1/conf/configuration.xsl">
+<OutputProperties/>
+<Parameters/>
+</Transform>
+</Transforms>
+</Pipeline>

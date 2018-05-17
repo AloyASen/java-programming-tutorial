@@ -1,0 +1,11 @@
+package Image_pixelmap;
+
+
+public class Biff_Red {
+	public Biff_Red() {
+		// TODO Auto-generated constructor stub
+	}
+	public static void main(String[] args) {
+	
+	}
+}

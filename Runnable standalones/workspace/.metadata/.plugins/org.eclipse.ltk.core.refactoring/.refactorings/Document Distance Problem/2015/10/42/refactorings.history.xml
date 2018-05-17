@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Convert local variable &apos;File_readers.The_reader.run().i&apos; in &apos;File_readers.The_reader.run()&apos; to field&#x0D;&#x0A;- Original project: &apos;Document Distance Problem&apos;&#x0D;&#x0A;- Original element: &apos;File_readers.The_reader.run().i&apos;&#x0D;&#x0A;- Field name: &apos;i&apos;&#x0D;&#x0A;- Initialize field in method&#x0D;&#x0A;- Declared visibility: &apos;private&apos;" description="Convert local variable &apos;i&apos; to field" final="false" flags="2" id="org.eclipse.jdt.ui.promote.temp" initialize="1" input="/src&lt;File_readers{The_reader.java" name="i" selection="1249 3" stamp="1445069772656" static="false" version="1.0" visibility="2"/>
+</session>

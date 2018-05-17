@@ -1,0 +1,10 @@
+package File_readers;
+
+public class Word_details_enlister<T,V> {
+	T wordS;
+	int Freq;
+	public Word_details_enlister() {
+		// TODO Auto-generated constructor stub
+	}
+	
+}

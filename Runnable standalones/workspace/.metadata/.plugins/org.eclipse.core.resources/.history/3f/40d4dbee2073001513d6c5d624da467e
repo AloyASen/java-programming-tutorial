@@ -1,0 +1,11 @@
+package File_readers;
+
+public class filepath {
+	public filepath() {
+		// TODO Auto-generated constructor stub
+	}
+	public static void main(String[] args) {
+		filepath fpth =new filepath();
+	}
+
+}

@@ -1,0 +1,8 @@
+package ipc;
+
+public class Synchronizer {
+	public static void main(String ... args) {
+		nonSynch ipc=new nonSynch();
+		caller ob1=new caller(ipc, "give");
+	}
+}

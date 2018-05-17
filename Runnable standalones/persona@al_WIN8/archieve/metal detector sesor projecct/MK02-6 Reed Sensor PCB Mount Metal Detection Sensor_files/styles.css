@@ -1,0 +1,48 @@
+.tx-irfaq-pi1 ul.tx-irfaq-questions-list {
+	margin-bottom: 75px;
+}
+.tx-irfaq-pi1 ul li a p.bodytext {
+	margin: 0px; font-weight: bold; display: inline;
+}
+.tx-irfaq-pi1 ul li a {
+	color: rgb(0, 0, 0); text-decoration: none;
+}
+.tx-irfaq-pi1 ul li a:hover {
+	color: rgb(0, 0, 0); text-decoration: underline;
+}
+.tx-irfaq-pi1 .tx-irfaq-answer {
+	margin-bottom: 10px;
+}
+.tx-irfaq-pi1 .tx-irfaq-answer h4 p.bodytext {
+	margin: 0px; font-weight: bold; display: inline;
+}
+.tx-irfaq-pi1 dt p {
+	margin: 0px; font-weight: bold; display: inline;
+}
+.tx-irfaq-pi1 dd {
+	margin-left: 0px;
+}
+.tx-irfaq-pi1 dd p {
+	margin-top: 0px;
+}
+.tx-irfaq-pi1 .additional-info {
+	margin-bottom: 10px; border-top-color: rgb(230, 230, 230); border-top-width: 2px; border-top-style: solid;
+}
+.tx-irfaq-pi1 .irfaq-related-faq {
+	padding-top: 0px; padding-bottom: 0px; margin-top: 3px; margin-bottom: 15px;
+}
+.tx-irfaq-pi1 .irfaq-related-links {
+	padding-top: 0px; padding-bottom: 0px; margin-top: 3px; margin-bottom: 15px;
+}
+.tx-irfaq-cleaner {
+	height: 1px; clear: left;
+}
+.tx-irfaq-dynheader {
+	cursor: pointer;
+}
+.tx-irfaq-dynans-hidden {
+	display: none;
+}
+.tx-irfaq-dynans-visible {
+	display: inline;
+}

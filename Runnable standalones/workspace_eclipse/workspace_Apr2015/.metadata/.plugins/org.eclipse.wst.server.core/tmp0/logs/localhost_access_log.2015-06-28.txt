@@ -1,0 +1,8 @@
+127.0.0.1 - - [28/Jun/2015:12:19:36 +0530] "GET / HTTP/1.1" 404 1000
+0:0:0:0:0:0:0:1 - - [28/Jun/2015:12:19:39 +0530] "GET /Expenditure_Template/ HTTP/1.1" 200 4587
+0:0:0:0:0:0:0:1 - - [28/Jun/2015:12:19:47 +0530] "GET /favicon.ico HTTP/1.1" 404 1022
+0:0:0:0:0:0:0:1 - - [28/Jun/2015:12:19:50 +0530] "GET /Expenditure_Template/login.jsp HTTP/1.1" 200 3870
+0:0:0:0:0:0:0:1 - - [28/Jun/2015:12:19:56 +0530] "POST /Expenditure_Template/controller1.jsp HTTP/1.1" 500 2392
+0:0:0:0:0:0:0:1 - - [28/Jun/2015:12:22:16 +0530] "GET /Expenditure_Template/user_index.jsp HTTP/1.1" 200 3445
+0:0:0:0:0:0:0:1 - - [28/Jun/2015:12:22:18 +0530] "GET /Expenditure_Template/logout1.jsp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [28/Jun/2015:12:22:18 +0530] "GET /Expenditure_Template/index.jsp HTTP/1.1" 200 4587

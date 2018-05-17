@@ -1,0 +1,15 @@
+package File_readers;
+
+import java.util.concurrent.ForkJoinPool;
+
+public class filepath {
+	public filepath() {
+		// TODO Auto-generated constructor stub
+		The_reader tr1=new The_reader("C:/Users/Aloy Aditya Sen/workspace/Document Distance Problem/src/File_readers/ntfs_file_test.txt");
+		The_reader tr2=new The_reader("");
+	}
+	public static void main(String[] args) {
+		ForkJoinPool FJP=new ForkJoinPool();
+	}
+
+}

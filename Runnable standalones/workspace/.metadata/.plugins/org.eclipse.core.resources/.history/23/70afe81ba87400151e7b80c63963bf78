@@ -1,0 +1,86 @@
+/**
+ * 
+ */
+package File_readers;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Scanner;
+import java.util.Vector;
+
+/**
+ * @author Aloy Aditya Sen
+ *
+ */
+public class The_reader implements Runnable {
+
+	/**
+	 * @param filepath ,file this the path of the file that is to be operated on 
+	 */
+	Scanner sc;
+	List<String> UNI_WORD_list;
+	Vector<Word_details_enlister> words = new Vector<>(); 
+	String fp ,file;
+	@SuppressWarnings("unused")
+	private int i;
+	
+	 public The_reader(String filepath , String  file) {
+		// TODO Auto-generated constructor stub
+		 this.fp=filepath;
+		 this.file=file;
+		 
+		 
+		
+	}	
+	 synchronized private void Display(Vector<Word_details_enlister> e) {
+			Iterator<Word_details_enlister> itr =e.iterator();
+			
+			while (itr.hasNext()) {
+				Word_details_enlister t = itr.next();
+				System.out.println("the next word is "+itr.next().wordS);
+				System.out.println("the word frequency is "+ it);
+				
+			}
+	}
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		try {
+			sc= new Scanner(new File(fp+file));
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			System.out.println("the File is not present see the path is correct ");
+		}
+		String ReadLine;
+		UNI_WORD_list=new ArrayList<>();
+		
+		i = 0;
+		do {
+			ReadLine= sc.next();
+			if (UNI_WORD_list.isEmpty()) {
+				UNI_WORD_list.add(ReadLine);
+				words.addElement(new Word_details_enlister(ReadLine));
+				
+					
+			} else {
+				if (UNI_WORD_list.contains(ReadLine)) {
+					int l=UNI_WORD_list.indexOf(ReadLine);;
+					words.elementAt(l).setFreq(words.elementAt(l).getFreq()+1);
+				} else {
+					UNI_WORD_list.add(ReadLine);
+					words.addElement(new Word_details_enlister(ReadLine));
+					
+										
+				}
+			}
+			
+			
+			
+			i++;
+			} while (sc.hasNext());
+		Display(words);
+	}
+}

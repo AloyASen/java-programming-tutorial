@@ -1,0 +1,26 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+
+abstract class community{
+	char com[];
+	private void com_array() {
+	}		
+
+	
+}
+public class on_comm_connect extends community {
+	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	private int i;
+
+	public on_comm_connect() throws IOException {
+		// TODO Auto-generated constructor stub
+		com[i]=(char)br.read();
+	}
+	public static void main(String[] args) {
+		// whenever anew community comes this class is joined 
+		
+	}
+
+}

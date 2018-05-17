@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="build.xml" key="antview.lastSearchString"/>
+	<item value="false" key="antview.includeErrorSearchResults"/>
+	<item value="alo" key="antview.lastSearchScope"/>
+	<item value="true" key="antview.useWorkingSetSearchScope"/>
+	<section name="org.eclipse.ant.internal.ui.views.AntView">
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;antView&gt;&#x0D;&#x0A;&lt;project default=&quot;runtime&quot; error=&quot;false&quot; name=&quot;${name}&quot; path=&quot;/trunk/build.xml&quot; warning=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;project default=&quot;runtime&quot; error=&quot;false&quot; name=&quot;${name}&quot; path=&quot;/apache-nutch-2.2.1/build.xml&quot; warning=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;filterInternalTargets value=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;/antView&gt;" key="memento"/>
+	</section>
+</section>

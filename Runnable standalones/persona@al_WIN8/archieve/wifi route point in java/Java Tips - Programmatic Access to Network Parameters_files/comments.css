@@ -1,0 +1,60 @@
+.commentarea {
+	text-align: center;
+}
+div.box {
+	background: url("top.gif") no-repeat left top; padding: 10px 8px 15px 10px; left: 20px; width: 695px; position: relative;
+}
+div.comm_pages {
+	background: url("top.gif") no-repeat left top; padding: 10px 8px 15px 10px; left: 20px; width: 695px; position: relative;
+}
+div.commentheading {
+	background: url("top.gif") no-repeat left top; padding: 10px 8px 15px 10px; left: 20px; width: 695px; position: relative;
+}
+div.box div {
+	background: url("middle.gif") repeat-y left; width: 695px; margin-left: -10px;
+}
+div.comm_pages div {
+	background: url("middle.gif") repeat-y left; width: 695px; margin-left: -10px;
+}
+div.commentheading div {
+	background: url("middle.gif") repeat-y left; width: 695px; margin-left: -10px;
+}
+div.box div div {
+	background: url("bottom.gif") no-repeat left bottom; padding: 10px 8px 15px 10px; width: 695px; margin-left: 0px;
+}
+div.comm_pages div div {
+	background: url("bottom.gif") no-repeat left bottom; padding: 10px 8px 15px 10px; width: 695px; margin-left: 0px;
+}
+div.commentheading div div {
+	background: url("bottom.gif") no-repeat left bottom; padding: 10px 8px 15px 10px; width: 695px; margin-left: 0px;
+}
+.commenttext {
+	
+}
+.commentsmalltext {
+	
+}
+.message {
+	font-family: Trebuchet MS,Verdana,Arial,Helvetica,sans-serif; font-size: 11px;
+}
+div.comments-body {
+	background: url("top.gif") no-repeat left top; padding: 10px 8px 15px 10px; left: 20px; width: 695px; color: rgb(102, 102, 102); line-height: 140%; font-family: "Lucida Grande",palatino,georgia,verdana,arial,sans-serif; font-size: small; font-weight: normal; position: relative;
+}
+div.comments-body div {
+	background: url("middle.gif") repeat-y left; width: 695px; margin-left: -10px;
+}
+div.comments-body div div {
+	background: url("bottom.gif") no-repeat left bottom; padding: 10px 8px 15px 10px; width: 695px; margin-left: 0px; display: table;
+}
+div.comments-body div div p {
+	width: 675px;
+}
+.comments-post {
+	background: url("b.gif") no-repeat; padding: 0px 360px 5px 10px !important; width: 670px; height: 25px; color: rgb(102, 102, 102); line-height: 25px; text-indent: 4px; font-family: verdana,arial,sans-serif; font-size: x-small; font-weight: normal; display: table-row; min-width: 670px;
+}
+span.comment_code {
+	color: rgb(102, 0, 0); font-family: ProFont,Monaco; font-size: x-small;
+}
+span.comments-user {
+	font-weight: bolder;
+}

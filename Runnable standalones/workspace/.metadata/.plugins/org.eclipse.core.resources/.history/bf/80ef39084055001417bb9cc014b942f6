@@ -1,0 +1,8 @@
+package Implementation;
+
+public class ProgramPattern {
+
+	int p=0;//the profit if the whole item is selected
+	int w=0;// the weight of the item
+	int index=p/w;
+}

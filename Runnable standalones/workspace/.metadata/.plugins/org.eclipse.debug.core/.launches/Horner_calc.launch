@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Function_Solve_Method2/src/Horners_Rule/Horner_calc.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Horners_Rule.Horner_calc"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Function_Solve_Method2"/>
+</launchConfiguration>

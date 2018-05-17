@@ -1,0 +1,30 @@
+package File_readers;
+
+import java.util.Iterator;
+import java.util.List;
+import java.util.concurrent.ForkJoinPool;
+
+public class filepath {
+	
+	public static void main(String[] args) {
+		ForkJoinPool FJP=new ForkJoinPool();
+		The_reader tr1=new The_reader("C:/Users/Aloy Aditya Sen/workspace/Document Distance Problem/src/File_readers/","ntfs_file_test.txt");
+		The_reader tr2=new The_reader("C:/Users/Aloy Aditya Sen/workspace/Document Distance Problem/src/File_readers/","this_is a_check.txt");
+		FJP.execute(tr1);
+		FJP.execute(tr2);
+		FJP.shutdown();
+		tr1.join();
+		tr2.join();
+		System.out.println("");
+	}
+	private void Display(List<String> e) {
+		Iterator<String> itr =e.iterator();
+		
+		while (itr.hasNext()) {
+			System.out.println("the next word is "+itr.next());
+			
+		}
+		
+		
+	}
+}

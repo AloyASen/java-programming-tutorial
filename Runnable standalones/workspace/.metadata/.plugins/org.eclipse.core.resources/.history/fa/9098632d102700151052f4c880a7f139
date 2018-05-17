@@ -1,0 +1,13 @@
+package web_browser;
+
+import javax.swing.JFrame;
+
+public class WebBrowser
+{
+	@SuppressWarnings("deprecation")
+	public static void main(String [] args)
+	{
+		JFrame frame = new EditorPaneFrame();
+		frame.show();;
+	}
+}

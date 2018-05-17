@@ -1,0 +1,516 @@
+#jquery-overlay {
+	left: 0px; top: 0px; width: 100%; height: 500px; position: absolute; z-index: 9000;
+}
+#jquery-lightbox {
+	left: 0px; top: 0px; width: 100%; text-align: center; line-height: 0; position: absolute; z-index: 9100;
+}
+#lightbox-container {
+	background: rgb(255, 255, 255); margin: 0px auto; border-radius: 5px; display: inline-block; position: relative; box-shadow: 3px 3px 3px #999; -webkit-border-radius: 5px; -moz-border-radius: 5px; -webkit-box-shadow: 3px 3px 3px #999; -moz-box-shadow: 3px 3px 3px #999;
+}
+#lightbox-container::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+#lightbox-activeimage {
+	background: rgb(252, 103, 0); padding: 20px; border-radius: 5px 0px 0px 5px; float: left; -webkit-border-radius: 5px 0 0 5px; -moz-border-radius: 5px 0 0 5px;
+}
+#lightbox-images {
+	width: 250px; float: left;
+}
+#lightbox-images-group-box {
+	background: rgb(248, 248, 248); padding: 20px 0px 0px 12px; height: 35px; text-align: left;
+}
+#lightbox-images-group-box select {
+	border: 1px solid rgb(171, 173, 179); width: 142px; height: 20px; color: rgb(252, 103, 0); line-height: 20px;
+}
+#lightbox-images-container {
+	padding: 15px 0px 0px 12px; margin-top: 1px; border-top-color: rgb(221, 221, 221); border-top-width: 1px; border-top-style: solid;
+}
+#lightbox-images-list {
+	width: 100%; overflow: auto; position: absolute;
+}
+#lightbox-videos-list {
+	width: 100%; overflow: auto; position: absolute;
+}
+#lightbox-images-box {
+	height: 500px; overflow: hidden; position: relative;
+}
+#lightbox-images-button-box {
+	padding-right: 12px; display: none;
+}
+#lightbox-images-list-up {
+	background: url("//www.dx.com/Content/img/detailBtn.png") no-repeat; margin: 5px 0px 0px; width: 90px; height: 25px; display: inline-block; cursor: pointer;
+}
+#lightbox-images-list-down {
+	background: url("//www.dx.com/Content/img/detailBtn.png") no-repeat; margin: 5px 0px 0px; width: 90px; height: 25px; display: inline-block; cursor: pointer;
+}
+#lightbox-images-list-up {
+	background-position: 0px -51px; margin-right: 20px;
+}
+#lightbox-images-list-up:hover {
+	
+}
+#lightbox-images-list-down {
+	background-position: 0px -70px;
+}
+#lightbox-images-list-down:hover {
+	background-position: 0px -25px;
+}
+#lightbox-images-list li {
+	margin: 0px 8px 8px 0px; width: 70px; height: 70px; float: left;
+}
+#lightbox-videos-list li {
+	margin: 0px 8px 8px 0px; width: 70px; height: 70px; float: left;
+}
+#lightbox-images-list li a {
+	border: 1px solid rgb(221, 221, 221); display: block;
+}
+#lightbox-videos-list li a {
+	border: 1px solid rgb(221, 221, 221); display: block;
+}
+#lightbox-images-list li a:hover {
+	border-color: rgb(252, 103, 0);
+}
+#lightbox-images-list li a.actived {
+	border-color: rgb(252, 103, 0);
+}
+#lightbox-videos-list li a:hover {
+	border-color: rgb(252, 103, 0);
+}
+#lightbox-videos-list li a.actived {
+	border-color: rgb(252, 103, 0);
+}
+#lightbox-images-list li a img {
+	width: 68px; height: 68px;
+}
+#lightbox-videos-list li a img {
+	width: 68px; height: 68px;
+}
+#lightbox-container-image-box {
+	background: rgb(255, 255, 255); width: 600px; height: 600px; position: relative; min-height: 400px; min-width: 400px;
+}
+#lightbox-container-image {
+	background: rgb(255, 255, 255);
+}
+#lightbox-loading {
+	left: 0px; top: 40%; width: 100%; text-align: center; line-height: 0; position: absolute;
+}
+#lightbox-loading-link {
+	background: url("//www.dx.com/Content/img/lightbox-ico-loading.gif") no-repeat; margin: 0px auto; width: 32px; height: 32px; display: block;
+}
+#lightbox-nav {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; z-index: 8000;
+}
+#lightbox-container-image-box > #lightbox-nav {
+	left: 0px;
+}
+#lightbox-image-details {
+	color: rgb(255, 255, 255); line-height: 20px; font-size: 18px; font-weight: bold;
+}
+#lightbox-nav a {
+	outline: 0px;
+}
+#lightbox-nav-btnPrev {
+	width: 49%; height: 100%; display: block; -ms-zoom: 1;
+}
+#lightbox-nav-btnNext {
+	width: 49%; height: 100%; display: block; -ms-zoom: 1;
+}
+#lightbox-nav-btnPrev {
+	background: url("//www.dx.com/Content/img/lightbox-btn-prev.gif") no-repeat left 15%; left: 0px; float: left;
+}
+#lightbox-nav-btnNext {
+	background: url("//www.dx.com/Content/img/lightbox-btn-next.gif") no-repeat right 15%; right: 0px; float: right;
+}
+.lightbox-no-background {
+	background: url("//www.dx.com/Content/img/lightbox-blank.gif") no-repeat;
+}
+#lightbox-container-image-data-box {
+	font: 10px/1.4em Verdana, Helvetica, sans-serif; margin: 0px auto; overflow: hidden; font-size-adjust: none; font-stretch: normal;
+}
+#lightbox-container-image-data {
+	padding-top: 10px;
+}
+#lightbox-container-image-data #lightbox-image-details {
+	text-align: left;
+}
+#lightbox-image-details-caption {
+	font-weight: bold;
+}
+#lightbox-image-details-currentNumber {
+	padding: 1em 0px; text-align: right; clear: left; display: none;
+}
+#lightbox-image-details-currentNumber a {
+	color: rgb(51, 51, 51); font-size: 12px; font-weight: bold; text-decoration: underline;
+}
+#lightbox-close-box {
+	top: -23px; right: -23px; position: absolute;
+}
+#lightbox-btnClose {
+	background: url("//www.dx.com/Content/img/lightbox-btn-close.png") no-repeat; width: 50px; height: 50px; display: block;
+}
+.backImg {
+	background: url("//www.dx.com/Content/img/reviews_img.png") no-repeat 0px 0px;
+}
+.star_backImg {
+	background: url("//www.dx.com/Content/img/star.png") no-repeat 0px 0px;
+}
+.gray9 {
+	color: rgb(153, 153, 153);
+}
+.orange {
+	color: rgb(255, 102, 0);
+}
+.green {
+	color: rgb(0, 102, 0);
+}
+.hide {
+	display: none;
+}
+.pImg_reviews {
+	margin-top: 20px;
+}
+.pImg_reviews em {
+	font-style: normal;
+}
+.pImg_reviews i {
+	font-style: normal;
+}
+.pImg_reviews .hd {
+	background: rgb(246, 246, 246); border-width: 2px 1px 1px; border-style: solid; border-color: rgb(246, 105, 7) rgb(213, 213, 213) rgb(213, 213, 213); padding: 15px; overflow: hidden; -ms-zoom: 1;
+}
+.pImg_reviews .rate_score {
+	margin-bottom: 15px;
+}
+.pImg_reviews .rate {
+	width: 240px; overflow: hidden; float: left;
+}
+.rate_score .num {
+	line-height: 32px; padding-left: 10px; font-size: 24px;
+}
+.rate_score .ratebox {
+	width: 185px; height: 32px; overflow: hidden; float: left;
+}
+.ratebox i {
+	background-position: 0px -35px; height: 32px; display: block;
+}
+.r0 {
+	width: 0px;
+}
+.r1 {
+	width: 20%;
+}
+.r2 {
+	width: 40%;
+}
+.r3 {
+	width: 60%;
+}
+.r4 {
+	width: 80%;
+}
+.r5 {
+	width: 100%;
+}
+.star_wrapper li {
+	height: 12px; line-height: 12px; margin-bottom: 2px;
+}
+.star_wrapper li a {
+	color: rgb(51, 51, 51);
+}
+.star_wrapper li a:hover {
+	text-decoration: underline;
+}
+.star_wrapper li em {
+	font-style: normal;
+}
+.star_wrapper li .obrate {
+	background: rgb(255, 253, 215); margin: 1px 2px 0px 0px; border: 1px solid rgb(246, 111, 8); width: 106px; height: 10px; overflow: hidden; vertical-align: text-top; display: inline-block;
+}
+.star_wrapper .obrate i {
+	background: rgb(246, 111, 8); height: 10px; display: block;
+}
+.star_wrapper li .num {
+	color: rgb(165, 165, 165);
+}
+.pImg_reviews .cus {
+	padding: 0px 15px; width: 470px; float: left;
+}
+.pImg_reviews .cus h5 {
+	padding: 0px 0px 10px 15px; line-height: 32px; font-size: 12px;
+}
+.pImg_reviews .cus_box {
+	padding: 0px 15px; height: 80px; overflow: hidden; border-right-color: rgb(221, 221, 221); border-left-color: rgb(221, 221, 221); border-right-width: 1px; border-left-width: 1px; border-right-style: dotted; border-left-style: dotted;
+}
+.pImg_reviews .cus_box b {
+	background: rgb(255, 255, 255); margin: 5px 10px 5px 0px; padding: 7px 10px; border-radius: 3px; border: 1px solid rgb(233, 233, 233); color: rgb(165, 165, 165); letter-spacing: normal; font-weight: normal; word-spacing: normal; vertical-align: top; display: inline-block; -ms-zoom: 1;
+}
+.pImg_reviews .r {
+	width: 160px; text-align: right; overflow: hidden; padding-top: 5px; float: right;
+}
+.pImg_reviews .re_post {
+	border-width: 1px; border-style: solid; border-color: rgb(254, 174, 11) rgb(254, 174, 11) rgb(255, 126, 0); padding: 5px 15px; border-radius: 6px; color: rgb(112, 48, 23); font-weight: bold; display: inline-block; box-shadow: inset 0px 1px 1px 0px #ffe98e; background-image: linear-gradient(rgb(254, 200, 12), rgb(254, 174, 11));
+}
+.pImg_reviews .re_post:hover {
+	text-decoration: none; background-image: linear-gradient(rgb(254, 174, 11), rgb(254, 201, 18));
+}
+.pImg_reviews .pt {
+	padding-top: 35px;
+}
+.pImg_reviews .r p {
+	padding: 10px 0px;
+}
+.pImg_reviews .r .re_program {
+	width: 160px; height: 35px; overflow: hidden; display: block;
+}
+.pImg_reviews .r .re_program img {
+	width: 160px; height: 35px;
+}
+.pImg_reviews .seeMore {
+	clear: both;
+}
+.pImg_reviews .noneCnt {
+	background: rgb(255, 255, 221); text-align: center;
+}
+.pImg_reviews .noneCnt a {
+	text-decoration: underline;
+}
+.pImg_reviews .bd {
+	border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor rgb(213, 213, 213) rgb(213, 213, 213); padding: 15px;
+}
+.pImg_reviews .bd h4 {
+	font-size: 14px;
+}
+.pImg_reviews .recent_re {
+	width: 540px; float: left;
+}
+.comments_list .item {
+	padding: 10px 0px; border-bottom-color: rgb(213, 213, 213); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.comments_list .t {
+	height: 18px; line-height: 16px; overflow: hidden; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.t .pro {
+	background: linear-gradient(rgb(251, 251, 251), rgb(219, 219, 219)); padding: 0px 5px; border-radius: 3px; border: 1px solid rgb(203, 203, 203); height: 16px; overflow: hidden; margin-right: 5px; vertical-align: top; display: inline-block; box-shadow: 0px 1px 3px #fefefe;
+}
+.comments_list .author {
+	padding: 5px 0px 8px; color: rgb(153, 153, 153); position: relative;
+}
+.author .s_starbox {
+	padding-bottom: 5px; display: inline-block;
+}
+.author .s_starbox a:first-child {
+	padding-right: 3px; margin-right: 5px; position: relative;
+}
+.author .s_starbox .arrow {
+	background: url("//www.dx.com/Content/img/reviews_img.png") no-repeat -88px -95px; top: 5px; width: 8px; height: 4px; right: -10px; position: absolute;
+}
+.author .cur ul {
+	display: block;
+}
+.author ul {
+	background: rgb(255, 255, 255); padding: 5px 15px 5px 5px; border: 1px solid rgb(213, 213, 213); top: 23px; overflow: hidden; display: none; position: absolute; z-index: 1;
+}
+.author ul li {
+	height: 20px; line-height: 20px;
+}
+.author ul li:first-child {
+	border-bottom-color: rgb(213, 213, 213); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.author ul li span:first-child {
+	width: 100px; text-align: right; margin-right: 10px; float: left;
+}
+.author ul li .s_star {
+	margin-top: 4px;
+}
+.s_star {
+	background-position: 0px -90px; width: 64px; height: 12px; overflow: hidden; float: left;
+}
+.s_star i {
+	background-position: 0px -75px; height: 12px; display: block;
+}
+.comments_list .author .user_name {
+	margin: 0px 3px 0px 5px;
+}
+.author .time {
+	margin: 0px 3px; color: rgb(51, 51, 51);
+}
+.comments_list .cnt {
+	height: 42px; overflow: hidden; position: relative;
+}
+.comments_list .cnt a {
+	text-decoration: underline;
+}
+.comments_list .pht {
+	margin-top: 3px;
+}
+.comments_list .info {
+	margin-top: 3px;
+}
+.comments_list .pht a {
+	margin: 0px 5px 5px 0px; border: 1px solid rgb(204, 204, 204); width: 80px; height: 60px; text-align: center; line-height: 60px; overflow: hidden; vertical-align: middle; float: left; display: inline-block; position: relative; -ms-zoom: 1;
+}
+.comments_list .pht img {
+	width: 80px; height: 60px; vertical-align: top; cursor: url(//www.dx.com/Content/img/zoom.png), url(//www.dx.com/Content/img/zoom_in.cur), auto;
+}
+.pht_review {
+	background: rgb(245, 245, 245); padding: 15px; border: 1px solid rgb(213, 213, 213); overflow: hidden; margin-top: 8px;
+}
+.pht_r_508 {
+	width: 508px;
+}
+.pht_review .close {
+	text-align: right; color: rgb(153, 153, 153); margin-bottom: 10px; display: block;
+}
+.pht_review a.close:hover {
+	color: rgb(102, 102, 102); text-decoration: none;
+}
+.slider .scroll_img {
+	background: rgb(255, 255, 255); text-align: center; overflow: hidden; position: relative;
+}
+.pht_r_508 .slider .scroll_img {
+	width: 508px; height: 378px; line-height: 378px;
+}
+.pht_r_508 .scroll_img img {
+	vertical-align: middle; max-height: 378px; max-width: 100%;
+}
+.scroll_img .icon_loading {
+	background: url("//www.dx.com/Content/img/lightbox-ico-loading.gif") no-repeat 0px 0px; margin: -16px 0px 0px -16px; left: 50%; top: 50%; width: 32px; height: 32px; position: absolute;
+}
+.pht_review .thumblist {
+	height: 60px; margin-top: 5px; position: relative;
+}
+.pht_review .icon_prev {
+	background-position: 0px -95px; width: 29px; height: 60px; text-indent: -999em; overflow: hidden; display: block; position: absolute;
+}
+.pht_review .icon_next {
+	background-position: 0px -95px; width: 29px; height: 60px; text-indent: -999em; overflow: hidden; display: block; position: absolute;
+}
+.pht_review .cur.icon_prev {
+	background-position: 0px -95px; width: 29px; height: 60px; text-indent: -999em; overflow: hidden; display: block; position: absolute;
+}
+.pht_review .icon_prev {
+	left: 0px;
+}
+.pht_review .cur.icon_prev {
+	background-position: 0px -160px;
+}
+.pht_review .icon_next {
+	background-position: -30px -95px; right: 0px;
+}
+.pht_review .list {
+	left: 36px; width: 440px; overflow: hidden; position: absolute;
+}
+.pht_review ul li {
+	width: 84px; height: 64px; overflow: hidden; margin-right: 4px; float: left;
+}
+.pht_review ul li a {
+	padding: 1px; border: 1px solid rgb(221, 221, 221); width: 80px; height: 60px; text-align: center; overflow: hidden; vertical-align: middle; display: inline-table; position: relative;
+}
+.pht_review ul li a img {
+	width: 80px; height: 60px; vertical-align: middle;
+}
+.pht_review ul li.cur a {
+	padding: 0px; border: 2px solid rgb(255, 102, 0);
+}
+.comments_list .info p {
+	height: 14px; overflow: hidden; font-style: italic; margin-bottom: 5px; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.comments_list .r_unlike {
+	line-height: 14px; display: inline;
+}
+.comments_list .r_like {
+	line-height: 14px; display: inline;
+}
+.comments_list .r_wish {
+	line-height: 14px; display: inline;
+}
+.comments_list .r_news {
+	line-height: 14px; display: inline;
+}
+.comments_list .r_unlike {
+	margin-left: 15px; float: right;
+}
+.comments_list .r_like {
+	margin-left: 15px; float: right;
+}
+.comments_list .r_wish {
+	margin-left: 15px; float: right;
+}
+.comments_list .r_wish:hover {
+	text-decoration: none;
+}
+.comments_list .r_news:hover {
+	text-decoration: none;
+}
+.icon_news {
+	background-position: -60px -144px; width: 14px; height: 14px; overflow: hidden; margin-right: 3px; vertical-align: middle; display: inline-block;
+}
+.icon_like {
+	background-position: -60px -144px; width: 14px; height: 14px; overflow: hidden; margin-right: 3px; vertical-align: middle; display: inline-block;
+}
+.icon_unlike {
+	background-position: -60px -144px; width: 14px; height: 14px; overflow: hidden; margin-right: 3px; vertical-align: middle; display: inline-block;
+}
+.icon_wish {
+	background-position: -60px -144px; width: 14px; height: 14px; overflow: hidden; margin-right: 3px; vertical-align: middle; display: inline-block;
+}
+.icon_wish_1 {
+	background-position: -60px -144px; width: 14px; height: 14px; overflow: hidden; margin-right: 3px; vertical-align: middle; display: inline-block;
+}
+.icon_like {
+	width: 15px; height: 15px;
+}
+.icon_unlike {
+	width: 15px; height: 15px;
+}
+.icon_wish {
+	width: 10px; height: 10px;
+}
+.icon_wish_1 {
+	width: 10px; height: 10px;
+}
+.icon_wish {
+	background-position: -60px -95px;
+}
+.icon_wish_1 {
+	background-position: -75px -95px;
+}
+.icon_like {
+	background-position: -90px -144px;
+}
+.icon_unlike {
+	background-position: -108px -143px;
+}
+.pImg_reviews .helpful_re {
+	width: 345px; float: right;
+}
+.pImg_reviews .helpful_re .ad a {
+	width: 345px; height: 120px; text-align: center; line-height: 120px; overflow: hidden; margin-top: 10px; vertical-align: middle; display: block;
+}
+.pImg_reviews .helpful_re .ad a img {
+	height: auto; vertical-align: middle; max-width: 100%;
+}
+.pht_r_313 {
+	width: 313px;
+}
+.pht_r_313 .slider .scroll_img {
+	width: 313px;
+}
+.pht_r_313 .slider .scroll_img {
+	height: 228px; line-height: 228px;
+}
+.pht_r_313 .scroll_img img {
+	vertical-align: middle; max-height: 228px; max-width: 100%;
+}
+.pht_r_313 .list {
+	width: 240px;
+}
+.pht_review ul li a s {
+	background: url("//www.dx.com/Content/img/icon_video.png") no-repeat; width: 14px; height: 14px; right: 5px; bottom: 5px; position: absolute; cursor: pointer;
+}
+.comments_list .pht a s {
+	background: url("//www.dx.com/Content/img/icon_video.png") no-repeat; width: 14px; height: 14px; right: 5px; bottom: 5px; position: absolute; cursor: pointer;
+}
+.youtube embed {
+	height: 378px;
+}

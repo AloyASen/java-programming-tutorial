@@ -1,0 +1,7 @@
+package File_readers;
+
+import java.util.List;
+
+public class Word_details_enlister implements List<String>{
+
+}

@@ -1,0 +1,9 @@
+package client;
+
+public class client_to_sever_contact {
+
+	public client_to_sever_contact() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

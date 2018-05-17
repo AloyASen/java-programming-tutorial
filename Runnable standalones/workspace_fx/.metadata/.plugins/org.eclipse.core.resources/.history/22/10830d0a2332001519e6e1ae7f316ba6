@@ -1,0 +1,18 @@
+
+abstract class community{
+	String com[];
+	private void com_array() {
+		// TODO Auto-generated method stub
+
+	}
+}
+public class on_comm_connect {
+
+	public on_comm_connect() {
+		// TODO Auto-generated constructor stub
+	}
+	public static void main(String[] args) {
+		
+	}
+
+}

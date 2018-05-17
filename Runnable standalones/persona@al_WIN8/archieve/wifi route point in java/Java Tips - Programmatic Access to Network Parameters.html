@@ -1,0 +1,1405 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0093)http://www.java-tips.org/java-se-tips/java.net/programmatic-access-to-network-parameters.html -->
+<!--?xml version="1.0"?--><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><HTML 
+xmlns="http://www.w3.org/1999/xhtml"><HEAD><META content="IE=10.000" 
+http-equiv="X-UA-Compatible">
+ <TITLE>Java Tips - Programmatic Access to Network Parameters</TITLE> 
+<META name="description" content="Java Tips -- Java, Java, and more Java, Programmatic Access to Network Parameters"> 
+<META name="keywords" content="java, tip, tutorial, game, news, application, library, book review, Java SE Tips, java.net, Programmatic Access to Network Parameters"> 
+<META name="GENERATOR" content="MSHTML 10.00.9200.16384"> 
+<META name="robots" content="index, follow"> 
+<SCRIPT src="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/mootools.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/utils.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT src="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/embed.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT type="text/javascript">
+ jceutils.config.convert=0;
+ jceutils.config.fadespeed=500;
+ jceutils.config.scalespeed=500;
+ jceutils.config.pngfix=0;
+ jceutils.config.pngfix_id='_trans';
+ jceutils.config.tipclass='tooltip';
+</SCRIPT>
+ <LINK href="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/jcebox.css" 
+rel="stylesheet" type="text/css" media="all"> <LINK href="http://www.java-tips.org/images/favicon.ico" 
+rel="shortcut icon">	 
+<META name="verify-v1" content="vN3UVVCLT9CLCthSHUUQTeSSRQlru/LSUnIwM1XxKxE="> 
+<META name="verify-v1" content="qiQPGDFyhn+e/UirJDllUVkZogy+dFaDd/qYAFnlxfQ="> 
+<META http-equiv="Content-Type" content="text/html; charset=utf-8"> <!-- PLACE IN THE HEAD OF YOUR HTML PAGE --> 
+<SCRIPT src="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/player-a2.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT language="javascript" src="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/companions.js"></SCRIPT>
+ 
+<SCRIPT language="javascript"> lrCompanionPurge["300x250"] = true; </SCRIPT>
+ 
+<SCRIPT language="JavaScript" type="text/javascript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</SCRIPT>
+ <LINK href="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/template_css.css" 
+rel="stylesheet" type="text/css"> <LINK href="http://www.java-tips.org/images/favicon.ico" 
+rel="shortcut icon"> </HEAD> 
+<BODY>
+<TABLE width="1000" align="center" border="0" cellspacing="0" cellpadding="0">
+  <TBODY>
+  <TR>
+    <TD width="980" height="30" valign="top">
+      <TABLE width="980" align="center" border="0" cellspacing="0" cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD>
+            <TABLE width="100%" align="center" border="0" cellspacing="0" 
+            cellpadding="0" valign="bottom">
+              <TBODY>
+              <TR height="152">
+                <TD width="351" height="152" background="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/left_back.png" 
+                style="background-repeat: repeat-y;">
+                  <DIV align="left" valign="bottom" height="152"><IMG width="351" 
+                  height="152" alt="java left logo" src="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/leftlogo.jpg"> 
+                  </DIV></TD>
+                <TD height="152">
+                  <DIV align="center" valign="bottom" height="152"><IMG width="100%" 
+                  height="152" alt="java middle logo" src="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/mid.jpg"> 
+                  </DIV></TD>
+                <TD width="428" height="152" align="right" background="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/right_back.png" 
+                style="background-position: right; background-repeat: repeat-y;" 
+                alt="java right back logo">
+                  <DIV align="right" valign="bottom" height="152"><IMG width="428" 
+                  height="152" alt="java right logo" src="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/right.jpg"> 
+                  </DIV></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD>
+            <DIV align="left">
+            <TABLE width="980" border="0" cellspacing="0" cellpadding="0">
+              <TBODY>
+              <TR valign="middle">
+                <TD width="20" background="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/left_back.png">&nbsp;</TD>
+                <TD>
+                  <DIV align="center"><!-- begin ad tag (tile=1) --> 
+                  <DIV id="div-gpt-ad-2803617656626-0">
+<SCRIPT type="text/javascript">
+       googletag.cmd.push(function() {
+         googletag.defineSlot('/8456/IDG.Java-Tips.com_Homepage', [300,250],'div-gpt-ad-2803617656626-0')
+           .addService(googletag.pubads())
+           .setTargeting("pos", "ATF")
+           .setTargeting("URL", encodeURIComponent(window.location));
+         googletag.enableServices();
+         googletag.display('div-gpt-ad-2803617656626-0');
+       });
+    </SCRIPT>
+                   </DIV><!-- End ad tag --> </DIV><BR><SPAN class="pathway"><A 
+                  class="pathway" 
+                  href="http://www.java-tips.org/index.php">Home</A> <IMG alt="arrow" 
+                  src="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/arrow.png"> 
+                    Java SE Tips </SPAN>              <BR></TD>
+                <TD width="20" background="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/right_back.png">&nbsp;</TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE>
+      <TABLE width="980" align="center" border="0" cellspacing="0" cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD width="20" background="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/left_back.png">&nbsp;</TD>
+          <TD width="180" valign="top">
+            <TABLE width="100%" align="center" border="0" cellspacing="0" 
+            cellpadding="0">
+            <TABLE width="100%" border="0" cellspacing="1" cellpadding="1">
+              <TBODY>
+              <TR>
+                <TD>
+                  <TABLE width="100%" border="0" cellspacing="1" 
+cellpadding="1">
+                    <TBODY>
+                    <TR>
+                      <TD>
+                        <TABLE class="moduletable" cellspacing="0" cellpadding="0">
+                          <TBODY>
+                          <TR>
+                            <TD></TD></TR></TBODY></TABLE>
+                        <TABLE class="moduletable_spaced" cellspacing="0" 
+                        cellpadding="0">
+                          <TBODY>
+                          <TR>
+                            <TH valign="top">					Main Menu				</TH></TR>
+                          <TR>
+                            <TD>
+                              <TABLE width="100%" border="0" cellspacing="0" 
+                              cellpadding="0">
+                                <TBODY>
+                                <TR align="left">
+                                <TD><A class="mainlevel" href="http://www.java-tips.org/index.html">Home</A></TD></TR>
+                                <TR align="left">
+                                <TD><A class="mainlevel" href="http://www.java-tips.org/java-tutorials/tutorials/">Java 
+                                Tutorials</A></TD></TR>
+                                <TR align="left">
+                                <TD><A class="mainlevel" href="http://www.java-tips.org/java-book-reviews/books/">Book 
+                                Reviews</A></TD></TR>
+                                <TR align="left">
+                                <TD><A class="mainlevel" href="http://www.java-tips.org/java-se-tips/">Java 
+                                SE Tips</A></TD></TR>
+                                <TR align="left">
+                                <TD><A class="mainlevel" href="http://www.java-tips.org/java-me-tips/">Java 
+                                ME Tips</A></TD></TR>
+                                <TR align="left">
+                                <TD><A class="mainlevel" href="http://www.java-tips.org/java-ee-tips/">Java 
+                                EE Tips</A></TD></TR>
+                                <TR align="left">
+                                <TD><A class="mainlevel" href="http://www.java-tips.org/other-api-tips/">Other 
+                                API Tips</A></TD></TR>
+                                <TR align="left">
+                                <TD><A class="mainlevel" href="http://www.java-tips.org/java-applications/">Java 
+                                Applications</A></TD></TR>
+                                <TR align="left">
+                                <TD><A class="mainlevel" href="http://www.java-tips.org/java-libraries/">Java 
+                                Libraries</A></TD></TR>
+                                <TR align="left">
+                                <TD><A class="mainlevel" href="http://www.java-tips.org/java-games/">Java 
+                                Games</A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+                        <TABLE class="moduletable" cellspacing="0" cellpadding="0">
+                          <TBODY>
+                          <TR>
+                            <TH valign="top">					Java Network				</TH></TR>
+                          <TR>
+                            <TD><!-- Java Network --> 
+                              <TABLE width="100%" border="0" cellspacing="0" 
+                              cellpadding="0">
+                                <TBODY>
+                                <TR align="left">
+                                <TD><A class="mainlevel" id="active_menu" href="http://www.java-forums.org/forum.php">Java 
+                                Forums</A><BR></TD></TR>
+                                <TR align="left">
+                                <TD><A class="mainlevel" id="active_menu" href="http://www.java-forums.org/blogs/all/">Java 
+                                Blog</A><BR></TD></TR></TBODY></TABLE><BR><!-- Java Network -->
+                              			 </TD></TR></TBODY></TABLE>
+                        <TABLE class="moduletable" cellspacing="0" cellpadding="0">
+                          <TBODY>
+                          <TR>
+                            <TD>
+                              <P></P>
+                              <P></P>
+                              <P></P>
+                              <CENTER>
+<SCRIPT type="text/javascript"><!--
+google_ad_client = "pub-6304269038762493";
+google_ad_width = 200;
+google_ad_height = 90;
+google_ad_format = "200x90_0ads_al";
+//2007-01-22: javatips-adlinks
+google_ad_channel = "7267226506";
+google_color_border = "336699";
+google_color_bg = "FFFFFF";
+google_color_link = "000000";
+google_color_text = "000000";
+google_color_url = "008000";
+//--></SCRIPT>
+                               
+<SCRIPT src="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/fCAPBVBIB.txt" type="text/javascript"></SCRIPT>
+                               <BR><BR><BR><!-- begin ad tag (tile=3) --> 
+<SCRIPT language="JavaScript" type="text/javascript">
+if (typeof ord=='undefined') {ord=Math.random()*10000000000000000;}
+document.write('<script language="JavaScript" src="http://a.collective-media.net/adj/idgt.javatips/article_above;sec=article;fold=above;tile=3;sz=160x600;ord=' + ord + '?" type="text/javascript"><\/script>');
+</SCRIPT>
+                              <NOSCRIPT>&lt;a 
+                              href="http://a.collective-media.net/jump/idgt.javatips/article_above;sec=article;fold=above;tile=3;sz=160x600;ord=123456789?" 
+                              target="_blank"&gt;&lt;img 
+                              src="http://a.collective-media.net/ad/idgt.javatips/article_above;sec=article;fold=above;tile=3;sz=160x600;ord=123456789?" 
+                              width="160" height="600" border="0" 
+                              alt=""&gt;&lt;/a&gt;</NOSCRIPT> <!-- End ad tag --> 
+                              </CENTER>
+                              <P></P></TD></TR></TBODY></TABLE>
+                        <TABLE class="moduletable_spaced" cellspacing="0" 
+                        cellpadding="0">
+                          <TBODY>
+                          <TR>
+                            <TH valign="top">					Most Visited Tips				</TH></TR>
+                          <TR>
+                            <TD>
+                              <TABLE width="100%" border="0" cellspacing="0" 
+                              cellpadding="0">
+                                <TBODY>
+                                <TR align="left">
+                                <TD><A class="mainlevel" href="http://www.java-tips.org/mostvisited/1.html">Java 
+                                SE Tips</A></TD></TR>
+                                <TR align="left">
+                                <TD><A class="mainlevel" href="http://www.java-tips.org/mostvisited/1-2.html">Java 
+                                ME Tips</A></TD></TR>
+                                <TR align="left">
+                                <TD><A class="mainlevel" href="http://www.java-tips.org/mostvisited/1-3.html">Java 
+                                EE Tips</A></TD></TR>
+                                <TR align="left">
+                                <TD><A class="mainlevel" href="http://www.java-tips.org/mostvisited/1-4.html">Other 
+                                API Tips</A></TD></TR>
+                                <TR align="left">
+                                <TD><A class="mainlevel" href="http://www.java-tips.org/mostvisited/1-5.html">Java 
+                                Applications</A></TD></TR>
+                                <TR align="left">
+                                <TD><A class="mainlevel" href="http://www.java-tips.org/mostvisited/1-6.html">Java 
+                                Libraries</A></TD></TR>
+                                <TR align="left">
+                                <TD><A class="mainlevel" href="http://www.java-tips.org/mostvisited/1-7.html">Java 
+                                Games</A></TD></TR>
+                                <TR align="left">
+                                <TD><A class="mainlevel" href="http://www.java-tips.org/mostvisited/1-8.html">Book 
+                                Reviews</A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+                        <TABLE class="moduletable_spaced" cellspacing="0" 
+                        cellpadding="0">
+                          <TBODY>
+                          <TR>
+                            <TH valign="top">					Top Rated Tips				</TH></TR>
+                          <TR>
+                            <TD>
+                              <TABLE width="100%" border="0" cellspacing="0" 
+                              cellpadding="0">
+                                <TBODY>
+                                <TR align="left">
+                                <TD><A class="mainlevel" id="active_menu" href="http://www.java-tips.org/mostvisited/2.html">Java 
+                                SE Tips</A></TD></TR>
+                                <TR align="left">
+                                <TD><A class="mainlevel" href="http://www.java-tips.org/mostvisited/2-2.html">Java 
+                                ME Tips</A></TD></TR>
+                                <TR align="left">
+                                <TD><A class="mainlevel" href="http://www.java-tips.org/mostvisited/2-3.html">Java 
+                                EE Tips</A></TD></TR>
+                                <TR align="left">
+                                <TD><A class="mainlevel" href="http://www.java-tips.org/mostvisited/2-4.html">Other 
+                                API Tips</A></TD></TR>
+                                <TR align="left">
+                                <TD><A class="mainlevel" href="http://www.java-tips.org/mostvisited/2-5.html">Java 
+                                Applications</A></TD></TR>
+                                <TR align="left">
+                                <TD><A class="mainlevel" href="http://www.java-tips.org/mostvisited/2-6.html">Java 
+                                Libraries</A></TD></TR>
+                                <TR align="left">
+                                <TD><A class="mainlevel" href="http://www.java-tips.org/mostvisited/2-7.html">Java 
+                                Games</A></TD></TR>
+                                <TR align="left">
+                                <TD><A class="mainlevel" href="http://www.java-tips.org/mostvisited/2-8.html">Book 
+                                Reviews</A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+                        <TABLE class="moduletable" cellspacing="0" cellpadding="0">
+                          <TBODY>
+                          <TR>
+                            <TD>
+                              <CENTER><BR><!-- begin ad tag (tile=6) --> 
+<SCRIPT language="JavaScript" type="text/javascript">
+if (typeof ord=='undefined') {ord=Math.random()*10000000000000000;}
+document.write('<script language="JavaScript" src="http://a.collective-media.net/adj/idgt.javatips/article_below;sec=article;fold=below;tile=6;sz=160x600;ord=' + ord + '?" type="text/javascript"><\/script>');
+</SCRIPT>
+                              <NOSCRIPT>&lt;a 
+                              href="http://a.collective-media.net/jump/idgt.javatips/article_below;sec=article;fold=below;tile=6;sz=160x600;ord=123456789?" 
+                              target="_blank"&gt;&lt;img 
+                              src="http://a.collective-media.net/ad/idgt.javatips/article_below;sec=article;fold=below;tile=6;sz=160x600;ord=123456789?" 
+                              width="160" height="600" border="0" 
+                              alt=""&gt;&lt;/a&gt;</NOSCRIPT> <!-- End ad tag --> 
+                              <BR></CENTER></TD></TR></TBODY></TABLE>
+                        <TABLE class="moduletable_spaced" cellspacing="0" 
+                        cellpadding="0">
+                          <TBODY>
+                          <TR>
+                            <TH valign="top">					Statistics				</TH></TR>
+                          <TR>
+                            <TD>
+                              <TABLE width="100%">
+                                <TBODY>
+                                <TR>
+                                <TD>Registered Users: </TD>
+                                <TD align="right">4103</TD></TR>
+                                <TR>
+                                <TD>Java SE Tips:</TD>
+                                <TD align="right"> 614</TD></TR>
+                                <TR>
+                                <TD>Java ME Tips:</TD>
+                                <TD align="right"> 202</TD></TR>
+                                <TR>
+                                <TD>Java EE Tips:</TD>
+                                <TD align="right"> 183</TD></TR>
+                                <TR>
+                                <TD>Other API Tips:</TD>
+                                <TD align="right"> 779</TD></TR>
+                                <TR>
+                                <TD>Java Applications:</TD>
+                                <TD align="right"> 298</TD></TR>
+                                <TR>
+                                <TD>Java Libraries:</TD>
+                                <TD align="right"> 209</TD></TR>
+                                <TR>
+                                <TD>Java Games:</TD>
+                                <TD align="right"> 16</TD></TR>
+                                <TR>
+                                <TD>Book Reviews: </TD>
+                                <TD 
+                          align="right"></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR>
+                      <TD>&nbsp;</TD></TR></TBODY></TABLE></TD></TR>
+              <TR>
+                <TD align="right" valign="top">&nbsp;</TD></TR></TBODY></TABLE></TD>
+          <TD valign="top">&nbsp;</TD>
+          <TD valign="top">
+            <TABLE class="contentpaneopen">
+              <TBODY>
+              <TR>
+                <TD width="100%" class="contentheading">					Programmatic 
+                  Access to Network Parameters									</TD>
+                <TD width="100%" align="right" class="buttonheading"><A title="E-mail" 
+                  onclick="window.open('http://www.java-tips.org/index2.php?option=com_content&amp;task=emailform&amp;id=1767&amp;itemid=67','win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=400,height=250,directories=no,location=no'); return false;" 
+                  href="http://www.java-tips.org/index2.php?option=com_content&amp;task=emailform&amp;id=1767&amp;itemid=67" 
+                  target="_blank"><IMG name="E-mail" align="middle" alt="E-mail" 
+                  src="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/emailButton.png" 
+                  border="0"></A>			 </TD></TR></TBODY></TABLE>
+            <FORM action="index.php" method="post"><SPAN 
+            class="content_rating">User Rating:<IMG align="middle" alt="" src="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/rating_star.png" 
+            border="0"><IMG align="middle" alt="" src="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/rating_star.png" 
+            border="0"><IMG align="middle" alt="" src="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/rating_star.png" 
+            border="0"><IMG align="middle" alt="" src="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/rating_star.png" 
+            border="0"><IMG align="middle" alt="" src="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/rating_star.png" 
+            border="0">&nbsp;/&nbsp;24</SPAN> <BR><SPAN 
+            class="content_vote">Poor<INPUT name="user_rating" type="radio" alt="vote 1 star" 
+            value="1"><INPUT name="user_rating" type="radio" alt="vote 2 star" 
+            value="2"><INPUT name="user_rating" type="radio" alt="vote 3 star" 
+            value="3"><INPUT name="user_rating" type="radio" alt="vote 4 star" 
+            value="4"><INPUT name="user_rating" type="radio" alt="vote 5 star" 
+            value="5">Best&nbsp;<INPUT name="submit_vote" class="button" type="submit" value="Rate"><INPUT 
+            name="task" type="hidden" value="vote"><INPUT name="pop" type="hidden" 
+            value="0"><INPUT name="option" type="hidden" 
+            value="com_content"><INPUT name="Itemid" type="hidden" 
+            value="67"><INPUT name="cid" type="hidden" value="1767"><INPUT name="url" 
+            type="hidden" value="http://www.java-tips.org/index.php?option=com_content&amp;task=view&amp;sectionid=&amp;id=1767&amp;Itemid=67"></SPAN></FORM>
+            <TABLE class="contentpaneopen">
+              <TBODY>
+              <TR>
+                <TD valign="top" colspan="2">
+                  <P>This Tech Tip reprinted with permission by <A href="http://java.sun.com/" 
+                  target="sun">java.sun.com</A></P>
+                  <P>Java SE 6.0, code name Mustang, is fast approaching its 
+                  Beta 2 early access release. One of the added features in Java 
+                  SE 6 gives you access to more information than you could 
+                  access before about network interfaces. It isn't uncommon to 
+                  have systems running with multiple active network connections, 
+                  such as wired, 802.11 a/b/g wireless, and bluetooth. Previous 
+                  J2SE releases had limited support for access and discovery of 
+                  information related to multiple connections. Java SE 6 expands 
+                  this capability.</P>
+                  <P>Introduced in J2SE 1.4, the NetworkInterface class offers 
+                  access to some information about network interfaces. You could 
+                  use the getNetworkInterfaces() method in NetworkInterface for 
+                  information about the set of installed networks, or lookup a 
+                  specific network with the getByName() or getByInetAddress() 
+                  methods. You could then display information about the network 
+                  interface, such as its name or its InetAddress. To see the 
+                  kind of information you could access using NetworkInterface, 
+                  run the following program, ListNets, in J2SE 5.0:</P>
+                  <DIV align="left" class="java">
+                  <TABLE bgcolor="#ffffff" border="0" cellspacing="0" 
+                  cellpadding="3">
+                    <TBODY>
+                    <TR><!-- start source code -->    
+                      <TD align="left" nowrap="nowrap" 
+                        valign="top"><CODE><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;</FONT><FONT color="#7f0055"><B>import&nbsp;</B></FONT><FONT 
+                        color="#000000">java.io.*;</FONT><BR><FONT color="#ffffff">&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#7f0055"><B>import&nbsp;</B></FONT><FONT color="#000000">java.net.*;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;</FONT><FONT color="#7f0055"><B>import&nbsp;</B></FONT><FONT 
+                        color="#000000">java.util.*;</FONT><BR><FONT color="#ffffff"></FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;</FONT><FONT color="#7f0055"><B>public&nbsp;class&nbsp;</B></FONT><FONT 
+                        color="#000000">ListNets&nbsp;</FONT><FONT color="#000000">{</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;</FONT><BR><FONT color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#7f0055"><B>public&nbsp;static&nbsp;</B></FONT><FONT 
+                        color="#7f0055"><B>void&nbsp;</B></FONT><FONT color="#000000">main</FONT><FONT 
+                        color="#000000">(</FONT><FONT 
+                        color="#000000">String&nbsp;args</FONT><FONT color="#000000">[])</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#7f0055"><B>throws&nbsp;</B></FONT><FONT color="#000000">SocketException&nbsp;</FONT><FONT 
+                        color="#000000">{</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">Enumeration&lt;NetworkInterface&gt;&nbsp;nets&nbsp;=</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">NetworkInterface.getNetworkInterfaces</FONT><FONT 
+                        color="#000000">()</FONT><FONT 
+                        color="#000000">;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#7f0055"><B>for&nbsp;</B></FONT><FONT color="#000000">(</FONT><FONT 
+                        color="#000000">NetworkInterface&nbsp;netint&nbsp;:&nbsp;Collections.list</FONT><FONT 
+                        color="#000000">(</FONT><FONT 
+                        color="#000000">nets</FONT><FONT 
+                        color="#000000">))&nbsp;{</FONT><BR><FONT color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">displayInterfaceInformation</FONT><FONT 
+                        color="#000000">(</FONT><FONT 
+                        color="#000000">netint</FONT><FONT 
+                        color="#000000">)</FONT><FONT 
+                        color="#000000">;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">}</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">}</FONT><BR><FONT 
+                        color="#ffffff"></FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#7f0055"><B>private&nbsp;static&nbsp;</B></FONT><FONT 
+                        color="#7f0055"><B>void&nbsp;</B></FONT><FONT color="#000000">displayInterfaceInformation</FONT><FONT 
+                        color="#000000">(</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">NetworkInterface&nbsp;netint</FONT><FONT 
+                        color="#000000">)&nbsp;</FONT><FONT 
+                        color="#7f0055"><B>throws&nbsp;</B></FONT><FONT color="#000000">SocketException&nbsp;</FONT><FONT 
+                        color="#000000">{</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">System.out.printf</FONT><FONT color="#000000">(</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#2a00ff">"Display&nbsp;name:&nbsp;%s%n"</FONT><FONT 
+                        color="#000000">,&nbsp;netint.getDisplayName</FONT><FONT 
+                        color="#000000">())</FONT><FONT 
+                        color="#000000">;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">System.out.printf</FONT><FONT color="#000000">(</FONT><FONT 
+                        color="#2a00ff">"Name:&nbsp;%s%n"</FONT><FONT color="#000000">,&nbsp;netint.getName</FONT><FONT 
+                        color="#000000">())</FONT><FONT 
+                        color="#000000">;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">Enumeration&lt;InetAddress&gt;&nbsp;inetAddresses&nbsp;=&nbsp;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">netint.getInetAddresses</FONT><FONT 
+                        color="#000000">()</FONT><FONT 
+                        color="#000000">;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#7f0055"><B>for&nbsp;</B></FONT><FONT color="#000000">(</FONT><FONT 
+                        color="#000000">InetAddress&nbsp;inetAddress&nbsp;:&nbsp;Collections.list</FONT><FONT 
+                        color="#000000">(</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">inetAddresses</FONT><FONT color="#000000">))&nbsp;{</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">System.out.printf</FONT><FONT color="#000000">(</FONT><FONT 
+                        color="#2a00ff">"InetAddress:&nbsp;%s%n"</FONT><FONT 
+                        color="#000000">,&nbsp;inetAddress</FONT><FONT color="#000000">)</FONT><FONT 
+                        color="#000000">;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">}</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">System.out.printf</FONT><FONT color="#000000">(</FONT><FONT 
+                        color="#2a00ff">"%n"</FONT><FONT 
+                        color="#000000">)</FONT><FONT 
+                        color="#000000">;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">}</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;</FONT><FONT color="#000000">}&nbsp;&nbsp;</FONT></CODE> 
+                               </TD><!-- end source code -->    
+                  </TR></TBODY></TABLE></DIV><!-- =       END of automatically generated HTML code       = --> <!-- ======================================================== --> 
+                  <P>If you run the ListNets program on a typical Microsoft 
+                  Windows machine, your output should look something like the 
+                  following -- the display names and addresses might be 
+                  different based on your current hardware and setup:</P>
+<PRE>   Display name: MS TCP Loopback interface
+   Name: lo
+   InetAddress: /127.0.0.1
+
+   Display name: Intel(R) PRO/100 VE Network Connection -
+   Packet Scheduler Miniport
+   Name: eth0
+
+   Display name: RCA USB Cable Modem - Packet Scheduler Miniport
+   Name: eth1
+   InetAddress: /11.22.33.44
+
+</PRE>
+                  <P>Linux machines would have similar output for names, but 
+                  have different display names and possibly different 
+                  addresses.</P>
+                  <P>With methods such as isMCGlobal() and isMCSiteLocal(), the 
+                  information you can get about each InetAddress is more related 
+                  to multicasting and its address type then about the network 
+                  interface itself. That network interface-related information 
+                  is now available with the NetworkInterface class in Java SE 
+                  6.0.</P>
+                  <P>Network interfaces can be hierarchically organized. The 
+                  NetworkInterface class in Java SE 6.0 includes two methods, 
+                  getParent() and getSubInterfaces(), that are pertinent to a 
+                  network interface hierarchy. The getParent() method returns 
+                  the parent NetworkInterface of an interface. In other words, 
+                  if something is a subinterface, getParent() returns a non-null 
+                  value. The getSubInterfaces() method returns all the 
+                  subinterfaces of a network interface.</P>
+                  <P>You can discover if a network interface is "up" (that is, 
+                  running) with the isUp() method. There are also methods that 
+                  tell you the type of the network interface: isLoopback() tells 
+                  you if the network interface is a loopback interface, 
+                  isPointToPoint() tells you if it's a point-to-point interface, 
+                  and isVirtual() tells you if its a virtual interface.</P>
+                  <P>Beyond basic status information, you can access other 
+                  network parameters about a network interface such as its 
+                  physical hardware address (as an array of bytes) and the 
+                  Maximum Transmission Unit (MTU) (largest packet size).</P>
+                  <P>The last item of information available for each 
+                  NetworkInterface is a List of a new interface called 
+                  InterfaceAddress. This gives you the InetAddress for this 
+                  address, its broadcast address, and its subnet mask.</P>
+                  <P>Here is an updated version of the ListNets program that 
+                  uses the NetworkInterface enhancements:</P>
+                  <DIV align="left" class="java">
+                  <TABLE bgcolor="#ffffff" border="0" cellspacing="0" 
+                  cellpadding="3">
+                    <TBODY>
+                    <TR><!-- start source code -->    
+                      <TD align="left" nowrap="nowrap" 
+                        valign="top"><CODE><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;</FONT><FONT color="#7f0055"><B>import&nbsp;</B></FONT><FONT 
+                        color="#000000">java.io.*;</FONT><BR><FONT color="#ffffff">&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#7f0055"><B>import&nbsp;</B></FONT><FONT color="#000000">java.net.*;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;</FONT><FONT color="#7f0055"><B>import&nbsp;</B></FONT><FONT 
+                        color="#000000">java.util.*;</FONT><BR><FONT color="#ffffff">&nbsp;&nbsp;&nbsp;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;</FONT><FONT color="#7f0055"><B>public&nbsp;class&nbsp;</B></FONT><FONT 
+                        color="#000000">ListNets&nbsp;</FONT><FONT color="#000000">{</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#7f0055"><B>private&nbsp;static&nbsp;final&nbsp;</B></FONT><FONT 
+                        color="#000000">Console&nbsp;console&nbsp;=&nbsp;System.console</FONT><FONT 
+                        color="#000000">()</FONT><FONT 
+                        color="#000000">;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#7f0055"><B>public&nbsp;static&nbsp;</B></FONT><FONT 
+                        color="#7f0055"><B>void&nbsp;</B></FONT><FONT color="#000000">main</FONT><FONT 
+                        color="#000000">(</FONT><FONT 
+                        color="#000000">String&nbsp;args</FONT><FONT color="#000000">[])&nbsp;</FONT><FONT 
+                        color="#7f0055"><B>throws&nbsp;</B></FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">SocketException&nbsp;</FONT><FONT color="#000000">{</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">Enumeration&lt;NetworkInterface&gt;&nbsp;nets&nbsp;=</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">NetworkInterface.getNetworkInterfaces</FONT><FONT 
+                        color="#000000">()</FONT><FONT 
+                        color="#000000">;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#7f0055"><B>for&nbsp;</B></FONT><FONT color="#000000">(</FONT><FONT 
+                        color="#000000">NetworkInterface&nbsp;netint&nbsp;:&nbsp;Collections.list</FONT><FONT 
+                        color="#000000">(</FONT><FONT 
+                        color="#000000">nets</FONT><FONT 
+                        color="#000000">))&nbsp;{</FONT><BR><FONT color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">displayInterfaceInformation</FONT><FONT 
+                        color="#000000">(</FONT><FONT 
+                        color="#000000">netint</FONT><FONT 
+                        color="#000000">)</FONT><FONT 
+                        color="#000000">;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">}</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">}</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#7f0055"><B>private&nbsp;static&nbsp;</B></FONT><FONT 
+                        color="#7f0055"><B>void&nbsp;</B></FONT><FONT color="#000000">displayInterfaceInformation</FONT><FONT 
+                        color="#000000">(</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">NetworkInterface&nbsp;netint</FONT><FONT 
+                        color="#000000">)&nbsp;</FONT><FONT 
+                        color="#7f0055"><B>throws&nbsp;</B></FONT><FONT color="#000000">SocketException&nbsp;</FONT><FONT 
+                        color="#000000">{</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">console.printf</FONT><FONT color="#000000">(</FONT><FONT 
+                        color="#2a00ff">"Display&nbsp;name:&nbsp;%s%n"</FONT><FONT 
+                        color="#000000">,&nbsp;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">netint.getDisplayName</FONT><FONT color="#000000">())</FONT><FONT 
+                        color="#000000">;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">console.printf</FONT><FONT color="#000000">(</FONT><FONT 
+                        color="#2a00ff">"Name:&nbsp;%s%n"</FONT><FONT color="#000000">,&nbsp;netint.getName</FONT><FONT 
+                        color="#000000">())</FONT><FONT 
+                        color="#000000">;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">Enumeration&lt;InetAddress&gt;&nbsp;inetAddresses&nbsp;=&nbsp;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">netint.getInetAddresses</FONT><FONT 
+                        color="#000000">()</FONT><FONT 
+                        color="#000000">;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#7f0055"><B>for&nbsp;</B></FONT><FONT color="#000000">(</FONT><FONT 
+                        color="#000000">InetAddress&nbsp;inetAddress&nbsp;:&nbsp;Collections.list</FONT><FONT 
+                        color="#000000">(</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">inetAddresses</FONT><FONT color="#000000">))&nbsp;{</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">console.printf</FONT><FONT color="#000000">(</FONT><FONT 
+                        color="#2a00ff">"InetAddress:&nbsp;%s%n"</FONT><FONT 
+                        color="#000000">,&nbsp;inetAddress</FONT><FONT color="#000000">)</FONT><FONT 
+                        color="#000000">;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">}</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">console.printf</FONT><FONT color="#000000">(</FONT><FONT 
+                        color="#2a00ff">"Parent:&nbsp;%s%n"</FONT><FONT color="#000000">,&nbsp;netint.getParent</FONT><FONT 
+                        color="#000000">())</FONT><FONT 
+                        color="#000000">;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">console.printf</FONT><FONT color="#000000">(</FONT><FONT 
+                        color="#2a00ff">"Up?&nbsp;%s%n"</FONT><FONT color="#000000">,&nbsp;netint.isUp</FONT><FONT 
+                        color="#000000">())</FONT><FONT 
+                        color="#000000">;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">console.printf</FONT><FONT color="#000000">(</FONT><FONT 
+                        color="#2a00ff">"Loopback?&nbsp;%s%n"</FONT><FONT color="#000000">,&nbsp;netint.isLoopback</FONT><FONT 
+                        color="#000000">())</FONT><FONT 
+                        color="#000000">;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">console.printf</FONT><FONT color="#000000">(</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#2a00ff">"PointToPoint?&nbsp;%s%n"</FONT><FONT 
+                        color="#000000">,&nbsp;netint.isPointToPoint</FONT><FONT 
+                        color="#000000">())</FONT><FONT 
+                        color="#000000">;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">console.printf</FONT><FONT color="#000000">(</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#2a00ff">"Supports&nbsp;multicast?&nbsp;%s%n"</FONT><FONT 
+                        color="#000000">,&nbsp;netint.isVirtual</FONT><FONT 
+                        color="#000000">())</FONT><FONT 
+                        color="#000000">;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">console.printf</FONT><FONT color="#000000">(</FONT><FONT 
+                        color="#2a00ff">"Virtual?&nbsp;%s%n"</FONT><FONT color="#000000">,&nbsp;netint.isVirtual</FONT><FONT 
+                        color="#000000">())</FONT><FONT 
+                        color="#000000">;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">console.printf</FONT><FONT color="#000000">(</FONT><FONT 
+                        color="#2a00ff">"Hardware&nbsp;address:&nbsp;%s%n"</FONT><FONT 
+                        color="#000000">,</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">Arrays.toString</FONT><FONT color="#000000">(</FONT><FONT 
+                        color="#000000">netint.getHardwareAddress</FONT><FONT 
+                        color="#000000">()))</FONT><FONT 
+                        color="#000000">;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">console.printf</FONT><FONT color="#000000">(</FONT><FONT 
+                        color="#2a00ff">"MTU:&nbsp;%s%n"</FONT><FONT color="#000000">,&nbsp;netint.getMTU</FONT><FONT 
+                        color="#000000">())</FONT><FONT 
+                        color="#000000">;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">List&lt;InterfaceAddress&gt;&nbsp;interfaceAddresses&nbsp;=&nbsp;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">netint.getInterfaceAddresses</FONT><FONT 
+                        color="#000000">()</FONT><FONT 
+                        color="#000000">;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#7f0055"><B>for&nbsp;</B></FONT><FONT color="#000000">(</FONT><FONT 
+                        color="#000000">InterfaceAddress&nbsp;addr&nbsp;:&nbsp;interfaceAddresses</FONT><FONT 
+                        color="#000000">)&nbsp;{</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">console.printf</FONT><FONT color="#000000">(</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#2a00ff">"InterfaceAddress:&nbsp;%s%n"</FONT><FONT 
+                        color="#000000">,&nbsp;addr.getAddress</FONT><FONT 
+                        color="#000000">())</FONT><FONT 
+                        color="#000000">;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">}</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">console.printf</FONT><FONT color="#000000">(</FONT><FONT 
+                        color="#2a00ff">"%n"</FONT><FONT 
+                        color="#000000">)</FONT><FONT 
+                        color="#000000">;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">Enumeration&lt;NetworkInterface&gt;&nbsp;subInterfaces&nbsp;=&nbsp;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">netint.getSubInterfaces</FONT><FONT 
+                        color="#000000">()</FONT><FONT 
+                        color="#000000">;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#7f0055"><B>for&nbsp;</B></FONT><FONT color="#000000">(</FONT><FONT 
+                        color="#000000">NetworkInterface&nbsp;networkInterface&nbsp;:&nbsp;Collections.list</FONT><FONT 
+                        color="#000000">(</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">subInterfaces</FONT><FONT color="#000000">))&nbsp;{</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">console.printf</FONT><FONT color="#000000">(</FONT><FONT 
+                        color="#2a00ff">"%nSubInterface%n"</FONT><FONT color="#000000">)</FONT><FONT 
+                        color="#000000">;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">displayInterfaceInformation</FONT><FONT 
+                        color="#000000">(</FONT><FONT 
+                        color="#000000">networkInterface</FONT><FONT color="#000000">)</FONT><FONT 
+                        color="#000000">;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">}</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">console.printf</FONT><FONT color="#000000">(</FONT><FONT 
+                        color="#2a00ff">"%n"</FONT><FONT 
+                        color="#000000">)</FONT><FONT 
+                        color="#000000">;</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT 
+                        color="#000000">}</FONT><BR><FONT 
+                        color="#ffffff">&nbsp;&nbsp;&nbsp;</FONT><FONT color="#000000">}&nbsp;</FONT></CODE> 
+                               </TD><!-- end source code -->    
+                  </TR></TBODY></TABLE></DIV><!-- =       END of automatically generated HTML code       = --> <!-- ======================================================== --> 
+                  <P>Run the updated ListNets in Java SE 6.0. Again, the output 
+                  depends on your system configuration. Note that some 
+                  information might not be accessible for security reasons.</P>
+<PRE>   &gt; java ListNets   
+   Display name: MS TCP Loopback interface
+   Name: lo
+   InetAddress: /127.0.0.1
+   Parent: null
+   Up? true
+   Loopback? true
+   PointToPoint? false
+   Supports multicast? false
+   Virtual? false
+   Hardware address: null
+   MTU: 1520
+   InterfaceAddress: /127.0.0.1
+   Broadcast Address: /127.255.255.255
+   Network Prefix Length: 8
+
+   Display name: Intel(R) PRO/100 VE Network Connection -
+   Packet Scheduler Miniport
+   Name: eth0
+   Parent: null
+   Up? false
+   Loopback? false
+   PointToPoint? false
+   Supports multicast? false
+   Virtual? false
+   Hardware address: [0, 1, 2, 3, 4, 5]
+   MTU: 1500
+   
+   Display name: RCA USB Cable Modem - Packet Scheduler Miniport
+   Name: eth1
+   InetAddress: /11.22.33.44
+   Parent: null
+   Up? true
+   Loopback? false
+   PointToPoint? false
+   Supports multicast? false
+   Virtual? false
+   Hardware address: [0, 2, 3, 4, 5, 6]
+   MTU: 1500
+   InterfaceAddress: /11.22.33.44
+   Broadcast Address: /11.22.33.255
+   Network Prefix Length: 22
+
+</PRE>
+                  <P>The output shows that the network connection eth1 is up, 
+                  and connected to the Internet with IP address 11.22.33.44. It 
+                  also shows that network connection eth0 is down. The loopback 
+                  interface is up (and should always be up).</P>
+                  <P>Compare the results of the program to what you get from 
+                  something like the ipconfig command (with the /all option). 
+                  You'll see very similar results.</P>
+                  <P>For more information about network programming with the 
+                  Java platform, see the <A href="http://java.sun.com/tutorial/networking/">Custom 
+                  Networking trail</A> in the The Java Tutorial. </P>
+                  <P>Copyright (c) 2004-2005 Sun Microsystems, Inc.<BR>All 
+                  Rights Reserved.</P><BR clear="all">
+                  <H3>
+                  <DIV class="moduletable" style="color: rgb(255, 255, 255); font-size: 12px; background-color: rgb(51, 102, 153);"><SPAN 
+                  align="left"><STRONG>&nbsp;<U>Related 
+                  Tips</U></STRONG></SPAN></DIV></H3>
+                  <UL>
+                    <LI><A href="http://www.java-tips.org/java-se-tips/javax.swing/a-custom-combobox-editor-for-use-with-the-editablecombobox.html">A 
+                    custom combobox editor for use with the EditableComboBox 
+                    class</A></LI>
+                    <LI><A href="http://www.java-tips.org/java-se-tips/java.awt/a-demonstration-of-java2d-transformations.html">A 
+                    demonstration of Java2D transformations</A></LI>
+                    <LI><A href="http://www.java-tips.org/java-se-tips/javax.swing/a-game-of-tic-tac-toe-that-can-be-played-between-two-client-ap.html">A 
+                    game of Tic-Tac-Toe that can be played between two client 
+                    applets</A></LI>
+                    <LI><A href="http://www.java-tips.org/java-se-tips/javax.swing/a-label-that-uses-inline-to-format-its.html">A 
+                    Label that uses inline HTML to format its text</A></LI>
+                    <LI><A href="http://www.java-tips.org/java-se-tips/java.lang/a-program-to-print-limits-of-the-primitive-types.html">A 
+                    program to print limits of the primitive types</A></LI>
+                    <LI><A href="http://www.java-tips.org/java-se-tips/org.xml.sax/a-sample-of-inline-dtd-definition-2.html">A 
+                    sample of inline DTD definition</A></LI>
+                    <LI><A href="http://www.java-tips.org/java-se-tips/org.xml.sax/a-sample-of-linked-dtd-definition-2.html">A 
+                    sample of linked DTD definition</A></LI>
+                    <LI><A href="http://www.java-tips.org/java-se-tips/org.xml.sax/a-sample-xml-file.html">A 
+                    sample XML file</A></LI></UL></TD></TR></TBODY></TABLE><SPAN class="article_seperator">&nbsp;</SPAN>
+            		 
+            <CENTER>
+            <TABLE border="1" cellspacing="5" cellpadding="5">
+              <TBODY>
+              <TR>
+                <TD><!-- begin ad tag (tile=2) --> 
+<SCRIPT language="JavaScript" type="text/javascript">
+if (typeof ord=='undefined') {ord=Math.random()*10000000000000000;}
+document.write('<script language="JavaScript" src="http://a.collective-media.net/adj/idgt.javatips/article_above;sec=article;fold=above;tile=2;sz=300X250;ord=' + ord + '?" type="text/javascript"><\/script>');
+</SCRIPT>
+                  <NOSCRIPT>&lt;a 
+                  href="http://a.collective-media.net/jump/idgt.javatips/article_above;sec=article;fold=above;tile=2;sz=300X250;ord=123456789?" 
+                  target="_blank"&gt;&lt;img 
+                  src="http://a.collective-media.net/ad/idgt.javatips/article_above;sec=article;fold=above;tile=2;sz=300X250;ord=123456789?" 
+                  width="300" height="250" border="0" 
+                  alt=""&gt;&lt;/a&gt;</NOSCRIPT> <!-- End ad tag --></TD>
+                <TD><!-- begin ad tag (tile=2) --> 
+<SCRIPT language="JavaScript" type="text/javascript">
+if (typeof ord=='undefined') {ord=Math.random()*10000000000000000;}
+document.write('<script language="JavaScript" src="http://a.collective-media.net/adj/idgt.javatips/article_above;sec=article;fold=above;tile=2;sz=300X250;ord=' + ord + '?" type="text/javascript"><\/script>');
+</SCRIPT>
+                  <NOSCRIPT>&lt;a 
+                  href="http://a.collective-media.net/jump/idgt.javatips/article_above;sec=article;fold=above;tile=2;sz=300X250;ord=123456789?" 
+                  target="_blank"&gt;&lt;img 
+                  src="http://a.collective-media.net/ad/idgt.javatips/article_above;sec=article;fold=above;tile=2;sz=300X250;ord=123456789?" 
+                  width="300" height="250" border="0" 
+                  alt=""&gt;&lt;/a&gt;</NOSCRIPT> 
+              <!-- End ad tag --></TD></TR></TBODY></TABLE></CENTER>
+            <TABLE align="center" style="margin-top: 25px;">
+              <TBODY>
+              <TR>
+                <TH class="pagenav_prev"><A href="http://www.java-tips.org/java-se-tips/java.net/how-can-i-send-broadcast-packets-in-java-3.html">
+                  							&lt; Prev</A>					 </TH>
+                <TD width="50">&nbsp;					</TD>
+                <TH class="pagenav_next"><A href="http://www.java-tips.org/java-se-tips/java.net/user-datagram-protocol-programming-3.html">
+                  							Next &gt;</A>					 </TH></TR></TBODY></TABLE><LINK href="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/comments.css" 
+            rel="stylesheet" type="text/css"><!-- id 0, 0 -->
+<STYLE type="text/css">
+<!--
+.pageselected {
+    color: #FF0000;
+    font-weight: bold;
+    font-size: larger;
+}
+-->
+</STYLE>
+             
+            <DIV class="comm_pages">
+            <DIV>
+            <DIV align="center"><BR>Page 1 of 0 ( 0 comments )</DIV></DIV></DIV>
+<SCRIPT language="JavaScript" type="text/javascript">
+<!--
+// bbCode control by
+// subBlue design
+// www.subBlue.com
+// adapted for Simpleboard by the Two Shoes Module Factory (www.tsmf.jigsnet.com)
+
+// Startup variables
+var imageTag = false;
+var theSelection = false;
+
+// Check for Browser & Platform for PC & IE specific bits
+// More details from: http://www.mozilla.org/docs/web-developer/sniffer/browser_type.html
+var clientPC = navigator.userAgent.toLowerCase(); // Get client info
+var clientVer = parseInt(navigator.appVersion); // Get browser version
+
+var is_ie = ((clientPC.indexOf("msie") != -1) && (clientPC.indexOf("opera") == -1));
+var is_nav = ((clientPC.indexOf('mozilla')!=-1) && (clientPC.indexOf('spoofer')==-1)
+                && (clientPC.indexOf('compatible') == -1) && (clientPC.indexOf('opera')==-1)
+                && (clientPC.indexOf('webtv')==-1) && (clientPC.indexOf('hotjava')==-1));
+var is_moz = 0;
+
+var is_win = ((clientPC.indexOf("win")!=-1) || (clientPC.indexOf("16bit") != -1));
+var is_mac = (clientPC.indexOf("mac")!=-1);
+
+
+
+// Define the bbCode tags
+bbcode = new Array();
+bbtags = new Array('[b]','[/b]','[i]','[/i]','[u]','[/u]','[quote]','[/quote]','[code]','[/code]','[ul]','[/ul]','[ol]','[/ol]','[img size=150]','[/img]','[url]','[/url]','[li]','[/li]');
+imageTag = false;
+
+// Shows the help messages in the helpline window
+function helpline(help) {
+   return eval(help + "_help");
+}
+
+
+// Replacement for arrayname.length property
+function getarraysize(thearray) {
+   for (i = 0; i < thearray.length; i++) {
+      if ((thearray[i] == "undefined") || (thearray[i] == "") || (thearray[i] == null))
+         return i;
+      }
+   return thearray.length;
+}
+
+// Replacement for arrayname.push(value) not implemented in IE until version 5.5
+// Appends element to the array
+function arraypush(thearray,value) {
+   thearray[ getarraysize(thearray) ] = value;
+}
+
+// Replacement for arrayname.pop() not implemented in IE until version 5.5
+// Removes and returns the last element of an array
+function arraypop(thearray) {
+   thearraysize = getarraysize(thearray);
+   retval = thearray[thearraysize - 1];
+   delete thearray[thearraysize - 1];
+   return retval;
+}
+
+
+function bbstyle(bbnumber) {
+
+   var txtarea = document.commentForm.mc_comment;
+
+   txtarea.focus();
+   donotinsert = false;
+   theSelection = false;
+   bblast = 0;
+
+   if (bbnumber == -1) { // Close all open tags & default button names
+      while (bbcode[0]) {
+         butnumber = arraypop(bbcode) - 1;
+         txtarea.value += bbtags[butnumber + 1];
+         buttext = eval('document.postform.addbbcode' + butnumber + '.value');
+         eval('document.postform.addbbcode' + butnumber + '.value ="' + buttext.substr(0,(buttext.length - 1)) + '"');
+      }
+      imageTag = false; // All tags are closed including image tags :D
+      txtarea.focus();
+      return;
+   }
+
+   if ((clientVer >= 4) && is_ie && is_win)
+   {
+      theSelection = document.selection.createRange().text; // Get text selection
+      if (theSelection) {
+         // Add tags around selection
+         document.selection.createRange().text = bbtags[bbnumber] + theSelection + bbtags[bbnumber+1];
+         txtarea.focus();
+         theSelection = '';
+         return;
+      }
+   }
+   else if (txtarea.selectionEnd && (txtarea.selectionEnd - txtarea.selectionStart > 0))
+   {
+      mozWrap(txtarea, bbtags[bbnumber], bbtags[bbnumber+1]);
+      return;
+   }
+
+   // Find last occurance of an open tag the same as the one just clicked
+   for (i = 0; i < bbcode.length; i++) {
+      if (bbcode[i] == bbnumber+1) {
+         bblast = i;
+         donotinsert = true;
+      }
+   }
+
+   if (donotinsert) {      // Close all open tags up to the one just clicked & default button names
+      while (bbcode[bblast]) {
+            butnumber = arraypop(bbcode) - 1;
+            txtarea.value += bbtags[butnumber + 1];
+            buttext = eval('document.postform.addbbcode' + butnumber + '.value');
+            eval('document.postform.addbbcode' + butnumber + '.value ="' + buttext.substr(0,(buttext.length - 1)) + '"');
+            imageTag = false;
+         }
+         txtarea.focus();
+         return;
+   } else { // Open tags
+
+      if (imageTag && (bbnumber != 14)) {    // Close image tag before adding another
+         txtarea.value += bbtags[15];
+         lastValue = arraypop(bbcode) - 1;   // Remove the close image tag from the list
+         document.postform.addbbcode14.value = "Img";  // Return button back to normal state
+         imageTag = false;
+      }
+
+      // Open tag
+      txtarea.value += bbtags[bbnumber];
+      if ((bbnumber == 14) && (imageTag == false)) imageTag = 1; // Check to stop additional tags after an unclosed image tag
+      arraypush(bbcode,bbnumber+1);
+      eval('document.postform.addbbcode'+bbnumber+'.value += "*"');
+      txtarea.focus();
+      return;
+   }
+   storeCaret(txtarea);
+}
+
+// From http://www.massless.org/mozedit/
+function mozWrap(txtarea, open, close)
+{
+   var selLength = txtarea.textLength;
+   var selStart = txtarea.selectionStart;
+   var selEnd = txtarea.selectionEnd;
+   if (selEnd == 1 || selEnd == 2)
+      selEnd = selLength;
+
+   var s1 = (txtarea.value).substring(0,selStart);
+   var s2 = (txtarea.value).substring(selStart, selEnd)
+   var s3 = (txtarea.value).substring(selEnd, selLength);
+   txtarea.value = s1 + open + s2 + close + s3;
+   return;
+}
+
+// Insert at Claret position. Code from
+// http://www.faqts.com/knowledge_base/view.phtml/aid/1052/fid/130
+function storeCaret(textEl) {
+   if (textEl.createTextRange) textEl.caretPos = document.selection.createRange().duplicate();
+}
+
+
+function bbfontstyle(bbopen, bbclose) {
+   var txtarea = document.postform.message;
+
+   if ((clientVer >= 4) && is_ie && is_win) {
+      theSelection = document.selection.createRange().text;
+      if (!theSelection) {
+         txtarea.value += bbopen + bbclose;
+         txtarea.focus();
+         return;
+      }
+      document.selection.createRange().text = bbopen + theSelection + bbclose;
+      txtarea.focus();
+      return;
+   }
+   else if (txtarea.selectionEnd && (txtarea.selectionEnd - txtarea.selectionStart > 0))
+   {
+      mozWrap(txtarea, bbopen, bbclose);
+      return;
+   }
+   else
+   {
+      txtarea.value += bbopen + bbclose;
+      txtarea.focus();
+   }
+   storeCaret(txtarea);
+}
+
+//#######################################################
+//code used in My Profile (userprofile.php)
+function textCounter(field, countfield, maxlimit) {
+   if(field.value.length > maxlimit){
+      field.value = field.value.substring(0, maxlimit);
+   }
+   else{
+      countfield.value = maxlimit - field.value.length;
+   }
+}
+//*********************************************************
+// Insert emoticons
+
+function emo($e)
+{
+ document.postform.message.value=document.postform.message.value+$e;
+ document.postform.message.focus();
+}
+function submitForm() {
+
+ submitme=1;
+
+ formname=document.postform.sb_authorname.value;
+ if ((formname.length<1)) {
+    alert("You forgot to enter your name");
+    submitme=0;
+ }
+
+ formmail=document.postform.email.value;
+ if ((formmail.length<1)) {
+    alert("You forgot to enter your email");
+    submitme=0;
+  }
+  formsubject=document.postform.subject.value;
+  if ((formsubject.length<1)) {
+    alert("You forgot to enter a subject");
+    submitme=0;
+  }
+
+  if (submitme>0) {
+  //change the following line to true to submit form
+    return true;
+
+  }else{
+    return false;
+  }
+}
+
+function cancelForm() {
+   document.forms['postform'].action.value = "cancel";
+   return true;
+}
+
+//**********************************************
+// Helpline messages
+q_help = "Mark as quoted text";
+c_help = "Mark as Code/XML. The text will be displayed without formatting";
+a_help = "Close all open tags";
+submit_help = "Sumbit the comment";
+preview_help = "Preview the comment";
+name_help= "the Name that will appear in the comment";
+email_help= "the email will appear only to the administrator";
+html_help= "if set to Yes then HTML tags will be interpreted";
+comment_help= "Write here your comment";
+
+//**************************************************
+// Open the preview window (with some post parsing)
+function Preview(stylesheet, sbs) {
+message=document.getElementById('message');
+
+//these gotta be in both... I don't knwo why, but it works...
+messageString = message.innertext;
+messageString = message.value;
+
+messageString = messageString.replace(/<(.*?)>/g,"&lt;$1&gt;");
+messageString = messageString.replace(/</g,"&lt;");
+messageString = messageString.replace(/\n/g,"<br>");
+messageString = messageString.replace(/\[b\]/g,"<b>");
+messageString = messageString.replace(/\[\/b\]/g,"</b>");
+messageString = messageString.replace(/\[i\]/g,"<i>");
+messageString = messageString.replace(/\[\/i\]/g,"</i>");
+messageString = messageString.replace(/\[u\]/g,"<u>");
+messageString = messageString.replace(/\[\/u\]/g,"</u>");
+messageString = messageString.replace(/\[quote\]/g,'<div class="sb_review_quote">');
+messageString = messageString.replace(/\[\/quote\]/g,'</div>');
+messageString = messageString.replace(/\[code\]/g,'<table width="90%" cellspacing="1" cellpadding="3" border="0" align="center"><tr><td><b>Code:</b></span></td></tr><tr><td class="sb_code"><pre>');
+messageString = messageString.replace(/\[\/code\]/g,'</pre></tr></table>');
+messageString = messageString.replace(/\[code:1\]/g,'<table width="90%" cellspacing="1" cellpadding="3" border="0" align="center"><tr><td><b>Code:</b></span></td></tr><tr><td class="sb_code"><pre>');
+messageString = messageString.replace(/\[\/code:1\]/g,'</pre></tr></table>');
+messageString = messageString.replace(/\[ul\]/g,"<ul>");
+messageString = messageString.replace(/\[\/ul\]/g,"</ul>");
+messageString = messageString.replace(/\[ol\]/g,"<ol>");
+messageString = messageString.replace(/\[\/ol\]/g,"</ol>");
+messageString = messageString.replace(/\[li\]/g,"<li>");
+messageString = messageString.replace(/\[\/li\]/g,"</li>");
+messageString = messageString.replace(/B\)/g,'<img src="'+sbs+'/emoticons/sun.gif">');
+messageString = messageString.replace(/;\)/g,'<img src="'+sbs+'/emoticons/wink.gif">');
+messageString = messageString.replace(/:\)/g,'<img src="'+sbs+'/emoticons/happy.gif">');
+messageString = messageString.replace(/:laugh:/g,'<img src="'+sbs+'/emoticons/laugh.gif">');
+messageString = messageString.replace(/:ohmy:/g,'<img src="'+sbs+'/emoticons/ohmy.gif">');
+messageString = messageString.replace(/:x/g,'<img src="'+sbs+'/emoticons/sick.gif">');
+messageString = messageString.replace(/:mad:/g,'<img src="'+sbs+'/emoticons/angry.gif">');
+messageString = messageString.replace(/:blink:/g,'<img src="'+sbs+'/emoticons/blink.gif">');
+messageString = messageString.replace(/:P/g,'<img src="'+sbs+'/emoticons/tongue.gif">');
+messageString = messageString.replace(/:\(/g,'<img src="'+sbs+'/emoticons/unhappy.gif">');
+messageString = messageString.replace(/:unsure:/g,'<img src="'+sbs+'/emoticons/unsure.gif">');
+messageString = messageString.replace(/:lol:/g,'<img src="'+sbs+'/emoticons/lol.gif">');
+messageString = messageString.replace(/:huh:/g,'<img src="'+sbs+'/emoticons/huh.gif">');
+messageString = messageString.replace(/:dry:/g,'<img src="'+sbs+'/emoticons/dry.gif">');
+messageString = messageString.replace(/:rolleyes:/g,'<img src="'+sbs+'/emoticons/rolleyes.gif">');
+messageString = messageString.replace(/:y32b4:/g,'<img src="'+sbs+'/emoticons/y32b4.gif">');
+
+messageString = messageString.replace(/\[img size=([1-4][0-9][0-9])\](.*?)\[\/img\]/g,"<img src=\"$2\" border\"0\" width=\"$1\">");
+messageString = messageString.replace(/\[img\](.*?)\[\/img\]/g,"<img src=\"$1\" border\"0\">");
+messageString = messageString.replace(/(\[url\])(.*?)(\[\/url\])/g,"<a href=$2 target=\"_blank\">$2</a>");
+messageString = messageString.replace(/\[url=(.*?)\](.*?)\[\/url\]/g,"<a href=\"$1\" target=\"_blank\">$2</a>");
+messageString = messageString.replace(/\[size=([1-7])\](.+?)\[\/size\]/g,"<font size=\"$1\">$2</font>");
+messageString = messageString.replace(/\[color=(.*?)\](.*?)\[\/color\]/g,"<span style=\"color: $1\">$2</span>");
+messageString = messageString.replace(/\[file name=(.*?) size=(.*?)\](.*?)\[\/file\]/g,"<div class=\"sb_file_attachment\"><span class=\"contentheading\">File Attachment:</span><br>File name: <a href=\"$3\">$1</a><br>File size:$2 bytes</div>");
+
+//and finally open the window for displaying the lot
+win = window.open('','Preview','width=640, height=480, toolbar = no, status = no, resizable, scrollbars');
+win.document.write("<link media=\"all\" type=\"text/css\" href=\""+ stylesheet + "\" rel=\"stylesheet\">");
+win.document.write("<link media=\"all\" type=\"text/css\" href=\""+ sbs + "/forum.css\" rel=\"stylesheet\">");
+win.document.write("<div style=\"margin-left:10px; margin-top:10px;margin-right:10px;margin-bottom:10px\">");
+win.document.write("<hr size=1 width=\"20%\" align=\"left\">");
+win.document.write('' + messageString + '');
+win.document.write("<hr size=1 width=\"20%\" align=\"left\">");
+win.document.write("<a href=\"javascript:window.close()\"> Close this window </a> ");
+win.document.write("</div>");
+}
+
+
+/**
+* Pops up a new window in the middle of the screen
+*/
+function popupWindow(mypage, myname, w, h, scroll) {
+   var winl = (screen.width - w) / 2;
+   var wint = (screen.height - h) / 2;
+   winprops = 'height='+h+',width='+w+',top='+wint+',left='+winl+',scrollbars='+scroll+',resizable'
+   win = window.open(mypage, myname, winprops);
+   if (win.opener == null) win.opener = self;
+   if (parseInt(navigator.appVersion) >= 4) { win.window.focus(); }
+}
+
+function popUp(URL) {
+
+    eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=0,scrollbars=no,location=0,statusbar=0,menubar=0,resizable=0,width=300,height=250,left = 262,top = 184');");
+}
+
+//-->
+</SCRIPT>
+             
+<SCRIPT src="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/overlib_mini.js" type="text/javascript"></SCRIPT>
+             
+            <DIV id="overDiv" style="visibility: hidden; position: absolute; z-index: 1000;"></DIV>
+<SCRIPT>
+function CheckNULL(val) {
+	if(val==null) {
+		return '';
+	}
+	else {
+		return val;
+	}
+}
+
+// this function gets the cookie, if it exists
+function Get_Cookie( name ) {
+	
+var start = document.cookie.indexOf( name + "=" );
+var len = start + name.length + 1;
+	if ( ( !start ) &&
+	( name != document.cookie.substring( 0, name.length ) ) )
+	{
+		return null;
+	}
+	if ( start == -1 ) return null;
+var end = document.cookie.indexOf( ";", len );
+	if ( end == -1 ) end = document.cookie.length;
+		return unescape( document.cookie.substring( len, end ) );
+}
+		
+
+</SCRIPT>
+             <A name="commentform"></A> 
+            <DIV class="commentheading">
+            <DIV>
+            <DIV>
+            <P>You can share your information about this topic using the form 
+            below! </P>
+            <P>Please do not post your questions with this form! 
+            Thanks.</P></DIV></DIV></DIV>
+            <DIV class="commentarea">
+            <DIV class="box">
+            <DIV>
+            <DIV>
+            <FORM name="commentForm" id="commentForm" action="index.php?option=com_comments&amp;task=mc_preview&amp;id=1767" 
+            method="post"><INPUT name="return" type="hidden" value="index.php?option=content&amp;task=view&amp;id=1767"> 
+                      <BR><!--          <div class=commenttext> -->          
+            Name <SMALL><I>(required)</I></SMALL><BR><INPUT name="mc_comment_name" 
+            class="inputbox" style="width: 268px;" onmouseover="return overlib(helpline('name'))" 
+            onmouseout="return nd();" type="text">           <BR><!--          <div class=commenttext> --> 
+                      <BR>          E-Mail <SMALL><I>(required)</I></SMALL>      
+                <!--          </div> -->                     <BR><INPUT name="mc_comment_email" 
+            class="inputbox" style="width: 268px;" onmouseover="return overlib(helpline('email'))" 
+            onmouseout="return nd();" type="text">           <!--          <div class="commentsmalltext"> --> 
+                      <BR>          Your email will not be displayed on the site 
+            - only to our administrator          <!-- </div> -->           <BR>  
+                    Homepage<SMALL><I>(optional)</I></SMALL> <BR><INPUT name="mc_comment_homepage" 
+            class="inputbox" style="width: 288px;" type="text" value="http://"> 
+            <BR><BR><!--          <div class="text"> -->           <BR>          
+            Comment          <!--</div> -->                    Enable HTML code 
+            :           <INPUT name="mc_htmlcode" onmouseover="return overlib(helpline('html'))" 
+            onmouseout="return nd();" type="radio" checked="" value="1">         
+             Yes           <INPUT name="mc_htmlcode" onmouseover="helpline('html')" 
+            type="radio" value="0">          No 
+<BR><INPUT name="addbbcode6" class="button" accesskey="q" style="width: 50px;" onmouseover="return overlib(helpline('q'))" onmouseout="return nd();" onclick="bbstyle(6)" type="button" value="Quote"> 
+                      
+<INPUT name="addbbcode8" class="button" accesskey="c" style="width: 40px;" onmouseover="return overlib(helpline('c'))" onmouseout="return nd();" onclick="bbstyle(8)" type="button" value="Code"> 
+                      
+<INPUT name="addbbcode-1" class="button" accesskey="c" style="width: 60px;" onmouseover="return overlib(helpline('a'))" onmouseout="return nd();" onclick="bbstyle(-1)" type="button" value="Close all"> 
+                      
+<BR><TEXTAREA name="mc_comment" class="commentinputbox" onmouseover="helpline('comment')" rows="7" cols="50">
+ </TEXTAREA> 
+                      <BR><INPUT name="pressbutton" class="button" style="width: 100px;" onmouseover="return overlib(helpline('submit'))" onmouseout="return nd();" type="submit" value="Submit"> 
+                      <INPUT name="pressbutton" class="button" style="width: 100px;" type="reset" value="Reset"> 
+                    </FORM></DIV></DIV></DIV></DIV><BR><!-- The wonderful world of open source make it easy to change the code any way you wish!  I kindly ask 
+please notify me and make a donation at http://ongetc.com before you decide to remove this line, thanks --> <!-- A request from the author of MosCom, Chanh Ong --> 
+<SCRIPT>
+	document.commentForm.mc_comment_email.value=CheckNULL(Get_Cookie("_mc_comment_email"));
+	document.commentForm.mc_comment_name.value=CheckNULL(Get_Cookie("_mc_comment_name"));
+	document.commentForm.mc_comment.value=CheckNULL(Get_Cookie("_mc_comment"));
+	document.commentForm.mc_htmlcode.value=CheckNULL(Get_Cookie("_mc_htmlcode"));
+
+</SCRIPT>
+            		 </TD>
+          <TD width="20" background="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/right_back.png">&nbsp;</TD></TR>
+        <TR>
+          <TD width="20" background="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/left_back.png">&nbsp;</TD>
+          <TD valign="top" bgcolor="#ffffff">&nbsp;</TD>
+          <TD valign="top" bgcolor="#ffffff">&nbsp;</TD>
+          <TD valign="top"></TD>
+          <TD width="20" background="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/right_back.png">&nbsp;</TD></TR>
+        <TR>
+          <TD width="20" background="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/left_back.png">&nbsp;</TD>
+          <TD valign="top" bgcolor="#ffffff">&nbsp;</TD>
+          <TD valign="top" bgcolor="#ffffff">&nbsp;</TD>
+          <TD valign="top">&nbsp;</TD>
+          <TD width="20" background="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/right_back.png">&nbsp;</TD></TR></TBODY></TABLE>
+      <TABLE width="980" align="center" border="0" cellspacing="0" cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD width="20" background="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/left_back.png">&nbsp;</TD>
+          <TD>&nbsp;</TD>
+          <TD width="20" background="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/right_back.png">&nbsp;</TD></TR>
+        <TR>
+          <TD width="20" background="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/left_back.png">&nbsp;</TD>
+          <TD>
+            <DIV align="center">              &nbsp;            </DIV></TD>
+          <TD width="20" background="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/right_back.png">&nbsp;</TD></TR>
+        <TR>
+          <TD width="20" background="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/left_back.png">&nbsp;</TD>
+          <TD class="legal_static">&nbsp;</TD>
+          <TD width="20" background="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/right_back.png">&nbsp;</TD></TR>
+        <TR>
+          <TD width="20" background="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/left_back.png">&nbsp;</TD>
+          <TD>
+            <DIV align="center"><!-- begin ad tag (tile=5) --> 
+            <DIV id="div-gpt-ad-2803617656626-0">
+<SCRIPT type="text/javascript">
+       googletag.cmd.push(function() {
+         googletag.defineSlot('/8456/IDG.Java-Tips.com_Homepage', [300,250],'div-gpt-ad-2803617656626-0')
+           .addService(googletag.pubads())
+           .setTargeting("pos", "ATF")
+           .setTargeting("URL", encodeURIComponent(window.location));
+         googletag.enableServices();
+         googletag.display('div-gpt-ad-2803617656626-0');
+       });
+    </SCRIPT>
+             </DIV><!-- End ad tag -->	   </DIV></TD>
+          <TD width="20" background="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/right_back.png">&nbsp;</TD></TR></TBODY></TABLE>
+      <TABLE width="980" align="center" border="0" cellspacing="0" cellpadding="0">
+        <TBODY>
+        <TR>
+          <TD width="393">
+            <DIV align="left" height="90"><IMG width="393" height="90" alt="java bottom left" 
+            src="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/bottom_left.png"> 
+            </DIV></TD>
+          <TD>
+            <DIV align="center" height="90"><IMG width="100%" height="90" alt="java bottom middle" 
+            src="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/bottom_middle.png"> 
+            </DIV></TD>
+          <TD width="387">
+            <DIV align="right" height="90"><IMG width="387" height="90" alt="java bottom right" 
+            src="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/bottom_right.png"> 
+            </DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE class="moduletable" cellspacing="0" cellpadding="0">
+  <TBODY>
+  <TR>
+    <TD><LINK href="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/ds-syndicate.css" 
+      rel="stylesheet" type="text/css"> 
+      <DIV align="center"><A href="http://www.java-tips.org/index2.php?option=com_ds-syndicate&amp;type=RSS0.91&amp;no_html=1" 
+      target="_blank"><IMG class="feedImg_ds-syndicate" alt="RSS 0.91 Feed" src="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/rss091.gif"></A><A 
+      href="http://www.java-tips.org/index2.php?option=com_ds-syndicate&amp;type=RSS1.0&amp;no_html=1" 
+      target="_blank"><IMG class="feedImg_ds-syndicate" alt="RSS 1.0 Feed" src="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/rss10.gif"></A><A 
+      href="http://www.java-tips.org/index2.php?option=com_ds-syndicate&amp;type=RSS2.0&amp;no_html=1" 
+      target="_blank"><IMG class="feedImg_ds-syndicate" alt="RSS 2.0 Feed" src="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/rss20.gif"></A><A 
+      href="http://www.java-tips.org/index2.php?option=com_ds-syndicate&amp;type=ATOM0.3&amp;no_html=1" 
+      target="_blank"><IMG class="feedImg_ds-syndicate" alt="ATOM Feed" src="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/atom03.gif"></A><A 
+      href="http://www.java-tips.org/index2.php?option=com_ds-syndicate&amp;type=OPML&amp;no_html=1" 
+      target="_blank"><IMG class="feedImg_ds-syndicate" alt="OPML Feed" src="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/opml.png"></A></DIV></TD></TR></TBODY></TABLE><BR>
+<CENTER>
+<TABLE border="0">
+  <TBODY>
+  <TR>
+    <TD><A href="http://www.java-tips.org/">Home</A> 
+    <TD>
+    <TD>- 
+    <TD>
+    <TD><A href="http://www.java-tips.org/faqs/about-java-tips.org/what-is-java-tips.org.html">About 
+      Us</A> 
+    <TD>
+    <TD>- 
+    <TD>
+    <TD><A href="http://www.java-tips.org/site-documentation/legal/privacy-policy.html">Privacy 
+      Policy</A> 
+    <TD></TR></TBODY></TABLE></CENTER>
+<DIV align="center">Copyright 2005 - 2008 www.java-tips.org</DIV>
+<DIV align="center">Java is a trademark of Sun Microsystems, Inc.</DIV><!-- Kontera ContentLink(TM);--> 
+<SCRIPT type="text/javascript">
+var dc_AdLinkColor = 'blue' ;
+var dc_isBoldActive= 'no';
+var dc_PublisherID = 179488 ;
+</SCRIPT>
+ 
+<SCRIPT src="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/KonaLibInline.js" type="text/javascript"></SCRIPT>
+ <!-- Kontera ContentLink(TM) --> <!-- Start of Google Analytics Code --> 
+<SCRIPT src="Java%20Tips%20-%20Programmatic%20Access%20to%20Network%20Parameters_files/urchin.js" type="text/javascript"></SCRIPT>
+ 
+<SCRIPT type="text/javascript">
+_uacct = "UA-136266-1";
+urchinTracker();
+</SCRIPT>
+ <!-- End of Google Analytics Code --> 
+<SCRIPT type="text/javascript">
+doclix_pid = 16593;
+doclix_cid_anchor = 1444;
+</SCRIPT>
+ </BODY></HTML><!-- 1421560537 -->

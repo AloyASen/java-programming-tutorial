@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="JavaSE-1.7" key="org.eclipse.jdt.ui.last.selected.execution.enviroment"/>
+	<item value="C:\oracle11g\product\11.2.0\dbhome_1\jdbc\lib" key="org.eclipse.jdt.ui.lastextjar"/>
+	<item value="C:\Users\Aloy\workspace\sorting examples" key="org.eclipse.jdt.ui.last.external.project"/>
+	<item value="0" key="org.eclipse.jdt.ui.last.selected.jre.kind2"/>
+	<section name="ProblemSeveritiesConfigurationBlock">
+		<item value="false" key="expanded2"/>
+		<item value="false" key="expanded1"/>
+		<item value="false" key="expanded4"/>
+		<item value="false" key="expanded3"/>
+		<item value="false" key="expanded6"/>
+		<item value="false" key="expanded5"/>
+		<item value="true" key="expanded7"/>
+		<item value="false" key="expanded0"/>
+	</section>
+	<section name="SelfEncapsulateFieldWizard">
+		<item value="false" key="GenerateJavadoc"/>
+	</section>
+	<section name="DialogBounds_SuperInterfaceSelectionDialog">
+		<item value="373" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="549" key="DIALOG_HEIGHT"/>
+		<item value="85" key="DIALOG_X_ORIGIN"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
+		<item value="2" key="layout"/>
+		<item value="true" key="group_libraries"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;packageExplorer group_libraries=&quot;1&quot; layout=&quot;2&quot; linkWithEditor=&quot;0&quot; rootMode=&quot;1&quot; workingSetName=&quot;Aggregate for window 1404720877454&quot;&gt;&#x0D;&#x0A;&lt;customFilters userDefinedPatternsEnabled=&quot;false&quot;&gt;&#x0D;&#x0A;&lt;xmlDefinedFilters&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.StaticsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.m2e.MavenModuleFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.pde.ui.BinaryProjectFilter1&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.pde.ui.ExternalPluginLibrariesFilter1&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.FieldsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;/xmlDefinedFilters&gt;&#x0D;&#x0A;&lt;/customFilters&gt;&#x0D;&#x0A;&lt;/packageExplorer&gt;" key="memento"/>
+		<item value="1" key="rootMode"/>
+		<item value="false" key="linkWithEditor"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.dialogs.FilteredTypesSelectionDialog">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History/&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="-29" key="DIALOG_X_ORIGIN"/>
+			<item value="0" key="DIALOG_Y_ORIGIN"/>
+		</section>
+	</section>
+	<section name="NewClassWizardPage">
+		<item value="true" key="create_constructor"/>
+		<item value="false" key="create_unimplemented"/>
+	</section>
+	<section name="OptionalMessageDialog.hide.">
+		<item value="true" key="org.eclipse.jdt.ui.typecomment.deprecated"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.typehierarchy.QuickHierarchy">
+		<item value="true" key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_USE_PERSISTED_SIZE"/>
+		<item value="306" key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_HEIGHT"/>
+		<item value="350" key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_WIDTH"/>
+		<item value="false" key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_USE_PERSISTED_LOCATION"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.dialogs.OpenTypeSelectionDialog2">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History/&gt;" key="History"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.text.QuickOutline">
+		<item value="true" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_USE_PERSISTED_SIZE"/>
+		<item value="350" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_WIDTH"/>
+		<item value="300" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_HEIGHT"/>
+		<item value="false" key="GoIntoTopLevelTypeAction.isChecked"/>
+		<item value="false" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_USE_PERSISTED_LOCATION"/>
+	</section>
+	<section name="RefactoringWizard.preview">
+		<item value="600" key="width"/>
+		<item value="400" key="height"/>
+	</section>
+	<section name="FatJarPackageWizard">
+		<item value="C:\Users\Aloy\workspace" key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION"/>
+		<item value="Hello_test - Test_Runnable" key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME"/>
+		<item value="D:\Runnable standalones\Runnable.test_Hello World.jar" key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION"/>
+		<item value="false" key="FatJarPackageWizardPage.ANTSCRIPT_SAVE"/>
+		<item value="1" key="FatJarPackageWizardPage.LIBRARY_HANDLING"/>
+		<list key="FatJarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="D:\Runnable standalones\Runnable.test_Hello World.jar"/>
+		</list>
+		<list key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION_HISTORY">
+			<item value=".xml"/>
+		</list>
+	</section>
+	<section name="javadoc">
+		<item value="public" key="access"/>
+		<item value="false" key="noindex"/>
+		<item value="C:\Users\Aloy\workspace\Applet initilizer\javadoc.xml" key="antpath"/>
+		<item value="false" key="nodeprecatedlist"/>
+		<item value="true" key="use"/>
+		<item value="true" key="author"/>
+		<item value="false" key="nodeprecated"/>
+		<item value="false" key="nonavbar"/>
+		<item value="" key="docletpath"/>
+		<item value="C:\Program Files\Java\jdk1.8.0_05\bin\javadoc.exe" key="javadoc_command_history"/>
+		<item value="1.8" key="source"/>
+		<item value="true" key="version"/>
+		<item value="the vector array" key="doctitle"/>
+		<item value="" key="docletname"/>
+		<item value="true" key="splitindex"/>
+		<item value="true" key="fromStandard"/>
+		<item value="false" key="notree"/>
+		<item value="C:\Users\Aloy\workspace\Applet initilizer\doc" key="destdir"/>
+		<item value="true" key="openinbrowser"/>
+		<section name="projects">
+			<section name="Student_details">
+				<item value="C:\Users\Aloy\workspace\Student_details\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Aloy\workspace\Student_details\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Expenditure Template">
+				<item value="C:\Users\Aloy\Downloads\Expense Tracker\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Aloy\Downloads\Expense Tracker\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Shell_to_kernel_forSORT">
+				<item value="C:\Users\Aloy\workspace\Shell_to_kernel_forSORT\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Aloy\workspace\Shell_to_kernel_forSORT\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Servers">
+				<item value="C:\Users\Aloy\workspace\Servers\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Aloy\workspace\Servers\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="RemoteSystemsTempFiles">
+				<item value="C:\Users\Aloy\workspace\RemoteSystemsTempFiles\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Aloy\workspace\RemoteSystemsTempFiles\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="client for sort">
+				<item value="C:\Users\Aloy\workspace\client for sort\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Aloy\workspace\client for sort\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Travelling_salesman_problem">
+				<item value="C:\Users\Aloy\workspace\Travelling_salesman_problem\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Aloy\workspace\Travelling_salesman_problem\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Multithreading">
+				<item value="C:\Users\Aloy\workspace\Multithreading\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Aloy\workspace\Multithreading\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Static variables">
+				<item value="C:\Users\Aloy\workspace\Static variables\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Aloy\workspace\Static variables\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Buttonstest">
+				<item value="C:\Users\Aloy\workspace\Buttonstest\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Aloy\workspace\Buttonstest\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Applet initilizer">
+				<item value="C:\Users\Aloy\workspace\Applet initilizer\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Aloy\workspace\Applet initilizer\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Tcs_final">
+				<item value="C:\Users\Aloy\workspace\Tcs_final\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Aloy\workspace\Tcs_final\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="File_handling.Practice1">
+				<item value="C:\Users\Aloy\workspace\File_handling.Practice1\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Aloy\workspace\File_handling.Practice1\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Function_Solve_Method2">
+				<item value="C:\Users\Aloy\workspace\Function_Solve_Method2\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Aloy\workspace\Function_Solve_Method2" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Array merge">
+				<item value="C:\Users\Aloy\workspace\Array merge\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Aloy\workspace\Array merge\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ardiunomake">
+				<item value="C:\Users\Aloy\workspace\ardiunomake\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\Aloy\workspace\ardiunomake\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+		</section>
+	</section>
+	<section name="ClasspathContainerSelectionPage">
+		<item value="3" key="index"/>
+	</section>
+	<section name="BuildPathsPropertyPage">
+		<item value="3" key="pageIndex"/>
+	</section>
+	<section name="quick_assist_proposal_size">
+	</section>
+	<section name="NewPackageWizardPage">
+		<item value="false" key="create_package_info_java"/>
+	</section>
+	<section name="completion_proposal_size">
+	</section>
+	<section name="JavaElementSearchActions">
+	</section>
+</section>

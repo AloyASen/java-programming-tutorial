@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="E:\Aloysen_ENGG@aec\THIRD YEAR_aloysen\SUMMER training\Ardent\final project\Expense Tracker\Expense Tracker"/>
+			<item value="E:\Aloysen_ENGG@aec\websites As templates\xml trainee@al\parseguys"/>
+			<item value="E:\linux kernel\jnodekernel"/>
+			<item value="E:\Aloysen_ENGG@aec\THIRD YEAR_aloysen\KNOW_firm\pass"/>
+			<item value="E:\extras\Softwares\OS-es\Jnode os source code"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="381" key="DIALOG_X_ORIGIN"/>
+		<item value="185" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

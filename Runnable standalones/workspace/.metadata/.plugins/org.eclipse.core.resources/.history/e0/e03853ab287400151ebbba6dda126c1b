@@ -1,0 +1,70 @@
+/**
+ * 
+ */
+package File_readers;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Scanner;
+
+/**
+ * @author Aloy Aditya Sen
+ *
+ */
+public class The_reader implements Runnable {
+
+	/**
+	 * @param filepath ,file this the path of the file that is to be operated on 
+	 */
+	Scanner sc;
+	List<String> WORD_list;
+	int WORD_freq[];
+	String fp ,file;
+	
+	 public The_reader(String filepath , String  file) {
+		// TODO Auto-generated constructor stub
+		 this.fp=filepath;
+		 this.file=file;
+		 
+		 
+		
+	}	
+	 synchronized private void Display(List<String> e) {
+			Iterator<String> itr =e.iterator();
+			
+			while (itr.hasNext()) {
+				System.out.println("the next word is "+itr.next());
+				
+			}
+	}
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		try {
+			sc= new Scanner(new File(fp+file));
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			System.out.println("the File is not present see the path is correct ");
+		}
+		String ReadLine;
+		
+		WORD_list=new ArrayList<>();
+		WORD_freq=new ArrayList<>();
+		int i=0;
+		do {
+			ReadLine= sc.next();
+			WORD_list.add(ReadLine);
+			if (WORD_freq.) {
+				
+			} else {
+
+			}
+			WORD_freq.add(i, 1);
+			
+			} while (sc.hasNext());
+		Display(WORD_list);
+	}
+}

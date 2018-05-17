@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package connect_11g_odbc_thin;
+
+/**
+ * @author Aloy Sen
+ *
+ */
+public class Database_operation_config {
+
+	/**
+	 * 
+	 */
+	public Database_operation_config() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

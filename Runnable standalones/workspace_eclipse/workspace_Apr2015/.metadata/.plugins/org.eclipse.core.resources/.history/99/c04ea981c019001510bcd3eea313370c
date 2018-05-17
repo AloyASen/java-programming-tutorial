@@ -1,0 +1,111 @@
+package dbconfig;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import javax.swing.JOptionPane;
+
+public class Operation {
+
+	Connection con=null;
+	public void connect() throws ClassNotFoundException, SQLException {
+		Class.forName("oracle.jdbc.driver.OracleDriver");
+		 con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl","scott","aloy123");
+	}
+	
+	/*Connection c=null;
+	
+	{
+		this.c=new Dbconfig().getConnected();
+		Dbconfig d=new Dbconfig();
+		this.c=d.getConnected();
+	}
+	*/
+	public boolean insertValue(){
+		
+	int r=0;
+	try {
+		PreparedStatement ps=con.prepareStatement("insert into registerlog values(?,?,?,?,?)");
+		
+		//ps.setString(1, name);	
+		//ps.setString(2, email);	
+		//ps.setString(3, add);
+		//ps.setString(3, add);
+		//ps.setString(3, add);
+		//r=ps.executeUpdate();
+	} catch (SQLException e) {
+		
+		e.printStackTrace(); r=1;
+	}
+	
+	if (r==0) {
+		return true;
+		
+	} else {
+		return false;
+
+	}
+	
+	}
+	
+	public ResultSet fetchAll(){
+		ResultSet res=null;
+		try{
+		PreparedStatement ps=con.prepareStatement("select * from emp_01");
+		res=ps.executeQuery();
+		
+		}
+		catch(SQLException e){
+			e.printStackTrace();
+		}
+		
+		return res;
+	}
+	
+	
+	
+	public boolean validate(String uname,String pass) throws ClassNotFoundException, SQLException{
+		boolean b=false;
+		String str="SELECT * FROM emp";
+		connect();
+		try{
+			Statement stmt=con.createStatement();
+		
+		//ps.setString(1,uname);
+		//ps.setString(2,pass);
+		ResultSet res=stmt.executeQuery(str);
+		if(res.next())
+			b=true;
+			
+		
+		}
+		catch(SQLException e){
+			e.printStackTrace();
+		}
+		
+		return b;
+	}
+		
+	public int update()
+	{
+		int r=0;
+		try{
+		String mail=JOptionPane.showInputDialog("Enter the mail which u want to update");
+		String uadd=JOptionPane.showInputDialog("Enter the new address which u want to update");
+		String uname=JOptionPane.showInputDialog("Enter the new name which u want to update");
+		PreparedStatement ps=c.prepareStatement("update student_info set sname=?,sadd=? where smail=?");
+		ps.setString(1, uname);
+		ps.setString(2, uadd);
+		ps.setString(3, mail);
+		r=ps.executeUpdate();
+	}catch(SQLException e){
+		e.printStackTrace();
+	}
+		return r;
+	}
+	
+}

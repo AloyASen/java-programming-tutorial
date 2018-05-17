@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package connect_11g_odbc_thin;
+
+/**
+ * @author Aloy Sen
+ *
+ */
+public class Database_main_connect {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

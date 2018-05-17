@@ -1,0 +1,10 @@
+127.0.0.1 - - [18/Jul/2014:18:56:15 +0530] "GET / HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [18/Jul/2014:18:56:19 +0530] "GET /beandemo/ HTTP/1.1" 200 4447
+0:0:0:0:0:0:0:1 - - [18/Jul/2014:18:56:19 +0530] "GET /beandemo/myjs.js HTTP/1.1" 404 1024
+0:0:0:0:0:0:0:1 - - [18/Jul/2014:18:56:19 +0530] "GET /beandemo/s1.css HTTP/1.1" 404 1022
+0:0:0:0:0:0:0:1 - - [18/Jul/2014:18:56:19 +0530] "GET /beandemo/cristiano-ronaldo-cristiano-ronaldo.jpg HTTP/1.1" 200 137522
+0:0:0:0:0:0:0:1 - - [18/Jul/2014:18:56:19 +0530] "GET /beandemo/Tulips.jpg HTTP/1.1" 200 620888
+0:0:0:0:0:0:0:1 - - [18/Jul/2014:18:57:06 +0530] "POST /beandemo/validate.jsp HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [18/Jul/2014:18:57:06 +0530] "GET /beandemo/index.jsp HTTP/1.1" 200 4512
+0:0:0:0:0:0:0:1 - - [18/Jul/2014:18:57:06 +0530] "GET /beandemo/myjs.js HTTP/1.1" 404 1024
+0:0:0:0:0:0:0:1 - - [18/Jul/2014:18:57:06 +0530] "GET /beandemo/s1.css HTTP/1.1" 404 1022

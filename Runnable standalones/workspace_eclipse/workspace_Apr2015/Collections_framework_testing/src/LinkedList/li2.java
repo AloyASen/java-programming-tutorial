@@ -1,0 +1,40 @@
+package LinkedList;
+
+import java.util.Iterator;
+import java.util.LinkedList;
+
+public class li2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LinkedList<Integer> li =new LinkedList<Integer>();
+		li.add(20);
+		li.add(23);
+		li.addLast(21);
+		li.add(42);
+		li.pop();
+		Iterator<Integer> itr = li.iterator();
+		for (;itr.hasNext();) {
+			System.out.println(itr.next());
+		}
+	}
+
+}
+
+
+/*  use method -- addLast() for making a queue 
+ * use method -- addFirst() for making a stack  also -- push() pop()
+ * clear()
+ * clone()
+ * descendingIterator()
+ * get();
+ * element()
+ * equals()
+ * getFirs()
+ * getLast()
+ * getIndexOf()
+ * SpitIterator<>
+ * 
+ * 
+ */
+

@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package controller;
+
+/**
+ * @author Aloy Sen
+ *
+ */
+public class Contact_contrller_server {
+
+	/**
+	 * 
+	 */
+	public Contact_contrller_server() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

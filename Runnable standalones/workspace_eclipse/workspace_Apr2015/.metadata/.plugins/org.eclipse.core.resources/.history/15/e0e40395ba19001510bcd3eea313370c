@@ -1,0 +1,76 @@
+package jdbctest;
+import java.sql.*;
+public class JDBCTest {
+
+    public static void main(String[] args) {
+        try
+		{
+			String str="SELECT * FROM package jdbctest;
+import java.sql.*;
+public class JDBCTest {
+
+    public static void main(String[] args) {
+        try
+		{
+			String str="SELECT * FROM emp";
+			/*Initialize and load the JDBC-ODBC Bridge driver*/
+			Class.forName("oracle.jdbc.driver.OracleDriver"); 
+			/*Establish a connection with a data source*/
+			Connection con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","system","system");
+			/*Create a Statement object to process the SELECT statement*/
+			Statement stmt=con.createStatement();
+			/*Execute the SELECT SQL statement*/
+			ResultSet rs=stmt.executeQuery(str);
+			System.out.println("Author ID\tFirst Name\tLast Name\tCity");
+			/*Display the result*/
+			while (rs.next())
+			{
+				String id=rs.getString(1);
+				String lname=rs.getString("au_lname");
+				String fname=rs.getString("au_fname");
+				String city=rs.getString("city");
+			        System.out.print(id +"\t\t ");
+				System.out.print(lname +"\t\t ");
+                                System.out.print(fname +"\t\t ");
+                                System.out.println(city);
+			}
+			con.close();
+		}
+		catch(Exception ex)
+		{
+			System.out.println("Error occurred");
+			System.out.println("Error:"+ex);
+		}
+    }
+}
+";
+			/*Initialize and load the JDBC-ODBC Bridge driver*/
+			Class.forName("oracle.jdbc.driver.OracleDriver"); 
+			/*Establish a connection with a data source*/
+			Connection con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE","system","system");
+			/*Create a Statement object to process the SELECT statement*/
+			Statement stmt=con.createStatement();
+			/*Execute the SELECT SQL statement*/
+			ResultSet rs=stmt.executeQuery(str);
+			System.out.println("Author ID\tFirst Name\tLast Name\tCity");
+			/*Display the result*/
+			while (rs.next())
+			{
+				String id=rs.getString(1);
+				String lname=rs.getString("au_lname");
+				String fname=rs.getString("au_fname");
+				String city=rs.getString("city");
+			        System.out.print(id +"\t\t ");
+				System.out.print(lname +"\t\t ");
+                                System.out.print(fname +"\t\t ");
+                                System.out.println(city);
+			}
+			con.close();
+		}
+		catch(Exception ex)
+		{
+			System.out.println("Error occurred");
+			System.out.println("Error:"+ex);
+		}
+    }
+}

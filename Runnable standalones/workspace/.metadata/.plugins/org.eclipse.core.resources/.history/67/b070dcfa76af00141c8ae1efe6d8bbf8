@@ -1,0 +1,9 @@
+package connect_11g_odbc_thin;
+
+public class Database_url_PRIVATE {
+
+	public Database_url_PRIVATE() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

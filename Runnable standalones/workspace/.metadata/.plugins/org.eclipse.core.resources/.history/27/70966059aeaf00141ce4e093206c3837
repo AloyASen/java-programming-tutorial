@@ -1,0 +1,9 @@
+package server;
+
+public class Server_Connect {
+
+	public Server_Connect() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

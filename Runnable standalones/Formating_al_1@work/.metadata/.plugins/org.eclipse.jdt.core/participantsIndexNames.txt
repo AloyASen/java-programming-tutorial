@@ -1,0 +1,3 @@
+INDEX VERSION 1.126
+E:\Runnable standalones\Formating_al_1@work\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\614842093.index
+\Expenditure Template\src

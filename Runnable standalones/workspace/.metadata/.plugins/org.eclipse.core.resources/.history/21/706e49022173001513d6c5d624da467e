@@ -1,0 +1,12 @@
+package File_readers;
+
+public class filepath {
+	public filepath() {
+		// TODO Auto-generated constructor stub
+		The_reader tr=new The_reader("C:/Users/Aloy Aditya Sen/workspace/Document Distance Problem/src/File_readers")
+	}
+	public static void main(String[] args) {
+		filepath fpth =new filepath();
+	}
+
+}

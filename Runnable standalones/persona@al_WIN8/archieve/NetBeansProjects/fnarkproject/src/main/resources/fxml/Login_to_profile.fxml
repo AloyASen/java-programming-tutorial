@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="slider" prefHeight="431.0" prefWidth="462.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.fnarkproject.FXMLController">
+   <children>
+      <Label fx:id="label1" layoutX="28.0" layoutY="127.0" text="username" />
+      <Label fx:id="label2" layoutX="28.0" layoutY="172.0" text="Password" />
+      <ImageView fx:id="imageview" fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="252.0" pickOnBounds="true" preserveRatio="true" />
+      <MenuBar fx:id="menu" layoutX="-1.0" layoutY="2.0" prefHeight="25.0" prefWidth="468.0" AnchorPane.rightAnchor="1.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <PasswordField fx:id="password" layoutX="114.0" layoutY="168.0" promptText="registered lock key" />
+      <RadioButton fx:id="radio_checkin" layoutX="13.0" layoutY="207.0" mnemonicParsing="false" text="keep me logged in" />
+      <ProgressBar fx:id="progress" disable="true" layoutX="214.0" layoutY="48.0" opacity="0.22" prefWidth="200.0">
+         <effect>
+            <InnerShadow blurType="TWO_PASS_BOX" color="#53bf3d" />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="CLOSED_HAND" />
+         </cursor>
+      </ProgressBar>
+      <Slider fx:id="slider" layoutX="314.0" layoutY="217.0" />
+      <Label fx:id="label3" layoutX="233.0" layoutY="209.0" text="Login" />
+      <TextField fx:id="username" layoutX="106.0" layoutY="123.0" promptText="registration id" />
+   </children>
+</AnchorPane>

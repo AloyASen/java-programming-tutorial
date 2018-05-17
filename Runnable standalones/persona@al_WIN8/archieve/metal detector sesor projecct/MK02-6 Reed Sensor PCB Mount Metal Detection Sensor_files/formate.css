@@ -1,0 +1,1446 @@
+* html body * {
+	overflow: visible;
+}
+html {
+	height: 100%; margin-bottom: 1px;
+}
+* html div#main {
+	height: 1em;
+}
+div#main {
+	z-index: 0;
+}
+hr {
+	margin: 0em; padding: 0em;
+}
+body {
+	margin: 0em; padding: 0em; color: rgb(51, 51, 51); font-family: Verdana,Arial,Helvetica, Verdana, Tahoma,sans-serif; font-size: 100.01%; font-weight: normal; background-color: rgb(255, 255, 255);
+}
+div {
+	margin: 0px; padding: 0px;
+}
+table {
+	margin: 0em; padding: 0em; vertical-align: top;
+}
+td {
+	margin: 0em; padding: 0em; vertical-align: top;
+}
+table.contenttable {
+	margin: 0px; padding: 0.3em 1em 0px 0px;
+}
+table.contenttable td {
+	margin: 0px; padding: 0.3em 1em 0px 0px;
+}
+h1 {
+	color: rgb(51, 51, 51); font-size: 1.3em; font-weight: bold;
+}
+td > p {
+	padding-top: 0em; margin-top: 0em;
+}
+h2 {
+	color: rgb(51, 51, 51); padding-bottom: 0em; font-size: 1.15em; font-weight: bold; margin-bottom: 0.4em;
+}
+.ueberschrift2 {
+	color: rgb(51, 51, 51); padding-bottom: 0em; font-size: 1.15em; font-weight: bold; margin-bottom: 0.4em;
+}
+h3 {
+	color: rgb(51, 51, 51); font-size: 1em; font-weight: bold;
+}
+.ueberschrift2 {
+	color: rgb(51, 51, 51); font-size: 1em; font-weight: bold;
+}
+#inhalt * {
+	_position: relative;
+}
+h4 {
+	color: rgb(255, 255, 255); font-size: 1em; font-weight: normal;
+}
+.ueberschrift4 {
+	color: rgb(255, 255, 255); font-size: 1em; font-weight: normal;
+}
+.bildunterschrift {
+	color: rgb(51, 51, 51); font-size: 0.9em; font-weight: normal;
+}
+.align-left {
+	text-align: left !important;
+}
+.align-center {
+	text-align: center !important;
+}
+.align-right {
+	text-align: right !important;
+}
+table.weiss {
+	border-width: 0px; color: rgb(51, 51, 51); vertical-align: top; background-color: white !important;
+}
+table.weiss td {
+	border-width: 0px; color: rgb(51, 51, 51); vertical-align: top; background-color: white !important;
+}
+table.weiss tr {
+	border-width: 0px; color: rgb(51, 51, 51); vertical-align: top; background-color: white !important;
+}
+table.weiss th {
+	border-width: 0px; color: rgb(51, 51, 51); vertical-align: top; background-color: white !important;
+}
+td.weiss {
+	border-width: 0px; color: rgb(51, 51, 51); vertical-align: top; background-color: white !important;
+}
+th.weiss {
+	border-width: 0px; color: rgb(51, 51, 51); vertical-align: top; background-color: white !important;
+}
+.tx-crimederproducts-pi1-listrow table {
+	padding: 0.2em; border: 1px solid rgb(153, 153, 153) !important; clear: left; font-size: 0.95em; vertical-align: top; border-collapse: collapse; background-color: rgb(248, 248, 248);
+}
+.tx-crimederproducts-pi1-listrow td {
+	padding: 0.2em; border: 1px solid rgb(153, 153, 153) !important; clear: left; font-size: 0.95em; vertical-align: top; border-collapse: collapse; background-color: rgb(248, 248, 248);
+}
+.tx-crimederproducts-pi1-listrow th {
+	padding: 0.2em; border: 1px solid rgb(153, 153, 153) !important; clear: left; font-size: 0.95em; vertical-align: top; border-collapse: collapse; background-color: rgb(248, 248, 248);
+}
+table.grau table.grau td {
+	padding: 0.2em; border: 1px solid rgb(153, 153, 153) !important; clear: left; font-size: 0.95em; vertical-align: top; border-collapse: collapse; background-color: rgb(248, 248, 248);
+}
+table.grau tr {
+	padding: 0.2em; border: 1px solid rgb(153, 153, 153) !important; clear: left; font-size: 0.95em; vertical-align: top; border-collapse: collapse; background-color: rgb(248, 248, 248);
+}
+table.grau th {
+	padding: 0.2em; border: 1px solid rgb(153, 153, 153) !important; clear: left; font-size: 0.95em; vertical-align: top; border-collapse: collapse; background-color: rgb(248, 248, 248);
+}
+td.grau {
+	padding: 0.2em; border: 1px solid rgb(153, 153, 153) !important; clear: left; font-size: 0.95em; vertical-align: top; border-collapse: collapse; background-color: rgb(248, 248, 248);
+}
+th.grau {
+	padding: 0.2em; border: 1px solid rgb(153, 153, 153) !important; clear: left; font-size: 0.95em; vertical-align: top; border-collapse: collapse; background-color: rgb(248, 248, 248);
+}
+.htmlarea-showtableborders td {
+	border: 1px solid rgb(179, 216, 236);
+}
+table.Datentabelle {
+	border-color: rgb(179, 216, 236); background-color: rgb(255, 255, 255);
+}
+table.Datentabelle td {
+	border-color: rgb(179, 216, 236); background-color: rgb(255, 255, 255);
+}
+table.Datentabelle tr {
+	border-color: rgb(179, 216, 236); background-color: rgb(255, 255, 255);
+}
+td.grau {
+	border-color: rgb(179, 216, 236); background-color: rgb(255, 255, 255);
+}
+th.grau {
+	border-color: rgb(179, 216, 236); background-color: rgb(255, 255, 255);
+}
+table.Datentabelle {
+	padding: 0em;
+}
+table.Datentabelle th {
+	border-color: rgb(179, 216, 236); background-color: rgb(27, 160, 224);
+}
+table.Datentabelle thead td {
+	border-color: rgb(179, 216, 236); background-color: rgb(27, 160, 224);
+}
+table.nospacing {
+	margin: 0px; padding: 0px !important;
+}
+table.nospacing td {
+	margin: 0px; padding: 0px !important;
+}
+td.nospacing {
+	margin: 0px; padding: 0px !important;
+}
+th.nospacing td.nospacing * {
+	margin: 0px; padding: 0px !important;
+}
+table {
+	border-width: 0px; padding: 0.4em; color: rgb(51, 51, 51); vertical-align: top; border-collapse: collapse;
+}
+td {
+	border-width: 0px; padding: 0.4em; color: rgb(51, 51, 51); vertical-align: top; border-collapse: collapse;
+}
+th {
+	border-width: 0px; padding: 0.4em; color: rgb(51, 51, 51); vertical-align: top; border-collapse: collapse;
+}
+th {
+	padding: 0.2em; text-align: left; color: rgb(0, 0, 0); font-weight: bold; background-color: rgb(218, 239, 251) !important;
+}
+thead td {
+	padding: 0.2em; text-align: left; color: rgb(0, 0, 0); font-weight: bold; background-color: rgb(218, 239, 251) !important;
+}
+caption {
+	padding: 0.3em 0.3em 0.3em 1em; border: 1px solid rgb(27, 160, 224); width: auto; text-align: left; color: white; font-size: 1.1em; font-weight: bold; margin-left: -1px; border-collapse: collapse; background-color: rgb(27, 160, 224);
+}
+caption h1 {
+	color: white; font-size: 1em; display: inline;
+}
+input {
+	margin: 0em; padding: 0.1em; color: rgb(0, 0, 0); font-family: Verdana,Arial,Helvetica, Verdana, Tahoma,sans-serif; font-size: 1em; font-weight: normal;
+}
+select {
+	margin: 0em; padding: 0.1em; color: rgb(0, 0, 0); font-family: Verdana,Arial,Helvetica, Verdana, Tahoma,sans-serif; font-size: 1em; font-weight: normal;
+}
+.Bereich {
+	padding: 0.25em; border: 0.05em solid rgb(153, 153, 153); width: 100%; color: rgb(0, 0, 0); font-family: Verdana,Arial,Helvetica, Verdana, Tahoma,sans-serif; font-size: 1em; font-weight: normal; margin-bottom: 1em; background-color: rgb(255, 255, 255);
+}
+.Feld {
+	padding: 0.25em; border: 0.05em solid rgb(153, 153, 153); width: 100%; color: rgb(0, 0, 0); font-family: Verdana,Arial,Helvetica, Verdana, Tahoma,sans-serif; font-size: 1em; font-weight: normal; margin-bottom: 1em; background-color: rgb(255, 255, 255);
+}
+.Select {
+	border: 0.05em solid rgb(153, 153, 153); overflow: visible !important; font-size: 0.8em; background-color: rgb(255, 255, 255);
+}
+.cri_quickfinder_select {
+	border: 0.05em solid rgb(153, 153, 153); overflow: visible !important; font-size: 0.8em; background-color: rgb(255, 255, 255);
+}
+.Check {
+	border: 0.05em solid rgb(153, 153, 153); margin-right: 1em; margin-bottom: 0.25em; background-color: rgb(255, 255, 255);
+}
+.Radio {
+	border: 0.05em solid rgb(153, 153, 153); margin-right: 1em; margin-bottom: 0.25em; background-color: rgb(255, 255, 255);
+}
+.Button {
+	border: 0pt currentColor; width: 7em; font-size: 1em; background-color: rgb(255, 255, 255);
+}
+#sprachauswahl label {
+	font-size: 0.8em;
+}
+a {
+	text-decoration: none;
+}
+#inhalt a:link {
+	color: rgb(27, 160, 224); font-weight: normal;
+}
+#inhalt a:visited {
+	color: rgb(27, 160, 224); font-weight: normal;
+}
+#inhalt a:active {
+	color: rgb(27, 160, 224); font-weight: normal;
+}
+#inhalt a:hover {
+	color: rgb(27, 160, 224); font-weight: normal;
+}
+#contentrechts a:link {
+	color: rgb(27, 160, 224); font-weight: normal;
+}
+#contentrechts a:visited {
+	color: rgb(27, 160, 224); font-weight: normal;
+}
+#contentrechts a:active {
+	color: rgb(27, 160, 224); font-weight: normal;
+}
+#contentrechts a:hover {
+	color: rgb(27, 160, 224); font-weight: normal;
+}
+#inhalt a:hover {
+	color: rgb(51, 51, 51) !important;
+}
+#info a:hover {
+	color: rgb(51, 51, 51) !important;
+}
+ul {
+	line-height: 1.4em; padding-left: 0em; margin-top: 0em; margin-left: 2em;
+}
+ul li {
+	margin: 0em; padding: 0em; list-style-image: url("../../fileadmin/standardbilder/icons/li.gif");
+}
+dt {
+	font-weight: normal; margin-right: 1em; float: left;
+}
+dd {
+	margin-bottom: 2em;
+}
+b a:link {
+	font-weight: bold !important;
+}
+b a:visited {
+	font-weight: bold !important;
+}
+b a:active {
+	font-weight: bold !important;
+}
+b a:hover {
+	font-weight: bold !important;
+}
+strong a:link {
+	font-weight: bold !important;
+}
+strong a:visited {
+	font-weight: bold !important;
+}
+strong a:active {
+	font-weight: bold !important;
+}
+strong a:hover {
+	font-weight: bold !important;
+}
+hr {
+	border-color: rgb(102, 102, 102); width: 100%; height: 0em; text-align: left; clear: left; border-right-width: 0em; border-bottom-width: 0em; border-left-width: 0em; border-right-style: none; border-bottom-style: none; border-left-style: none; display: block !important;
+}
+div#inhalt {
+	line-height: 1.3em;
+}
+div#inhalt > p {
+	line-height: 1.3em;
+}
+div#inhalt > div div#inhalt > ul {
+	line-height: 1.3em;
+}
+.titelbanner {
+	width: 100%;
+}
+.rechterblock div {
+	font-size: 1.05em !important;
+}
+div#main {
+	margin: 0em auto; padding: 0em 0em 0em 0.5em; width: 73em; font-size: 0.85em; background-image: url("../../fileadmin/standardbilder/verlauf_links.gif"); background-repeat: repeat-y; background-color: rgb(255, 255, 255);
+}
+div#main_content {
+	background-position: right; width: 72.5em; padding-right: 0.5em; background-image: url("../../fileadmin/standardbilder/verlauf_rechts.gif"); background-repeat: repeat-y;
+}
+div#kopfbanner {
+	margin: 0em; padding: 0em; border: 0px currentColor; width: 72.4em; height: 7.1em; overflow: hidden; background-color: rgb(255, 255, 255);
+}
+div#logo {
+	background: rgb(255, 255, 255); margin: 0em; padding: 0em; width: 15.75em; height: 7.3em; float: left;
+}
+#logo img {
+	border-width: 0px; width: 100%;
+}
+div#bild {
+	background: rgb(255, 255, 255); margin: 0em; padding: 0em; width: 39em; height: 7.3em; float: left;
+}
+#bild img {
+	border-width: 0px; width: 100%; height: 100%;
+}
+div#bannerrechts {
+	margin: 0em; padding: 1em 0.5em 0em 0em; width: 14.5em; height: 6.3em; text-align: right; float: right;
+}
+div#toolbar div {
+	padding: 0em 0.5em; font-size: 0.8em; margin-top: 1em; border-left-color: rgb(27, 160, 224); border-left-width: 0.01em; border-left-style: solid; float: left;
+}
+div#toolbar {
+	vertical-align: top; float: right;
+}
+div#toolbar a {
+	color: rgb(27, 160, 224);
+}
+div#kopf1 {
+	width: 72.5em; height: 5.4em; overflow: hidden; padding-top: 0em; clear: left; display: block;
+}
+div#kopf11 {
+	margin: 0em; padding: 0em; width: 15.75em; height: 5.4em; float: left; background-color: rgb(218, 239, 251);
+}
+div#kopf11 img {
+	border-width: 0px; margin: 0px; padding: 0px; width: 100%;
+}
+div#kopf12 {
+	width: 56.7em; height: 5.4em; margin-top: 0em; margin-left: 0em; float: left; background-color: white;
+}
+div#navisuch {
+	width: 56.7em; height: 1.4em; overflow: hidden; background-color: rgb(4, 158, 224);
+}
+div#hauptnavigation {
+	width: 44em; float: left; background-color: rgb(4, 158, 224);
+}
+div#suchen {
+	width: 11.6em; height: 1.4em; text-align: right; margin-top: 0em; margin-left: 0em; float: right;
+}
+div#breadcrumbs-div {
+	width: 30em; padding-top: 1em; padding-left: 1em; float: left;
+}
+div#toolbar-div {
+	text-align: right;
+}
+div#kopf2 {
+	width: 72.5em; height: 2.5em; vertical-align: bottom; display: block; background-color: rgb(218, 239, 251);
+}
+div#kopf21 {
+	width: 15.75em; height: 1.4em; margin-top: 0em; vertical-align: bottom; float: left; background-color: rgb(218, 239, 251);
+}
+div#kopf22 {
+	width: 56.7em; height: 2.5em; margin-top: 0em; margin-left: 0em; float: left; background-color: rgb(255, 255, 255);
+}
+div#kopf23 {
+	width: 18.9em; height: 0.5em; color: rgb(34, 34, 34); float: left; background-color: rgb(255, 255, 255);
+}
+.suchfeld {
+	width: 7em; height: 1em; color: rgb(51, 51, 51); padding-left: 0.5em; font-family: verdana,arial,sans-serif; font-size: 0.8em; display: inline; background-color: rgb(255, 255, 255);
+}
+.suchbutton {
+	border: currentColor; width: 6em; height: 1.4em; color: rgb(255, 255, 255); font-size: 0.8em; vertical-align: top; background-color: rgb(27, 160, 224);
+}
+div#hauptnavigation div {
+	height: 1.4em; float: left;
+}
+div#hauptnavigation a {
+	text-decoration: none; display: inline;
+}
+.menu1-stufe1-om {
+	height: 1.4em; text-align: center; color: rgb(255, 255, 255); padding-right: 0.5em; padding-left: 0.5em; border-left-color: rgb(255, 255, 255); border-left-width: 2em; border-left-style: none;
+}
+.menu1-stufe1-aktuell {
+	border-left-color: rgb(255, 255, 255); border-left-width: 2em; border-left-style: none; background-color: rgb(219, 234, 249);
+}
+.menu1-stufe1-aktiv {
+	border-left-color: rgb(255, 255, 255); border-left-width: 2em; border-left-style: none; background-color: rgb(219, 234, 249);
+}
+.menu1-stufe1-no:hover {
+	border-left-color: rgb(255, 255, 255); border-left-width: 2em; border-left-style: none; background-color: rgb(219, 234, 249);
+}
+.menu1-stufe1-no:hover a {
+	color: rgb(4, 158, 224) !important;
+}
+.menu1-stufe1-no {
+	border-left-color: rgb(255, 255, 255); border-left-width: 2em; border-left-style: none; background-color: rgb(4, 158, 224);
+}
+.menu1-stufe1-no a {
+	line-height: 1.6em; font-size: 0.8em !important;
+}
+.menu1-stufe1-aktiv a {
+	line-height: 1.6em; font-size: 0.8em !important;
+}
+.menu1-stufe1-aktuell a {
+	line-height: 1.6em; font-size: 0.8em !important;
+}
+.menu1-stufe1-no a {
+	color: rgb(255, 255, 255) !important;
+}
+.menu1-stufe1-aktiv a {
+	color: rgb(4, 158, 224);
+}
+.menu1-stufe1-aktuell a {
+	color: rgb(4, 158, 224);
+}
+div#content {
+	margin: 0em; padding: 0em; width: 72.45em; background-color: rgb(218, 239, 251);
+}
+div#contentlinks {
+	width: 15.75em; height: auto; font-size: 1em; float: left;
+}
+div#contentnormal {
+	margin: 0em; padding: 0em; width: 41.9em; overflow: visible; float: left; background-color: rgb(255, 255, 255); _height: 39em;
+}
+div#contentnormal_breit {
+	margin: 0em; padding: 0em; width: 56.65em; height: 100%; overflow: visible; float: left; background-color: rgb(255, 255, 255); _height: 39em;
+}
+div#contentrechts {
+	width: 14.75em; height: 100%; overflow: hidden; border-top-color: white; border-top-width: 2em; border-top-style: solid; float: left; background-color: rgb(218, 239, 251);
+}
+div#subnavigation div {
+	
+}
+div#subnavigation {
+	width: 15.75em; overflow: hidden !important; margin-top: 0em; margin-left: 0em; float: left;
+}
+.menu1-stufe2-om {
+	margin: 0.15em 0em 0em 0.7em; color: rgb(0, 0, 0);
+}
+.menu1-stufe2-aktuell {
+	overflow: hidden; padding-bottom: 0.15em; margin-top: 0.35em; display: block; background-color: rgb(4, 158, 224);
+}
+.menu1-stufe2-aktiv {
+	overflow: hidden; padding-bottom: 0.15em; margin-top: 0.35em; display: block; background-color: rgb(4, 158, 224);
+}
+.menu1-stufe2-no:hover {
+	color: rgb(255, 255, 255) !important; overflow: hidden; padding-bottom: 0.15em; margin-top: 0.35em; display: block; background-color: rgb(4, 158, 224);
+}
+.menu1-stufe2-nosub:hover {
+	color: rgb(255, 255, 255) !important; overflow: hidden; padding-bottom: 0.15em; margin-top: 0.35em; display: block; background-color: rgb(4, 158, 224);
+}
+.menu1-stufe2-aktiv:hover {
+	color: rgb(255, 255, 255) !important; overflow: hidden; padding-bottom: 0.15em; margin-top: 0.35em; display: block; background-color: rgb(4, 158, 224);
+}
+.menu1-stufe2-aktuell:hover {
+	color: rgb(255, 255, 255) !important; overflow: hidden; padding-bottom: 0.15em; margin-top: 0.35em; display: block; background-color: rgb(4, 158, 224);
+}
+.menu1-stufe2-no {
+	overflow: hidden; padding-bottom: 0.15em; margin-top: 0.35em; display: block; background-color: rgb(218, 239, 251);
+}
+.menu1-stufe2-nosub {
+	overflow: hidden; padding-bottom: 0.15em; margin-top: 0.35em; display: block; background-color: rgb(218, 239, 251);
+}
+.menu1-stufe2-no a {
+	padding-top: 0em; padding-right: 0em; padding-left: 1.5em; font-size: 0.8em;
+}
+.menu1-stufe2-nosub a {
+	padding-top: 0em; padding-right: 0em; padding-left: 1.5em; font-size: 0.8em;
+}
+.menu1-stufe2-aktiv a {
+	padding-top: 0em; padding-right: 0em; padding-left: 1.5em; font-size: 0.8em;
+}
+.menu1-stufe2-aktuell a {
+	padding-top: 0em; padding-right: 0em; padding-left: 1.5em; font-size: 0.8em;
+}
+.menu1-stufe2-no a {
+	background-position: 0em 0.1em; color: rgb(51, 51, 51); background-image: url("../../fileadmin/standardbilder/menu1-stufe2_no.gif"); background-repeat: no-repeat;
+}
+.menu1-stufe2-nosub a {
+	background-position: 0em 0.1em; color: rgb(51, 51, 51); background-image: url("../../fileadmin/standardbilder/menu1-stufe2_nosub.gif"); background-repeat: no-repeat;
+}
+.menu1-stufe2-aktiv a {
+	background-position: 0em 0.1em; color: rgb(255, 255, 255) !important; background-image: url("../../fileadmin/standardbilder/menu1-stufe2_aktiv.gif"); background-repeat: no-repeat;
+}
+.menu1-stufe2-aktuell a {
+	background-position: 0em 0.1em; color: rgb(255, 255, 255) !important; background-image: url("../../fileadmin/standardbilder/menu1-stufe2_aktuell.gif"); background-repeat: no-repeat;
+}
+.menu1-stufe2-no a:hover {
+	background-position: 0em 0.1em; color: rgb(255, 255, 255) !important; background-image: url("../../fileadmin/standardbilder/menu1-stufe2_nohover_w.gif"); background-repeat: no-repeat;
+}
+.menu1-stufe2-nosub a:hover {
+	background-position: 0em 0.1em; color: rgb(255, 255, 255) !important; background-image: url("../../fileadmin/standardbilder/menu1-stufe2_nosubhover_w.gif"); background-repeat: no-repeat;
+}
+.menu1-stufe2-aktuell a:hover {
+	color: rgb(255, 255, 255) !important;
+}
+.menu1-stufe2-aktiv a:hover {
+	color: rgb(255, 255, 255) !important;
+}
+.menu1-stufe2-no:hover a {
+	background-position: 0em 0.1em; color: rgb(255, 255, 255) !important; background-image: url("../../fileadmin/standardbilder/menu1-stufe2_nosubhover_w.gif"); background-repeat: no-repeat;
+}
+.menu1-stufe2-nosub:hover a {
+	background-position: 0em 0.1em; color: rgb(255, 255, 255) !important; background-image: url("../../fileadmin/standardbilder/menu1-stufe2_nosubhover_w.gif"); background-repeat: no-repeat;
+}
+.menu1-stufe2-aktiv:hover a {
+	color: rgb(255, 255, 255) !important;
+}
+.menu1-stufe2-aktuell:hover a {
+	color: rgb(255, 255, 255) !important;
+}
+.menu1-stufe3-aktuell {
+	padding-top: 0.25em; padding-bottom: 0.25em; padding-left: 2em; border-top-color: rgb(218, 239, 251); border-top-width: 1px; border-top-style: solid; background-color: rgb(198, 230, 247);
+}
+.menu1-stufe3-aktiv {
+	padding-top: 0.25em; padding-bottom: 0.25em; padding-left: 2em; border-top-color: rgb(218, 239, 251); border-top-width: 1px; border-top-style: solid; background-color: rgb(198, 230, 247);
+}
+.menu1-stufe3-aktuell {
+	padding-top: 0.25em; padding-bottom: 0.25em;
+}
+.menu1-stufe3-no:hover {
+	background-color: rgb(179, 216, 236);
+}
+.menu1-stufe3-nosub:hover {
+	background-color: rgb(179, 216, 236);
+}
+.menu1-stufe3-no {
+	padding-top: 0.25em; padding-bottom: 0.25em; padding-left: 2em; border-top-color: rgb(218, 239, 251); border-top-width: 1px; border-top-style: solid; background-color: rgb(198, 230, 247);
+}
+.menu1-stufe3-no a {
+	font-size: 0.8em;
+}
+.menu1-stufe3-aktiv a {
+	font-size: 0.8em;
+}
+.menu1-stufe3-aktuell a {
+	font-size: 0.8em;
+}
+.menu1-stufe3-no a {
+	color: rgb(51, 51, 51);
+}
+.menu1-stufe3-aktiv a {
+	color: rgb(4, 158, 224);
+}
+.menu1-stufe3-aktuell a {
+	color: rgb(4, 158, 224);
+}
+.menu1-stufe4-aktuell {
+	background-position: 2em 0.25em; padding-bottom: 0.1em; padding-left: 2.75em; background-image: url("../../fileadmin/standardbilder/menu1-stufe4_aktiv.gif"); background-repeat: no-repeat; background-color: rgb(198, 230, 247);
+}
+.menu1-stufe4-aktiv {
+	background-position: 2em 0.25em; padding-bottom: 0.1em; padding-left: 2.75em; background-image: url("../../fileadmin/standardbilder/menu1-stufe4_aktiv.gif"); background-repeat: no-repeat; background-color: rgb(198, 230, 247);
+}
+.menu1-stufe4-hover {
+	background-position: 2em 0.25em; padding-bottom: 0.1em; padding-left: 2.75em; background-image: url("../../fileadmin/standardbilder/menu1-stufe4_aktiv.gif"); background-repeat: no-repeat; background-color: rgb(198, 230, 247);
+}
+.menu1-stufe4-no {
+	background-position: 2em 0.25em; padding-bottom: 0.1em; padding-left: 2.75em; background-image: url("../../fileadmin/standardbilder/menu1-stufe4_normal.gif"); background-repeat: no-repeat; background-color: rgb(198, 230, 247);
+}
+.menu1-stufe4-no a {
+	font-size: 0.8em;
+}
+.menu1-stufe4-aktiv a {
+	font-size: 0.8em;
+}
+.menu1-stufe4-aktuell a {
+	font-size: 0.8em;
+}
+.menu1-stufe4-no a:hover {
+	color: rgb(4, 158, 224);
+}
+.menu1-stufe4-no a {
+	color: rgb(51, 51, 51);
+}
+.menu1-stufe4-aktiv a {
+	color: rgb(4, 158, 224);
+}
+.menu1-stufe4-aktuell a {
+	color: rgb(4, 158, 224);
+}
+div#themenbox {
+	width: 14.8em; overflow: hidden !important; margin-top: 2em; float: left;
+}
+div#themenbox a {
+	color: rgb(0, 0, 0);
+}
+div#themenbox a:hover {
+	color: rgb(101, 169, 214);
+}
+div#breadcrumbs {
+	padding: 0em; width: 100%; color: rgb(27, 160, 224); font-size: 0.75em; margin-top: 1.3em; margin-bottom: 2em;
+}
+div#breadcrumbs a:link {
+	color: rgb(27, 160, 224);
+}
+div#breadcrumbs a:hover {
+	color: rgb(51, 51, 51);
+}
+.breadcrumbs {
+	color: rgb(27, 160, 224); font-size: 0.7em; text-decoration: none; display: inline;
+}
+.breadcrumbs a {
+	color: rgb(27, 160, 224); font-size: 0.7em; text-decoration: none; display: inline;
+}
+.breadcrumbs a:hover {
+	color: rgb(27, 160, 224);
+}
+.breadcrumb-links {
+	color: rgb(27, 160, 224);
+}
+div#inhalt_rahmen {
+	margin-top: 0em; min-height: 100%; max-height: 999%;
+}
+div#inhalt {
+	background: rgb(255, 255, 255); font-size: 0.8em;
+}
+div#inh_content {
+	font-size: 1em; margin-right: 1em; margin-left: 1em; min-height: 40em; background-color: rgb(255, 255, 255) !important;
+}
+div#fusszeile {
+	background: rgb(27, 160, 224); width: 100%; height: 1em; text-align: center; bottom: 0em; color: rgb(255, 255, 255); padding-top: 0.5em; padding-bottom: 2em; clear: both; margin-top: 0em; position: relative;
+}
+div#fusszeile div {
+	font-size: 0.8em;
+}
+div#fusszeile a {
+	margin: 0em; padding: 0em; color: white; text-decoration: underline;
+}
+div#fusszeile p {
+	margin: 0em; padding: 0em;
+}
+.pgruppe-rahmen {
+	border: 1px solid rgb(0, 0, 0) !important; width: 49.5em; height: 18.08em; overflow: hidden;
+}
+.pgruppe-bild {
+	width: 16.5em; height: 16.5em; overflow: hidden; border-right-color: rgb(0, 0, 0); border-right-width: 1px; border-right-style: solid; float: left;
+}
+.pgruppe-bild div img {
+	border-width: 0px !important; width: 100%; height: 100%;
+}
+.relais {
+	background-color: rgb(244, 127, 0);
+}
+.sensoren {
+	background-color: rgb(189, 0, 71);
+}
+.schalter {
+	background-color: rgb(0, 89, 161);
+}
+.andere {
+	background-color: rgb(130, 142, 142);
+}
+.pgruppe-infofeld {
+	background: rgb(255, 255, 255); height: 16.5em;
+}
+.pgruppe-name-relais {
+	width: 100%; height: 1.6em; color: rgb(255, 255, 255); line-height: 1.6em; text-indent: 1em; float: left; background-color: rgb(244, 127, 0);
+}
+.pgruppe-name-standard {
+	width: 100%; height: 1.6em; color: rgb(255, 255, 255); line-height: 1.6em; text-indent: 1em; float: left; background-color: rgb(244, 127, 0);
+}
+.pgruppe-name-sensoren {
+	width: 100%; height: 1.6em; color: rgb(255, 255, 255); line-height: 1.6em; text-indent: 1em; float: left; background-color: rgb(189, 0, 71);
+}
+.pgruppe-name-schalter {
+	width: 100%; height: 1.6em; color: rgb(255, 255, 255); line-height: 1.6em; text-indent: 1em; float: left; background-color: rgb(0, 89, 161);
+}
+.pgruppe-name-andere {
+	width: 100%; height: 1.6em; color: rgb(255, 255, 255); line-height: 1.6em; text-indent: 1em; float: left; background-color: rgb(130, 142, 142);
+}
+.pgruppe-name-relais a {
+	color: white !important; font-weight: bold !important;
+}
+.pgruppe-name-sensoren a {
+	color: white !important; font-weight: bold !important;
+}
+.pgruppe-name-schalter a {
+	color: white !important; font-weight: bold !important;
+}
+.pgruppe-name-andere a {
+	color: white !important; font-weight: bold !important;
+}
+.pgruppe-links {
+	height: 16.1em; padding-top: 0.4em; margin-right: 15.7em; margin-left: 17em; display: block;
+}
+.pgruppe-links a {
+	border-width: 0px; margin: 0px; padding: 0.2em 0px 0px; line-height: 1.4em;
+}
+.pgruppe-text-relais {
+	background: rgb(255, 226, 209); margin: 0em; padding: 0.4em 0.2em 0em 0.8em; width: 15.5em; height: 16.1em; line-height: 1.4em; float: right;
+}
+.pgruppe-text-sensoren {
+	background: rgb(254, 215, 221); padding: 0.4em 0.2em 0em 0.8em; width: 15.5em; height: 16.1em; line-height: 1.4em; float: right;
+}
+.pgruppe-text-schalter {
+	background: rgb(220, 223, 244); padding: 0.4em 0.2em 0em 0.8em; width: 15.5em; height: 16.1em; line-height: 1.4em; float: right;
+}
+.pgruppe-text-andere {
+	background: rgb(236, 236, 236); padding: 0.4em 0.2em 0em 0.8em; width: 15.5em; height: 16.1em; line-height: 1.4em; float: right;
+}
+div.pugruppe-rahmen {
+	padding: 0em; width: 49.5em; height: 19em; clear: left; margin-top: 1em; margin-bottom: 0em;
+}
+div.pugruppe-rahmen-links {
+	border: 1px solid rgb(0, 0, 0) !important; width: 23.8em; height: 19em; float: left;
+}
+div.pugruppe-rahmen-rechts {
+	border: 1px solid rgb(0, 0, 0) !important; width: 23.8em; height: 19em; float: right;
+}
+.pugruppe-name-relais {
+	background: rgb(244, 127, 0); width: 22.8em; height: 1.4em; color: rgb(255, 255, 255); padding-top: 0.35em; padding-left: 1em; font-weight: bold; float: left;
+}
+.pugruppe-name-sensoren {
+	background: rgb(189, 0, 71); width: 22.8em; height: 1.4em; color: rgb(255, 255, 255); padding-top: 0.35em; padding-left: 1em; font-weight: bold; float: left;
+}
+.pugruppe-name-schalter {
+	background: rgb(0, 89, 161); width: 22.8em; height: 1.4em; color: rgb(255, 255, 255); padding-top: 0.35em; padding-left: 1em; font-weight: bold; float: left;
+}
+.pugruppe-name-andere {
+	background: rgb(130, 142, 142); width: 22.8em; height: 1.4em; color: rgb(255, 255, 255); padding-top: 0.35em; padding-left: 1em; font-weight: bold; float: left;
+}
+.pugruppe-name-standard {
+	background: rgb(27, 160, 224); width: 22.8em; height: 1.4em; color: rgb(255, 255, 255); padding-top: 0.35em; padding-left: 1em; font-weight: bold; float: left;
+}
+.pugruppe-bild {
+	background: rgb(255, 255, 255); height: 10em; color: rgb(255, 255, 255); overflow: auto; border-bottom-color: rgb(0, 0, 0); border-bottom-width: 1px; border-bottom-style: solid; float: left; max-height: 10em; max-width: 23.8em;
+}
+.pugruppe-text {
+	background: rgb(255, 255, 255); padding: 0.5em 1em 0em; width: 21.8em; height: 6.5em; color: rgb(51, 51, 51); overflow: hidden; margin-bottom: 0em; float: left;
+}
+.pugruppe-text a:link {
+	float: right;
+}
+div.info {
+	width: 15.75em; overflow: hidden !important; margin-top: 0em; margin-bottom: 2em; float: right; background-color: transparent;
+}
+.infobox-oben {
+	padding: 0.35em 1em 0.3em; width: 100%; color: rgb(255, 255, 255); line-height: 1.4em; font-size: 0.8em; font-weight: normal; background-color: rgb(27, 160, 224);
+}
+#contentrechts h1 {
+	padding: 0.3em 0em 0.3em 0.3em; color: rgb(255, 255, 255); font-size: 0.8em; margin-top: 0em; background-color: rgb(27, 160, 224);
+}
+#contentlinks h1 {
+	padding: 0.3em 0em 0.3em 0.3em; color: rgb(255, 255, 255); font-size: 0.8em; margin-top: 0em; background-color: rgb(27, 160, 224);
+}
+#contentrechts p {
+	padding: 0.4em; font-size: 0.8em;
+}
+#contentlinks p {
+	padding: 0.4em; font-size: 0.8em;
+}
+.infobox-unten {
+	padding: 0.5em 1em; width: 17.7em; line-height: 1.4em; font-size: 0.8em; float: left; background-color: rgb(198, 230, 247);
+}
+.infobox-mitte-mit-blendlinie {
+	padding: 0.25em 1em; width: 17.5em; font-size: 0.8em; float: left; background-color: rgb(198, 230, 247);
+}
+.infobox-bild-klein {
+	background: rgb(255, 255, 255); margin: 0em 0.5em 0em 0em; padding: 0em; width: auto; float: left;
+}
+.infobox-bild-breit {
+	background: rgb(255, 255, 255); margin: 0.5em 1em 0.5em 0em; border: 1px solid rgb(27, 160, 224); width: 17.5em; float: left;
+}
+.infobox-bildtext {
+	width: 12.75em; margin-top: 0.45em; margin-left: 0.5em; float: left; background-color: transparent;
+}
+.mailformrequired {
+	text-align: left;
+}
+.mailform {
+	text-align: left;
+}
+.mailformrequired img {
+	border-width: 0px !important;
+}
+.csc-mailform-field label {
+	width: 10em; float: left;
+}
+.csc-mailform-field input {
+	margin-bottom: 0.5em;
+}
+.csc-mailform-field select {
+	margin-bottom: 0.5em;
+}
+.csc-mailform-field textarea {
+	margin-bottom: 0.5em;
+}
+.csc-mailform-label {
+	line-height: 2.9em; font-weight: bold;
+}
+.csc-mailform-field label {
+	width: 17.5em; float: left;
+}
+.csc-mailform-submit {
+	height: 1.8em;
+}
+div#form {
+	padding: 2em 0.5em 0.5em; border: 0.09em solid rgb(132, 132, 132); background-color: rgb(218, 239, 251);
+}
+#inhalt a:link {
+	text-decoration: none;
+}
+#inhalt a:visited {
+	text-decoration: none;
+}
+#inhalt a:active {
+	text-decoration: none;
+}
+#inhalt a:hover {
+	text-decoration: none;
+}
+.pdf a {
+	background-position: 0em 0.15em; margin: 0em; color: rgb(27, 160, 224); padding-top: 0em; padding-bottom: 0em; padding-left: 1.6em; text-decoration: none !important; display: inline-block; background-image: url("../../fileadmin/standardbilder/icons/pdf_small.gif"); background-repeat: no-repeat;
+}
+a.pdf:link {
+	background-position: 0em 0.15em; margin: 0em; color: rgb(27, 160, 224); padding-top: 0em; padding-bottom: 0em; padding-left: 1.6em; text-decoration: none !important; display: inline-block; background-image: url("../../fileadmin/standardbilder/icons/pdf_small.gif"); background-repeat: no-repeat;
+}
+a.pdf:visited {
+	background-position: 0em 0.15em; margin: 0em; color: rgb(27, 160, 224); padding-top: 0em; padding-bottom: 0em; padding-left: 1.6em; text-decoration: none !important; display: inline-block; background-image: url("../../fileadmin/standardbilder/icons/pdf_small.gif"); background-repeat: no-repeat;
+}
+a.pdf:active {
+	background-position: 0em 0.15em; margin: 0em; color: rgb(27, 160, 224); padding-top: 0em; padding-bottom: 0em; padding-left: 1.6em; text-decoration: none !important; display: inline-block; background-image: url("../../fileadmin/standardbilder/icons/pdf_small.gif"); background-repeat: no-repeat;
+}
+a.pdf:hover {
+	background-position: 0em 0.15em; margin: 0em; color: rgb(27, 160, 224); padding-top: 0em; padding-bottom: 0em; padding-left: 1.6em; text-decoration: none !important; display: inline-block; background-image: url("../../fileadmin/standardbilder/icons/pdf_small.gif"); background-repeat: no-repeat;
+}
+a.PDF {
+	background-position: 0em 0.15em; margin: 0em; color: rgb(27, 160, 224); padding-top: 0em; padding-bottom: 0em; padding-left: 1.6em; text-decoration: none !important; display: inline-block; background-image: url("../../fileadmin/standardbilder/icons/pdf_small.gif"); background-repeat: no-repeat;
+}
+.pdf a {
+	background-position: 0em 0.15em; margin: 0em; color: rgb(27, 160, 224); padding-top: 0em; padding-bottom: 0em; padding-left: 1.6em; text-decoration: none !important; display: inline-block; background-image: url("../../fileadmin/standardbilder/icons/3dmodel.gif"); background-repeat: no-repeat;
+}
+a.model3d:link {
+	background-position: 0em 0.15em; margin: 0em; color: rgb(27, 160, 224); padding-top: 0em; padding-bottom: 0em; padding-left: 1.6em; text-decoration: none !important; display: inline-block; background-image: url("../../fileadmin/standardbilder/icons/3dmodel.gif"); background-repeat: no-repeat;
+}
+a.model3d:visited {
+	background-position: 0em 0.15em; margin: 0em; color: rgb(27, 160, 224); padding-top: 0em; padding-bottom: 0em; padding-left: 1.6em; text-decoration: none !important; display: inline-block; background-image: url("../../fileadmin/standardbilder/icons/3dmodel.gif"); background-repeat: no-repeat;
+}
+a.model3d:active {
+	background-position: 0em 0.15em; margin: 0em; color: rgb(27, 160, 224); padding-top: 0em; padding-bottom: 0em; padding-left: 1.6em; text-decoration: none !important; display: inline-block; background-image: url("../../fileadmin/standardbilder/icons/3dmodel.gif"); background-repeat: no-repeat;
+}
+a.model3d:hover {
+	background-position: 0em 0.15em; margin: 0em; color: rgb(27, 160, 224); padding-top: 0em; padding-bottom: 0em; padding-left: 1.6em; text-decoration: none !important; display: inline-block; background-image: url("../../fileadmin/standardbilder/icons/3dmodel.gif"); background-repeat: no-repeat;
+}
+.model3d a {
+	background-position: 0em 0.15em; margin: 0em; color: rgb(27, 160, 224); padding-top: 0em; padding-bottom: 0em; padding-left: 1.6em; text-decoration: none !important; display: inline-block; background-image: url("../../fileadmin/standardbilder/icons/3dmodel.gif"); background-repeat: no-repeat;
+}
+.extern a {
+	background-position: 0em 0.15em; color: rgb(27, 160, 224); padding-top: 0em; padding-bottom: 0em; padding-left: 1.6em; text-decoration: none !important; display: inline-block; background-image: url("../../fileadmin/standardbilder/icons/extern.gif"); background-repeat: no-repeat;
+}
+a.extern:link {
+	background-position: 0em 0.15em; color: rgb(27, 160, 224); padding-top: 0em; padding-bottom: 0em; padding-left: 1.6em; text-decoration: none !important; display: inline-block; background-image: url("../../fileadmin/standardbilder/icons/extern.gif"); background-repeat: no-repeat;
+}
+a.extern:visited {
+	background-position: 0em 0.15em; color: rgb(27, 160, 224); padding-top: 0em; padding-bottom: 0em; padding-left: 1.6em; text-decoration: none !important; display: inline-block; background-image: url("../../fileadmin/standardbilder/icons/extern.gif"); background-repeat: no-repeat;
+}
+a.extern:active {
+	background-position: 0em 0.15em; color: rgb(27, 160, 224); padding-top: 0em; padding-bottom: 0em; padding-left: 1.6em; text-decoration: none !important; display: inline-block; background-image: url("../../fileadmin/standardbilder/icons/extern.gif"); background-repeat: no-repeat;
+}
+a.extern:hover {
+	background-position: 0em 0.15em; color: rgb(27, 160, 224); padding-top: 0em; padding-bottom: 0em; padding-left: 1.6em; text-decoration: none !important; display: inline-block; background-image: url("../../fileadmin/standardbilder/icons/extern.gif"); background-repeat: no-repeat;
+}
+.tx-crilpbartikel-pi1-listrowField-link-2 a {
+	background-position: 0em 0.15em; color: rgb(27, 160, 224); padding-top: 0em; padding-bottom: 0em; padding-left: 1.6em; text-decoration: none !important; display: inline-block; background-image: url("../../fileadmin/standardbilder/icons/extern.gif"); background-repeat: no-repeat;
+}
+.mail a {
+	background-position: 0em 0.15em; color: rgb(27, 160, 224); padding-top: 0em; padding-bottom: 0em; padding-left: 1.6em; text-decoration: none !important; display: inline-block; background-image: url("../../fileadmin/standardbilder/icons/email.gif"); background-repeat: no-repeat;
+}
+a.mail:link {
+	background-position: 0em 0.15em; color: rgb(27, 160, 224); padding-top: 0em; padding-bottom: 0em; padding-left: 1.6em; text-decoration: none !important; display: inline-block; background-image: url("../../fileadmin/standardbilder/icons/email.gif"); background-repeat: no-repeat;
+}
+a.mail:visited {
+	background-position: 0em 0.15em; color: rgb(27, 160, 224); padding-top: 0em; padding-bottom: 0em; padding-left: 1.6em; text-decoration: none !important; display: inline-block; background-image: url("../../fileadmin/standardbilder/icons/email.gif"); background-repeat: no-repeat;
+}
+a.mail:active {
+	background-position: 0em 0.15em; color: rgb(27, 160, 224); padding-top: 0em; padding-bottom: 0em; padding-left: 1.6em; text-decoration: none !important; display: inline-block; background-image: url("../../fileadmin/standardbilder/icons/email.gif"); background-repeat: no-repeat;
+}
+a.mail:hover {
+	background-position: 0em 0.15em; color: rgb(27, 160, 224); padding-top: 0em; padding-bottom: 0em; padding-left: 1.6em; text-decoration: none !important; display: inline-block; background-image: url("../../fileadmin/standardbilder/icons/email.gif"); background-repeat: no-repeat;
+}
+.anfrage a {
+	color: rgb(27, 160, 224); padding-top: 0em; padding-bottom: 0em; padding-left: 1.6em; text-decoration: none !important; display: inline-block; background-image: url("../../fileadmin/standardbilder/icons/anfrage.gif"); background-repeat: no-repeat;
+}
+a.anfrage:link {
+	color: rgb(27, 160, 224); padding-top: 0em; padding-bottom: 0em; padding-left: 1.6em; text-decoration: none !important; display: inline-block; background-image: url("../../fileadmin/standardbilder/icons/anfrage.gif"); background-repeat: no-repeat;
+}
+a.anfrage:visited {
+	color: rgb(27, 160, 224); padding-top: 0em; padding-bottom: 0em; padding-left: 1.6em; text-decoration: none !important; display: inline-block; background-image: url("../../fileadmin/standardbilder/icons/anfrage.gif"); background-repeat: no-repeat;
+}
+a.anfrage:active {
+	color: rgb(27, 160, 224); padding-top: 0em; padding-bottom: 0em; padding-left: 1.6em; text-decoration: none !important; display: inline-block; background-image: url("../../fileadmin/standardbilder/icons/anfrage.gif"); background-repeat: no-repeat;
+}
+a.anfrage:hover {
+	color: rgb(27, 160, 224); padding-top: 0em; padding-bottom: 0em; padding-left: 1.6em; text-decoration: none !important; display: inline-block; background-image: url("../../fileadmin/standardbilder/icons/anfrage.gif"); background-repeat: no-repeat;
+}
+.tx-crilpbartikel-pi1-listrowField-link-1 a {
+	color: rgb(27, 160, 224); text-decoration: none !important; display: inline-block; background-repeat: no-repeat;
+}
+.linkintern a {
+	color: rgb(27, 160, 224); text-decoration: none !important; display: inline-block; background-repeat: no-repeat;
+}
+a.intern:link {
+	color: rgb(27, 160, 224); text-decoration: none !important; display: inline-block; background-repeat: no-repeat;
+}
+a.intern:visited {
+	color: rgb(27, 160, 224); text-decoration: none !important; display: inline-block; background-repeat: no-repeat;
+}
+a.intern:active {
+	color: rgb(27, 160, 224); text-decoration: none !important; display: inline-block; background-repeat: no-repeat;
+}
+a.intern:hover {
+	color: rgb(27, 160, 224); text-decoration: none !important; display: inline-block; background-repeat: no-repeat;
+}
+a.titel:link {
+	color: rgb(27, 160, 224); font-weight: bold !important; text-decoration: none !important; display: inline-block; background-repeat: no-repeat;
+}
+a.titel:visited {
+	color: rgb(27, 160, 224); font-weight: bold !important; text-decoration: none !important; display: inline-block; background-repeat: no-repeat;
+}
+a.titel:active {
+	color: rgb(27, 160, 224); font-weight: bold !important; text-decoration: none !important; display: inline-block; background-repeat: no-repeat;
+}
+a.titel:hover {
+	color: rgb(27, 160, 224); font-weight: bold !important; text-decoration: none !important; display: inline-block; background-repeat: no-repeat;
+}
+a.audio:link {
+	color: rgb(27, 160, 224); padding-top: 0em; padding-bottom: 0em; padding-left: 1.6em; text-decoration: none !important; display: inline-block; background-repeat: no-repeat;
+}
+a.audio:visited {
+	color: rgb(27, 160, 224); padding-top: 0em; padding-bottom: 0em; padding-left: 1.6em; text-decoration: none !important; display: inline-block; background-repeat: no-repeat;
+}
+a.audio:active {
+	color: rgb(27, 160, 224); padding-top: 0em; padding-bottom: 0em; padding-left: 1.6em; text-decoration: none !important; display: inline-block; background-repeat: no-repeat;
+}
+a.audio:hover {
+	color: rgb(27, 160, 224); padding-top: 0em; padding-bottom: 0em; padding-left: 1.6em; text-decoration: none !important; display: inline-block; background-repeat: no-repeat;
+}
+div.back a {
+	background-position: 0em 0.15em; color: rgb(27, 160, 224); padding-top: 0em; padding-bottom: 0em; padding-left: 15px; text-decoration: none !important; display: inline-block; background-image: url("../../fileadmin/standardbilder/icons/back.gif"); background-repeat: no-repeat;
+}
+a.back {
+	background-position: 0em 0.15em; color: rgb(27, 160, 224); padding-top: 0em; padding-bottom: 0em; padding-left: 15px; text-decoration: none !important; display: inline-block; background-image: url("../../fileadmin/standardbilder/icons/back.gif"); background-repeat: no-repeat;
+}
+div.search a {
+	background-position: 0em 0.15em; color: rgb(27, 160, 224); padding-top: 0em; padding-bottom: 0em; padding-left: 15px; text-decoration: none !important; display: inline-block; background-image: url("../../fileadmin/standardbilder/icons/search.gif"); background-repeat: no-repeat;
+}
+a.search {
+	background-position: 0em 0.15em; color: rgb(27, 160, 224); padding-top: 0em; padding-bottom: 0em; padding-left: 15px; text-decoration: none !important; display: inline-block; background-image: url("../../fileadmin/standardbilder/icons/search.gif"); background-repeat: no-repeat;
+}
+img.Standard {
+	margin-top: 1em; margin-bottom: 1.5em; display: block;
+}
+img.OhneRahmen {
+	border-width: 0em; display: inline;
+}
+img.OhneRahmen_Abstand {
+	border-width: 0em; margin: 1em; padding: 0em;
+}
+img.OhneRahmen_AbstandLinks {
+	border-width: 0em; padding: 0em; margin-bottom: 1.5em; margin-left: 1em; float: right;
+}
+img.rechts {
+	border-width: 0em; padding: 0em; margin-bottom: 1.5em; margin-left: 1em; float: right;
+}
+img.OhneRahmen_AbstandRechts {
+	border-width: 0em; padding: 0em; margin-right: 1em; margin-bottom: 1.5em; float: left;
+}
+img.links {
+	border-width: 0em; padding: 0em; margin-right: 1em; margin-bottom: 1.5em; float: left;
+}
+img.Inline {
+	border-width: 0px; margin: 0px !important; padding: 0px !important; display: inline;
+}
+img.StandardRahmen {
+	border: 1px solid rgb(51, 51, 51); margin-top: 1em; margin-bottom: 1.5em; display: block;
+}
+img.MitRahmen {
+	border: 1px solid rgb(51, 51, 51); display: inline;
+}
+img.MitRahmen_Abstand {
+	margin: 1em; padding: 0em; border: 1px solid rgb(51, 51, 51);
+}
+img.MitRahmen_AbstandLinks {
+	padding: 0em; border: 1px solid rgb(51, 51, 51); margin-bottom: 1.5em; margin-left: 1em;
+}
+img.MitRahmen_AbstandRechts {
+	padding: 0em; border: 1px solid rgb(51, 51, 51); margin-right: 1em; margin-bottom: 1.5em;
+}
+img.frontEndEditIcons {
+	border-width: 0em !important;
+}
+.rechts {
+	float: right;
+}
+.links {
+	float: left;
+}
+.news-list-item h1 {
+	margin-top: 0.2em;
+}
+.news-list-item h2 {
+	margin-top: 0.2em;
+}
+.news-list-item {
+	width: 100%; clear: both; margin-top: 1em; margin-bottom: 0.5em; display: block;
+}
+.news-list-image {
+	float: left;
+}
+.news-list-image img {
+	margin-right: 1.5em; margin-bottom: 1em;
+}
+.news-list-date {
+	text-align: right; padding-top: 0.8em; padding-bottom: 1em;
+}
+.news-list-morelink {
+	clear: left; font-weight: bold; margin-top: 0.5em; margin-bottom: 1em;
+}
+.news-single-item {
+	margin-top: 1em; border-bottom-color: rgb(153, 153, 153); border-bottom-width: 0.1em; border-bottom-style: solid;
+}
+.news-single-item img {
+	margin-bottom: 0.5em;
+}
+.news-single-subheader {
+	font-weight: bold; margin-bottom: 0.5em;
+}
+.news-single-backlink {
+	font-weight: bold; margin-bottom: 1em;
+}
+.news-single-content {
+	margin-top: 2em; display: block;
+}
+.news-single-additional {
+	
+}
+.news-latest-container {
+	height: 100%; overflow: visible; margin-bottom: 1em; background-color: rgb(198, 230, 247);
+}
+.news-latest-ol {
+	width: 0.4em; text-align: left; float: left;
+}
+.news-latest-ul {
+	width: 0.4em; text-align: left; float: left;
+}
+.news-latest-or {
+	width: 0.4em; text-align: right; float: right;
+}
+.news-latest-ur {
+	width: 0.4em; text-align: right; float: right;
+}
+.news-latest-om {
+	color: rgb(255, 255, 255) !important; padding-top: 0.2em; padding-left: 0.2em; font-size: 0.95em; font-weight: bold;
+}
+.news-latest-um {
+	
+}
+.news-latest-header {
+	height: 1.5em; background-color: rgb(27, 160, 224);
+}
+.news-latest-footer {
+	display: none;
+}
+.news-latest-item {
+	padding: 0em 0em 0.2em; border-bottom-color: rgb(27, 160, 224); border-bottom-width: 0.07em; border-bottom-style: dotted; display: block;
+}
+.news-latest-item div {
+	padding: 0.25em 1em 0.25em 0.3em; font-size: 0.8em;
+}
+.news-latest-title {
+	margin-left: 0.3em;
+}
+.news-latest-title a {
+	font-weight: bold !important;
+}
+.news-latest-image img {
+	border-width: 0em; margin: 0.5em 1em 0.3em 0.3em; float: left;
+}
+.news-latest-subheader {
+	padding-top: 0em !important; margin-top: 0em !important; margin-left: 8em;
+}
+.news-latest-subheader p {
+	margin: 0em !important; padding: 0em !important; font-size: 1em !important;
+}
+.news-latest-morelink {
+	margin: 0em; padding: 0em; clear: left;
+}
+.news-latest-morelink a {
+	padding-left: 0.2em;
+}
+.tx-jppageteaser-pi1-image {
+	margin: 0px; padding: 0px;
+}
+.pugruppe-bild div {
+	width: 23.8em; height: 10em; overflow: hidden;
+}
+.pugruppe-bild {
+	text-align: center; vertical-align: middle;
+}
+.tx-indexedsearch legend {
+	display: none;
+}
+.tx-indexedsearch form {
+	border-width: 0px !important; margin: 0px; padding: 0px; background-color: rgb(255, 255, 255) !important;
+}
+.tx-indexedsearch fieldset {
+	border-width: 0px !important; margin: 0px; padding: 0px; background-color: rgb(255, 255, 255) !important;
+}
+.tx-indexedsearch label {
+	margin: 0px; padding: 0.8em 0px 0px; width: 15em !important; clear: left; font-weight: bold;
+}
+.tx-indexedsearch-searchbox-button {
+	width: 5em; font-size: 1em; display: inline;
+}
+.tx-indexedsearch-searchbox-sword {
+	width: 12em; padding-left: 0.5em; font-size: 1em; display: inline;
+}
+.tx-indexedsearch-selectbox-type {
+	font-size: 8pt; margin-bottom: 1em;
+}
+.tx-indexedsearch-selectbox-defop {
+	font-size: 8pt; margin-bottom: 1em;
+}
+.tx-indexedsearch-selectbox-media {
+	font-size: 8pt; margin-bottom: 1em;
+}
+.tx-indexedsearch-selectbox-results {
+	font-size: 8pt; margin-bottom: 1em;
+}
+.tx-indexedsearch-search-submit {
+	display: inline;
+}
+.tx-indexedsearch-searchbox {
+	margin-bottom: 0em;
+}
+.tx-indexedsearch .tx-indexedsearch-browsebox li {
+	margin-right: 5px; display: inline;
+}
+.tx-indexedsearch .tx-indexedsearch-whatis {
+	margin-bottom: 0em;
+}
+.tx-indexedsearch .tx-indexedsearch-whatis .tx-indexedsearch-sw {
+	color: rgb(0, 0, 0); font-style: normal; font-weight: bold;
+}
+.tx-indexedsearch .tx-indexedsearch-noresults {
+	
+}
+.tx-indexedsearch .tx-indexedsearch-res td.tx-indexedsearch-descr {
+	font-style: italic;
+}
+.tx-indexedsearch-res {
+	border: 1px currentColor; margin-top: 0em;
+}
+.tx-indexedsearch-res .res-tmpl-css {
+	
+}
+.tx-indexedsearch .tx-indexedsearch-icon {
+	padding-top: 1em;
+}
+.tx-indexedsearch .tx-indexedsearch-percent {
+	font-size: 1em; float: right;
+}
+.tx-indexedsearch .tx-indexedsearch-browsebox {
+	padding-bottom: 2em;
+}
+.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-descr .tx-indexedsearch-redMarkup {
+	color: rgb(66, 132, 182); font-weight: normal;
+}
+.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-info {
+	border: 1px rgb(0, 255, 0);
+}
+.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-secHead {
+	padding: 0px; margin-bottom: 0.51em; background-color: rgb(240, 240, 241);
+}
+.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-secHead h2 {
+	color: rgb(0, 0, 0); font-size: 1em; font-weight: normal; display: inline;
+}
+.tx-indexedsearch .tx-indexedsearch-res .tx-indexedsearch-secHead td {
+	background: rgb(240, 240, 241); vertical-align: middle;
+}
+.tx-indexedsearch .tx-indexedsearch-res .noResume {
+	color: rgb(102, 102, 102);
+}
+.tx-indexedsearch .tx-indexedsearch-category {
+	background: rgb(0, 255, 0); font-size: 16px; font-weight: bold;
+}
+.tx-indexedsearch-sec li {
+	display: list-item !important;
+}
+.tx-indexedsearch .res-tmpl-css {
+	clear: both; margin-bottom: 1em;
+}
+.tx-indexedsearch .searchbox-tmpl-css label {
+	width: 10em; margin-right: 1em; float: left;
+}
+.tx-indexedsearch .result-count-tmpl-css {
+	letter-spacing: 0px; font-weight: normal; margin-top: -1.2em; float: right;
+}
+.tx-indexedsearch .percent-tmpl-css {
+	letter-spacing: 0px; font-weight: normal; margin-top: -1.2em; float: right;
+}
+.tx-indexedsearch hr {
+	border-color: rgb(211, 211, 211); margin-top: 1em; margin-bottom: 1em;
+}
+.csc-linkToTop {
+	text-align: right;
+}
+.csc-textpic {
+	clear: left; margin-bottom: 3em !important;
+}
+#contentrechts .csc-textpic {
+	clear: left; margin-bottom: 0em !important;
+}
+.csc-linkToTop a:link {
+	margin-top: 2em;
+}
+.csc-linkToTop a:visited {
+	margin-top: 2em;
+}
+.csc-linkToTop a:active {
+	margin-top: 2em;
+}
+.csc-linkToTop {
+	margin-top: 2em;
+}
+#contentrechts .csc-textpic-imagewrap img {
+	margin: 0em !important; padding: 0em !important;
+}
+#contentrechts .csc-textpic-imagewrap * {
+	margin: 0em; padding: 0em;
+}
+div.csc-texpic-clear {
+	clear: left;
+}
+.csc-frame-frame1 {
+	width: 47%; clear: left; margin-right: 2%; margin-bottom: 1em; float: left;
+}
+.csc-frame-frame2 {
+	width: 47%; margin-bottom: 1em; float: right;
+}
+.csc-linkToTop a {
+	background-position: 0em 0.15em; padding-top: 0em; padding-bottom: 0em; padding-left: 1.6em; font-weight: normal; background-image: url("../../fileadmin/standardbilder/icons/totop.gif"); background-repeat: no-repeat;
+}
+.tx-crimederproducts-pi1-listrow-header a {
+	font-weight: bold !important; text-decoration: underline !important;
+}
+.vcard img {
+	padding-top: 0.5em;
+}
+.vcard-ungrad img {
+	padding-top: 0.5em;
+}
+.tx-ttaddress-pi1 h1 {
+	clear: left;
+}
+.vcard {
+	width: 45%; clear: left; margin-right: 1.5em; margin-bottom: 2em; float: left;
+}
+.vcard-ungrad {
+	width: 45%; margin-bottom: 2em; float: left;
+}
+.us-selector {
+	padding: 1em; border: 1px solid rgb(204, 204, 204); width: 35em; background-color: rgb(222, 239, 251);
+}
+.us-selector input {
+	margin-top: 5px;
+}
+.us-selector select {
+	margin-top: 5px;
+}
+.us-selector form {
+	margin: 0px; padding: 0px; display: inline;
+}
+div.tx-crimederproducts-pi1 {
+	margin-top: 1.2em;
+}
+div.tx-crimederproducts-pi1-listrow {
+	margin: 0em; padding: 0em;
+}
+.tx-crimederproducts-pi1 form {
+	margin-bottom: 1em;
+}
+.tx-crimederproducts-pi1 select {
+	width: 10.5em;
+}
+.tx-crimederproducts-pi1 input {
+	width: 10em;
+}
+input.submit {
+	width: 6em; margin-bottom: 0.5em;
+}
+.tx-crimederproducts-pi1-listrow-header th {
+	border-color: rgb(250, 250, 250) !important; background-color: rgb(27, 160, 224) !important;
+}
+tr.whitetext th {
+	color: white !important;
+}
+.tx-crimederproducts-pi1-listrow-header a {
+	color: white !important; font-weight: bold !important; text-decoration: underline !important;
+}
+.tx-crimederproducts-pi1-browsebox table {
+	display: none;
+}
+table.producttable_results {
+	border-color: rgb(250, 250, 250) !important; background-color: rgb(218, 239, 251) !important;
+}
+table.producttable_results td {
+	border-color: rgb(250, 250, 250) !important; background-color: rgb(218, 239, 251) !important;
+}
+div.main-2-columns table.tx_crimederproducts_pi1_searchtable {
+	width: 100% !important;
+}
+div.main-3-columns table.tx_crimederproducts_pi1_searchtable {
+	width: 99.5% !important;
+}
+table.tx_crimederproducts_pi1_searchtable {
+	border-width: 0px !important;
+}
+table.tx_crimederproducts_pi1_searchtable caption {
+	border-width: 0px; border-color: black;
+}
+table.tx_crimederproducts_pi1_searchtable td {
+	border-width: 0px !important; border-color: rgb(250, 250, 250) !important; padding: 0.5em 0.2em 0em 1em; font-size: 1.1em; background-color: rgb(218, 239, 251) !important;
+}
+div.headtable {
+	height: 70px; display: table;
+}
+div.headrow {
+	display: table-row;
+}
+div.headcelltop {
+	color: white !important; vertical-align: top; display: table-cell;
+}
+div.headcellbottom {
+	vertical-align: bottom; display: table-cell;
+}
+h3.rgaccord1-toggle {
+	background: url("../../fileadmin/standardbilder/icons/plus_blau.gif") no-repeat 5px rgb(198, 230, 247); margin: 0em 1em 0em 0em; padding: 0em 0em 0.15em 2.15em; height: 18px !important; color: rgb(4, 158, 224); line-height: 18px; font-weight: normal; border-top-color: rgb(255, 255, 255); border-top-width: 1px; border-top-style: solid; cursor: pointer;
+}
+h3.act {
+	background: url("../../fileadmin/standardbilder/icons/minus.gif") no-repeat 5px rgb(4, 158, 224); color: rgb(255, 255, 255);
+}
+div.rgaccord1-content {
+	width: 100%; padding-bottom: 1em;
+}
+div.rgaccord1-content .ce {
+	margin-bottom: 0px;
+}
+div.rgaccord1-content h1 {
+	display: none;
+}
+div#mb_overlay {
+	left: 0px; width: 100%; position: absolute; cursor: pointer; background-color: rgb(0, 0, 0);
+}
+div#mb_center {
+	left: 50%; overflow: hidden; position: absolute; background-color: rgb(221, 221, 221);
+}
+div#mb_bottom {
+	left: 50%; overflow: hidden; position: absolute; background-color: rgb(221, 221, 221);
+}
+div#mb_center {
+	z-index: 91; background-color: rgb(255, 255, 255);
+}
+div#mb_contents {
+	border: 10px solid rgb(221, 221, 221); width: 400px; height: 400px; overflow: auto; visibility: hidden; z-index: 92; background-color: rgb(255, 255, 255);
+}
+.mb_loading {
+	background: url("images/loading.gif") no-repeat center rgb(221, 221, 221);
+}
+#mb_error {
+	padding: 0.5em; text-align: center; color: rgb(205, 0, 0); font-size: 1.2em; font-weight: bold;
+}
+#mb_error em {
+	font-size: 0.8em;
+}
+div#mb_bottom {
+	border-width: 10px; border-style: none solid solid; border-color: rgb(221, 221, 221); text-align: left; color: rgb(102, 102, 102); line-height: 1.4em; font-size: 10px;
+}
+a#mb_close_link {
+	background: url("../../fileadmin/standardbilder/icons/close.gif") no-repeat center; margin: 5px 0px; width: 66px; height: 22px; float: right; display: block;
+}
+div#mb_caption {
+	margin-right: 71px;
+}
+#popup_inhalt {
+	margin: 2em; font-size: 0.65em;
+}
+#socialmedia_icons {
+	margin-top: 1em;
+}
+#socialmedia_icons img {
+	border: 0px solid transparent;
+}
+#socialmedia_icons a {
+	border: 0px solid transparent;
+}
+div#seitenwrap {
+	margin: 0px auto; width: 100%; position: relative; min-height: 100%;
+}
+div#hintergrund_banner {
+	margin: 0px auto; padding: 0px; width: 100%; height: auto;
+}
+div#bannerbereich {
+	margin: 0em; padding: 0em; border: 0px currentColor; width: 100%; overflow: hidden; font-size: 0.85em; background-color: rgb(255, 255, 255);
+}
+div#logo_bild_sprache {
+	margin: 0px auto; padding: 0em; border: 0px currentColor; width: 72.4em; overflow: hidden; background-color: rgb(255, 255, 255);
+}
+div#banner_navibereich_breit {
+	width: 100%; height: 2.4em; background-image: url("images/navi_verlauf.jpg"); background-repeat: repeat-x;
+}
+div#contentnormal_contentrechts {
+	width: 56.65em; overflow: hidden; float: left; background-color: rgb(255, 255, 255);
+}
+div#navigation_suchen {
+	margin: 0px auto; width: 72.4em; height: 2.75em; overflow: hidden; font-size: 0.85em; background-color: transparent;
+}
+div#navigation_suchen div#hauptnavigation {
+	height: 2.75em; background-color: transparent;
+}
+div#navigation_suchen div#hauptnavigation {
+	font-weight: bold;
+}
+div#navigation_suchen .menu1-stufe1-aktiv a {
+	color: rgb(255, 255, 255) !important;
+}
+div#navigation_suchen div#suchen {
+	padding-top: 0.6em;
+}
+div#breadcrumbs_toolbar {
+	margin: 0px auto; width: 56.65em; overflow: hidden; background-color: rgb(255, 255, 255);
+}
+div#logo_bild_sprache div#logo {
+	height: 9em;
+}
+div#navigation_suchen .menu1-stufe1-no {
+	height: 2.75em; padding-top: 0.65em; background-color: transparent !important;
+}
+div#navigation_suchen .menu1-stufe1-aktiv {
+	height: 2.75em; color: rgb(255, 255, 255) !important; padding-top: 0.65em; background-image: url("images/navi_verlauf_aktiv.jpg"); background-repeat: repeat-x;
+}
+div#navigation_suchen .menu1-stufe1-no:hover {
+	color: rgb(255, 255, 255) !important; background-image: url("images/navi_verlauf_aktiv.jpg"); background-repeat: repeat-x;
+}
+div#navigation_suchen .menu1-stufe1-no a:hover {
+	color: rgb(255, 255, 255) !important;
+}
+div#navigation_suchen .menu1-stufe1-no:hover a {
+	color: rgb(255, 255, 255) !important;
+}
